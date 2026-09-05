@@ -9,7 +9,7 @@ layout: default
   </article>
 
   <ul class="sheet-list">
-    {% assign items = site[page.collection_key] | sort: "order" %}
+    ``` {% case page.collection_key %} {% when "projects" %}{% assign items = site.projects | sort: "order" %} {% when "experience" %}{% assign items = site.experience | sort: "order" %} {% when "courses" %}{% assign items = site.courses | sort: "order" %} {% endcase %} ```
     {% for item in items %}
     <li class="sheet-list__row">
       <span class="sheet-list__code">{{ item.sheet | default: item.course_code | default: "—" }}</span>
