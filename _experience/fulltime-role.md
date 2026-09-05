@@ -4,8 +4,8 @@ subtitle: "Full-time"
 org: "[Company Name]"
 period: "20XX–present"
 location: "[City, State]"
-order: 3
-sheet: "EXP-03"
+order: 4
+sheet: "EXP-04"
 status: draft
 tags: [Python, C++, "ROS 2", "Systems integration"]
 highlights:
