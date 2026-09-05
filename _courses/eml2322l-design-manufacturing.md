@@ -47,3 +47,6 @@ Here's the route we planned around the ball stand and release bucket:
 
 On competition day the robot grabbed all seven tennis balls and made it around the bucket
 without knocking anything over.
+
+<iframe src="https://www.youtube-nocookie.com/embed/lUeEeQEReqw" title="EML2322L competition run" style="aspect-ratio: 16/9; width:100%; border:1px solid var(--line-strong); margin: 8px 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="font-family: var(--mono); font-size: 0.8rem; color: var(--ink-faint); margin-top: 4px;">Competition run.</p>

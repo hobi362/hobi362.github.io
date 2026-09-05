@@ -63,16 +63,7 @@ planning modules for the arm and plow that both build on a shared Dynamixel driv
 
 ![Top-down view of the mobile base navigating the test course](/assets/images/courses/intro-to-robotics/course-navigation.jpg)
 
-<video controls preload="metadata" poster="/assets/images/courses/intro-to-robotics/arm-snow-demo.jpg" style="max-width:100%; border:1px solid var(--line-strong); margin: 8px 0;">
-  <source src="/assets/videos/intro-to-robotics/arm-snow-test.mp4" type="video/mp4">
-  Your browser doesn't support embedded video — <a href="/assets/videos/intro-to-robotics/arm-snow-test.mp4">download the clip</a> instead.
-</video>
-<p style="font-family: var(--mono); font-size: 0.8rem; color: var(--ink-faint); margin-top: 4px;">Arm working the snow-covered test house.</p>
-
-<video controls preload="metadata" poster="/assets/images/courses/intro-to-robotics/course-navigation.jpg" style="max-width:100%; border:1px solid var(--line-strong); margin: 8px 0;">
-  <source src="/assets/videos/intro-to-robotics/final-run.mp4" type="video/mp4">
-  Your browser doesn't support embedded video — <a href="/assets/videos/intro-to-robotics/final-run.mp4">download the clip</a> instead.
-</video>
+<iframe src="https://www.youtube-nocookie.com/embed/FOS4jKVLOBg" title="Blizzard Rescue full course run" style="aspect-ratio: 16/9; width:100%; border:1px solid var(--line-strong); margin: 8px 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p style="font-family: var(--mono); font-size: 0.8rem; color: var(--ink-faint); margin-top: 4px;">Full run on the competition course.</p>
 
 This was the first project where I was responsible for a real-time perception pipeline
