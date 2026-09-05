@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{% include titleblock.html doctype="Experience" title=page.title subtitle=page.subtitle org=page.org period=page.period location=page.location sheet=page.sheet draft=page.status %}
+
+<div class="sheet-body">
+  <aside class="specs">
+    {% if page.tags %}
+    <div class="specs__row specs__row--tags">
+      <span class="tb-label">Tools</span>
+      <div class="tag-list">
+        {% for t in page.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </aside>
+
+  <article class="content">
+    {% if page.highlights %}
+    <h3>Highlights</h3>
+    <ul class="highlight-list">
+      {% for h in page.highlights %}<li>{{ h }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {{ content }}
+  </article>
+</div>
+
+<nav class="pager">
+  {% assign all = site.experience | sort: "order" %}
+  {% for e in all %}
+    {% if e.url == page.url %}{% assign idx = forloop.index0 %}{% endif %}
+  {% endfor %}
+  {% assign prev_idx = idx | minus: 1 %}
+  {% assign next_idx = idx | plus: 1 %}
+  {% if idx > 0 %}
+    {% assign prev = all[prev_idx] %}
+    <a class="pager__link pager__link--prev" href="{{ prev.url | relative_url }}">&larr; {{ prev.title }}</a>
+  {% else %}<span></span>{% endif %}
+  {% if next_idx < all.size %}
+    {% assign next = all[next_idx] %}
+    <a class="pager__link pager__link--next" href="{{ next.url | relative_url }}">{{ next.title }} &rarr;</a>
+  {% endif %}
+</nav>

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% include titleblock.html doctype="Index" title=page.title subtitle=page.subtitle sheet=page.sheet %}
+
+<div class="sheet-body sheet-body--single">
+  <article class="content">
+    {{ content }}
+  </article>
+
+  <ul class="sheet-list">
+    {% assign items = site[page.collection_key] | sort: "order" %}
+    {% for item in items %}
+    <li class="sheet-list__row">
+      <span class="sheet-list__code">{{ item.sheet | default: item.course_code | default: "—" }}</span>
+      <a href="{{ item.url | relative_url }}" class="sheet-list__title">{{ item.title }}</a>
+      <span class="sheet-list__meta">{{ item.org | default: item.institution }}</span>
+      <span class="sheet-list__meta sheet-list__meta--period">{{ item.period | default: item.term }}</span>
+      {% if item.status == "draft" %}<span class="tag tag--pending">PRELIM</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>

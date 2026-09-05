@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{% include titleblock.html doctype="Project" title=page.title subtitle=page.subtitle org=page.org period=page.period location=page.location sheet=page.sheet draft=page.status %}
+
+<div class="sheet-body">
+  <aside class="specs">
+    {% if page.role %}
+    <div class="specs__row"><span class="tb-label">Role</span><span class="tb-value">{{ page.role }}</span></div>
+    {% endif %}
+    {% if page.tags %}
+    <div class="specs__row specs__row--tags">
+      <span class="tb-label">Stack</span>
+      <div class="tag-list">
+        {% for t in page.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+    {% if page.links %}
+    <div class="specs__row specs__row--links">
+      <span class="tb-label">Links</span>
+      <div class="link-list">
+        {% for l in page.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </aside>
+
+  <article class="content">
+    {{ content }}
+  </article>
+</div>
+
+<nav class="pager">
+  {% assign all = site.projects | sort: "order" %}
+  {% for p in all %}
+    {% if p.url == page.url %}
+      {% assign idx = forloop.index0 %}
+    {% endif %}
+  {% endfor %}
+  {% assign prev_idx = idx | minus: 1 %}
+  {% assign next_idx = idx | plus: 1 %}
+  {% if idx > 0 %}
+    {% assign prev = all[prev_idx] %}
+    <a class="pager__link pager__link--prev" href="{{ prev.url | relative_url }}">&larr; {{ prev.title }}</a>
+  {% else %}<span></span>{% endif %}
+  {% if next_idx < all.size %}
+    {% assign next = all[next_idx] %}
+    <a class="pager__link pager__link--next" href="{{ next.url | relative_url }}">{{ next.title }} &rarr;</a>
+  {% endif %}
+</nav>

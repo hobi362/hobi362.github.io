@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{% include titleblock.html doctype="Coursework" title=page.title subtitle=page.institution sheet=page.course_code period=page.term draft=page.status %}
+
+<div class="sheet-body sheet-body--single">
+  <article class="content">
+    {% if page.topics %}
+    <div class="specs__row specs__row--tags">
+      <span class="tb-label">Topics</span>
+      <div class="tag-list">
+        {% for t in page.topics %}<span class="tag">{{ t }}</span>{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+    {{ content }}
+    {% if page.key_project %}
+    <div class="callout">
+      <span class="tb-label">Key project</span>
+      <p>{{ page.key_project }}</p>
+    </div>
+    {% endif %}
+  </article>
+</div>
+
+<nav class="pager">
+  {% assign all = site.courses | sort: "order" %}
+  {% for c in all %}
+    {% if c.url == page.url %}{% assign idx = forloop.index0 %}{% endif %}
+  {% endfor %}
+  {% assign prev_idx = idx | minus: 1 %}
+  {% assign next_idx = idx | plus: 1 %}
+  {% if idx > 0 %}
+    {% assign prev = all[prev_idx] %}
+    <a class="pager__link pager__link--prev" href="{{ prev.url | relative_url }}">&larr; {{ prev.title }}</a>
+  {% else %}<span></span>{% endif %}
+  {% if next_idx < all.size %}
+    {% assign next = all[next_idx] %}
+    <a class="pager__link pager__link--next" href="{{ next.url | relative_url }}">{{ next.title }} &rarr;</a>
+  {% endif %}
+</nav>

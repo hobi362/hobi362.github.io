@@ -1,0 +1,56 @@
+title: "Your Name — Robotics Engineer"
+tagline: "Manipulation · Perception · Controls"
+description: >-
+  Portfolio of robotics engineering work spanning research, industry,
+  and coursework.
+email: you@example.com
+github_username: hobi362
+linkedin_url: "https://linkedin.com/in/your-handle"
+resume_pdf: "/assets/files/resume.pdf"
+
+# Where this builds. GitHub auto-builds this repo (username.github.io)
+# with Jekyll on every push to main — no Actions/workflow needed.
+url: "https://hobi362.github.io"
+baseurl: ""
+
+markdown: kramdown
+theme_skip: true          # we are NOT using a gem-based theme, all custom
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  experience:
+    output: true
+    permalink: /experience/:path/
+  courses:
+    output: true
+    permalink: /coursework/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "experience"
+    values:
+      layout: "experience"
+  - scope:
+      path: ""
+      type: "courses"
+    values:
+      layout: "course"
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
