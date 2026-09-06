@@ -30,14 +30,13 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  background:
-    linear-gradient(var(--line) 1px, transparent 1px) 0 0 / 100% calc(var(--unit) * 4),
-    var(--paper);
+  background: var(--paper);
   color: var(--ink);
   font-family: var(--sans);
   font-size: 16px;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 @media (prefers-reduced-motion: reduce) {
