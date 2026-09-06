@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{% include titleblock.html doctype="Weekly Writeup" title=page.title subtitle=page.subtitle sheet=page.sheet period=page.week_label draft=page.status %}
+
+<div class="sheet-body sheet-body--single">
+  <article class="content">
+    {% if page.topics %}
+    <div class="specs__row specs__row--tags">
+      <span class="tb-label">Topics</span>
+      <div class="tag-list">
+        {% for t in page.topics %}<span class="tag">{{ t }}</span>{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+    {{ content }}
+    {% if page.youtube_id %}
+      {% include youtube.html id=page.youtube_id title=page.title caption=page.video_caption %}
+    {% endif %}
+  </article>
+</div>
+
+<nav class="pager">
+  {% assign all = site.courses | where_exp: "c", "c.url contains '/writeups/'" | sort: "order" %}
+  {% for w in all %}
+    {% if w.url == page.url %}{% assign idx = forloop.index0 %}{% endif %}
+  {% endfor %}
+  {% assign prev_idx = idx | minus: 1 %}
+  {% assign next_idx = idx | plus: 1 %}
+  {% if idx > 0 %}
+    {% assign prev = all[prev_idx] %}
+    <a class="pager__link pager__link--prev" href="{{ prev.url | relative_url }}">&larr; {{ prev.title }}</a>
+  {% else %}
+    <a class="pager__link pager__link--prev" href="{{ '/coursework/precision-machine-design/' | relative_url }}">&larr; 2.70 overview</a>
+  {% endif %}
+  {% if next_idx < all.size %}
+    {% assign next = all[next_idx] %}
+    <a class="pager__link pager__link--next" href="{{ next.url | relative_url }}">{{ next.title }} &rarr;</a>
+  {% endif %}
+</nav>

@@ -43,9 +43,10 @@ layout: default
 </section>
 
 <section class="index-block">
-  <h2 class="section-heading">Coursework <span class="count">[{{ site.courses.size }}]</span></h2>
+  {% assign top_courses = site.courses | where_exp: "c", "c.url | split: '/' | size <= 3" %}
+  <h2 class="section-heading">Coursework <span class="count">[{{ top_courses.size }}]</span></h2>
   <ul class="sheet-list sheet-list--compact">
-    {% assign sorted_courses = site.courses | sort: "order" %}
+    {% assign sorted_courses = top_courses | sort: "order" %}
     {% for c in sorted_courses %}
     <li class="sheet-list__row">
       <span class="sheet-list__code">{{ c.course_code | default: "CRS" }}</span>
