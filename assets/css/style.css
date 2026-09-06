@@ -96,7 +96,8 @@ h1, h2, h3, h4 { font-family: var(--sans-cond); font-weight: 700; margin: 0; col
 
 .sheet-nav {
   display: flex;
-  gap: calc(var(--unit) * 3);
+  flex-wrap: wrap;
+  gap: calc(var(--unit) * 1.5) calc(var(--unit) * 3);
   margin-left: auto;
   font-family: var(--mono);
   font-size: 0.85rem;

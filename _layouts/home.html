@@ -11,6 +11,22 @@ layout: default
 </section>
 
 <section class="index-block">
+  <h2 class="section-heading">Experience <span class="count">[{{ site.experience.size }}]</span></h2>
+  <ul class="sheet-list">
+    {% assign sorted_exp = site.experience | sort: "order" | reverse %}
+    {% for e in sorted_exp %}
+    <li class="sheet-list__row">
+      <span class="sheet-list__code">EXP-{{ e.order }}</span>
+      <a href="{{ e.url | relative_url }}" class="sheet-list__title">{{ e.title }}</a>
+      <span class="sheet-list__meta">{{ e.org }}</span>
+      <span class="sheet-list__meta sheet-list__meta--period">{{ e.period }}</span>
+      {% if e.status == "draft" %}<span class="tag tag--pending">PRELIM</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="index-block">
   <h2 class="section-heading">Projects <span class="count">[{{ site.projects.size }}]</span></h2>
   <ul class="sheet-list">
     {% assign sorted_projects = site.projects | sort: "order" %}
@@ -21,22 +37,6 @@ layout: default
       <span class="sheet-list__meta">{{ p.org }}</span>
       <span class="sheet-list__meta sheet-list__meta--period">{{ p.period }}</span>
       {% if p.status == "draft" %}<span class="tag tag--pending">PRELIM</span>{% endif %}
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section class="index-block">
-  <h2 class="section-heading">Experience <span class="count">[{{ site.experience.size }}]</span></h2>
-  <ul class="sheet-list">
-    {% assign sorted_exp = site.experience | sort: "order" %}
-    {% for e in sorted_exp %}
-    <li class="sheet-list__row">
-      <span class="sheet-list__code">EXP-{{ e.order }}</span>
-      <a href="{{ e.url | relative_url }}" class="sheet-list__title">{{ e.title }}</a>
-      <span class="sheet-list__meta">{{ e.org }}</span>
-      <span class="sheet-list__meta sheet-list__meta--period">{{ e.period }}</span>
-      {% if e.status == "draft" %}<span class="tag tag--pending">PRELIM</span>{% endif %}
     </li>
     {% endfor %}
   </ul>

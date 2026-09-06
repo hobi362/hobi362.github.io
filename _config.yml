@@ -7,6 +7,7 @@ email: you@example.com
 github_username: hobi362
 linkedin_url: "https://linkedin.com/in/your-handle"
 resume_pdf: "/assets/files/resume.pdf"
+cv_pdf: "/assets/files/cv.pdf"
 
 # Where this builds. GitHub auto-builds this repo (username.github.io)
 # with Jekyll on every push to main — no Actions/workflow needed.
