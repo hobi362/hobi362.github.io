@@ -26,8 +26,8 @@ layout: default
       <li class="sheet-list__row">
         <span class="sheet-list__code">WK-{{ w.week }}</span>
         <a href="{{ w.url | relative_url }}" class="sheet-list__title">{{ w.title }}</a>
-        <span class="sheet-list__meta">{{ w.summary }}</span>
         {% if w.status == "draft" %}<span class="tag tag--pending">PRELIM</span>{% endif %}
+        <p class="sheet-list__desc">{{ w.summary }}</p>
       </li>
       {% endfor %}
     </ul>
@@ -43,8 +43,8 @@ layout: default
       <li class="sheet-list__row">
         <span class="sheet-list__code">SG-{{ s.week }}</span>
         <a href="{{ s.url | relative_url }}" class="sheet-list__title">{{ s.title }}</a>
-        <span class="sheet-list__meta">{{ s.summary }}</span>
         {% if s.status == "draft" %}<span class="tag tag--pending">PRELIM</span>{% endif %}
+        <p class="sheet-list__desc">{{ s.summary }}</p>
       </li>
       {% endfor %}
     </ul>
