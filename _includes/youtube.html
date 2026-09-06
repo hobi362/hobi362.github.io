@@ -1,0 +1,4 @@
+{% if include.id %}
+<iframe src="https://www.youtube-nocookie.com/embed/{{ include.id }}" title="{{ include.title | default: 'Video' }}" style="aspect-ratio: 16/9; width:100%; border:1px solid var(--line-strong); margin: 8px 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% if include.caption %}<p style="font-family: var(--mono); font-size: 0.8rem; color: var(--ink-faint); margin-top: 4px;">{{ include.caption }}</p>{% endif %}
+{% endif %}
