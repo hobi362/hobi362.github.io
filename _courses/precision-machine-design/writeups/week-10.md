@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 10: Designing the Rotary Motion Module"
 subtitle: "The spindle for the lathe's cutting axis"

@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 4: The YuMi Collaborative Robot"
 subtitle: "A labmate's dual-arm robot, and the HTMs behind its motion"

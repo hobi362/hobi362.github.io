@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 4: Closing the Loop on KC and EAC"
 subtitle: "Chasing down why measured stiffness didn't match predictions"

@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 12: Assembling the T-Based Lathe"
 subtitle: "Bringing two linear slides and a spindle together into one machine"

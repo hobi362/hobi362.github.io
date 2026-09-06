@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 12: The Traffic Light, Continued"
 subtitle: "Finishing the static load analysis from Week 11"

@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 6: Finalizing the Linear Motion Slide"
 subtitle: "Cutting-force analysis, stiffness modeling, and starting fabrication"

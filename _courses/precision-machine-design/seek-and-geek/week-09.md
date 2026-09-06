@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 9: The C-Clamp"
 subtitle: "How much clamping force does a square-threaded screw actually provide?"

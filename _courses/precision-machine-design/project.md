@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-project
 title: "T-Based Precision Lathe"
 subtitle: "A self-built mini lathe: two linear axes, one spindle, designed and machined from scratch"

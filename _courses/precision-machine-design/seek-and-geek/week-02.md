@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 2: The Indoor Rowing Machine"
 subtitle: "Looking at the mechanism behind the resistance and seat travel"

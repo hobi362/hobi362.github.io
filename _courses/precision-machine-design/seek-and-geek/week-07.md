@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 7: Merlin's Apprentice at Legoland"
 subtitle: "A kids' ride, looked at like an engineer"

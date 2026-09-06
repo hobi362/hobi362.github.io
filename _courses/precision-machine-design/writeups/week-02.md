@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 2: Building the Kinematic Coupling"
 subtitle: "Design, build, and test a Maxwell coupling against predicted stiffness and repeatability"

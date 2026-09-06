@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 3: Elastically Averaged Coupling"
 subtitle: "Trading exact constraint for many compliant contact points"

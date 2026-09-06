@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 7: Fabricating and Testing the Linear Motion Slide"
 subtitle: "Finishing the first LMS and learning the mill's CNC features along the way"

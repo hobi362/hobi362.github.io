@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 11: The Traffic Light"
 subtitle: "Free body diagram of a structure most people never look at twice"

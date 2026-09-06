@@ -43,7 +43,7 @@ layout: default
 </section>
 
 <section class="index-block">
-  {% assign top_courses = site.courses | where_exp: "c", "c.url | split: '/' | size <= 3" %}
+  {% assign top_courses = site.courses | where_exp: "c", "c.pmd_subpage != true" %}
   <h2 class="section-heading">Coursework <span class="count">[{{ top_courses.size }}]</span></h2>
   <ul class="sheet-list sheet-list--compact">
     {% assign sorted_courses = top_courses | sort: "order" %}

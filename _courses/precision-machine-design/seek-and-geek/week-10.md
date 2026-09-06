@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 10: Planetary Gearboxes"
 subtitle: "Deriving transmission ratios for a gearbox found in the lab"

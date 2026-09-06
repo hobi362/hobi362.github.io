@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 8: [Topic]"
 subtitle: "One-line description of this week's analysis assignment"

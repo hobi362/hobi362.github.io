@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 9: Rotary Motion Module Concept Exploration"
 subtitle: "Sketch-modeling a spindle and lead screw mount before committing to a design"

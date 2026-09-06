@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 11: Fabricating and Testing the Spindle"
 subtitle: "0.019mm measured runout against a 0.013mm prediction"

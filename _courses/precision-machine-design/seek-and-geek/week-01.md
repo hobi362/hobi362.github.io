@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 1: The Zippo Lighter"
 subtitle: "Precision design hiding in a pocket lighter"

@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 1: Kinematic Coupling Proposal"
 subtitle: "Choosing a design problem: precise indexing for a rotating turntable"

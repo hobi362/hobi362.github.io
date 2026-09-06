@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-writeup
 title: "Week 5: Linear Motion Slide Concept Exploration"
 subtitle: "Comparing three carriage designs for a lathe axis"

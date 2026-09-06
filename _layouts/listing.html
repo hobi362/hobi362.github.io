@@ -12,7 +12,7 @@ layout: default
     {% case page.collection_key %}
       {% when "projects" %}{% assign items = site.projects | sort: "order" %}
       {% when "experience" %}{% assign items = site.experience | sort: "order" %}
-      {% when "courses" %}{% assign raw = site.courses | where_exp: "c", "c.url | split: '/' | size <= 3" %}{% assign items = raw | sort: "order" %}
+      {% when "courses" %}{% assign raw = site.courses | where_exp: "c", "c.pmd_subpage != true" %}{% assign items = raw | sort: "order" %}
     {% endcase %}
     {% for item in items %}
     <li class="sheet-list__row">

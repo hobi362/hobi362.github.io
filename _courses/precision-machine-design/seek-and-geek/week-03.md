@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 3: The Ski Tow Rope"
 subtitle: "A first ski lesson turns into a mechanism study"

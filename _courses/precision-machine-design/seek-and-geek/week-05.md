@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 5: The Bicycle V-Brake"
 subtitle: "Precision leverage in a common bike part"

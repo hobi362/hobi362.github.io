@@ -1,4 +1,5 @@
 ---
+pmd_subpage: true
 layout: pmd-seekgeek
 title: "Seek & Geek 6: The Fencing Foil"
 subtitle: "Why the foil has to buckle in exactly one direction"
