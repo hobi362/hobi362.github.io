@@ -283,6 +283,7 @@ h1, h2, h3, h4 { font-family: var(--sans-cond); font-weight: 700; margin: 0; col
 .pub-entry {
   padding: calc(var(--unit) * 2) 0;
   border-bottom: 1px solid var(--line);
+  overflow: auto;
 }
 .pub-entry:first-of-type { border-top: 1px solid var(--line); }
 .pub-title { margin: 0 0 4px; font-weight: 600; color: var(--ink); max-width: 68ch; }

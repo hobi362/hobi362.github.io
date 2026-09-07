@@ -46,7 +46,7 @@ permalink: /publications/
 <div class="pub-entry">
   <p class="pub-title">Device Prototype for Vaginal Delivery of Extremely Preterm Fetuses in The Breech Presentation</p>
   <p class="pub-meta">M. Whalen, E. Chang-Davidson, T. Moran, R. Hoffman, G. Frydman, A. Slocum, and A. Dangel — ASME Journal of Medical Devices, Nov. 2020.</p>
-  <p class="pub-links"><a href="https://doi.org/10.1115/1.4049086" target="_blank" rel="noopener">Webpage / DOI ↗</a></p>
+  <p class="pub-links"><a href="/assets/files/papers/breech-delivery-device.pdf" target="_blank" rel="noopener">Download PDF ↓</a> · <a href="https://doi.org/10.1115/1.4049086" target="_blank" rel="noopener">Webpage / DOI ↗</a></p>
 </div>
 
 ### Conference Publications
@@ -60,4 +60,5 @@ permalink: /publications/
 <div class="pub-entry">
   <p class="pub-title">Music and the Brain – Design of an MEG Compatible Piano</p>
   <p class="pub-meta">J. Chacon-Castano, D. Rathone, R. Hoffman, H. Yang, D. Pantazis, J. Yang, and N. Hanumara — IEEE Engineering in Medicine and Biology Society (EMBC 2017), Seogwipo, South Korea, July 2017.</p>
+  <p class="pub-links"><a href="/assets/files/papers/meg-piano-paper.pdf" target="_blank" rel="noopener">Download PDF ↓</a> · <a href="/coursework/medical-device-design/">Related course page →</a></p>
 </div>
