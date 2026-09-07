@@ -7,7 +7,7 @@ order: 21
 tags: ["State-space methods", "Kalman filtering", "Controllability & observability", "Eigenvalue placement"]
 links:
   - label: "My homework code"
-    url: "https://github.com/hobi362/2-151-advanced-system-dynamics-control"
+    url: "https://github.com/hobi362/2_151_AdvancedSystemsDynamicsAndControls_2016"
 key_project: "No single final project — a semester of state-space analysis, controllability/observability, eigenvalue placement, and state estimation (naive observers through Kalman filtering), building up to the final exam."
 ---
 2.151 is MIT's graduate-level follow-on to introductory controls — where an undergrad

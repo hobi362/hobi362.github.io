@@ -1,11 +1,11 @@
-title: "Your Name — Robotics Engineer"
-tagline: "Manipulation · Perception · Controls"
+title: "Rachel Hoffman-Bice — Mechanical Engineer"
+tagline: "Mechanical design · Robotics & controls · Medical devices"
 description: >-
-  Portfolio of robotics engineering work spanning research, industry,
-  and coursework.
-email: you@example.com
+  Portfolio of Rachel Hoffman-Bice — mechanical design, robotics and controls,
+  and medical device engineering, spanning MIT research, industry, and coursework.
+# email: ""   # no public email by choice - contact via LinkedIn
 github_username: hobi362
-linkedin_url: "https://linkedin.com/in/your-handle"
+linkedin_url: "https://www.linkedin.com/in/rachelhoffmanbice/"
 resume_pdf: "/assets/files/resume.pdf"
 cv_pdf: "/assets/files/cv.pdf"
 

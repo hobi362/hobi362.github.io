@@ -6,5 +6,5 @@ collection_key: courses
 sheet: "IDX-3"
 permalink: /coursework/
 ---
-Fifteen classes most relevant to robotics practice, spanning mechanics, controls,
-perception, and software foundations.
+Graduate and undergraduate classes whose project work sits behind the rest of this
+portfolio - machine design, controls, robotics, and medical device development.

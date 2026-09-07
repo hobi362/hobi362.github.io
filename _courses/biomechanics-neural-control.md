@@ -1,12 +1,15 @@
 ---
 title: "Biomechanics and Neural Control of Movement"
 institution: "Massachusetts Institute of Technology"
-term: "Fall 2017"
+term: "Spring 2017"
 course_code: "2.183"
 order: 18
 tags: ["Motor control", "Impedance control", "Equilibrium-point theory", "Neuromechanics"]
 youtube_id: ""
 video_caption: "Robot arm responding to an impulse perturbation."
+links:
+  - label: "Project code — Hill muscle model, stability analysis, trajectory plots"
+    url: "https://github.com/hobi362/2-183-arm-movement-model"
 key_project: "Built a 2-DOF direct-drive robot arm implementing the Equilibrium-Point model of human motor control, and used it to recreate Tamar Flash's classic 1987 minimum-jerk reaching experiment."
 ---
 Taught by Neville Hogan, 2.183 is a quantitative, model-based look at how biomechanical and

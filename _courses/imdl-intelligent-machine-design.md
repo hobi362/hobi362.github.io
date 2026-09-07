@@ -5,6 +5,9 @@ term: "Spring 2015"
 course_code: "EEL4665/5666"
 order: 16
 tags: ["Microcontroller interfacing", "Sensor integration", "CAD", "Autonomous robots"]
+links:
+  - label: "My code — Kinect strike detection, BeagleBone solenoid control"
+    url: "https://github.com/hobi362/imdl-kinect-air-drums"
 key_project: "DrumBot — a robot that mimics a person air-drumming, tracked by an Xbox Kinect and translated into real drum hits."
 ---
 Capstone-style lab (technically cross-listed undergrad/grad) taught by Antonio Arroyo and

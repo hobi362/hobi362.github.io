@@ -2,11 +2,14 @@
 layout: pmd-course
 title: "Precision Machine Design"
 institution: "Massachusetts Institute of Technology"
-term: "Fall term, MIT MechE"
+term: "Spring 2018"
 course_code: "2.70"
 order: 17
 sheet: "2.70"
 tags: ["Kinematic couplings", "Error budgeting", "Bearings", "Actuators", "Metrology"]
+links:
+  - label: "Analysis code — error budget, HTMs, spindle and slide deflection"
+    url: "https://github.com/hobi362/2-70-precision-machine-design"
 project_title: "T-Based Precision Lathe"
 project_summary: "A self-built mini lathe — two linear motion axes and a spindle, each backed by a real error budget. Measured part accuracy (112–188 µm) came in inside the predicted worst-case error band, closing the design loop."
 project_image: "/assets/images/courses/precision-machine-design/week12-completed-lathe.jpg"
