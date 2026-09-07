@@ -280,6 +280,15 @@ h1, h2, h3, h4 { font-family: var(--sans-cond); font-weight: 700; margin: 0; col
 }
 .callout p { margin: 4px 0 0; }
 
+.pub-entry {
+  padding: calc(var(--unit) * 2) 0;
+  border-bottom: 1px solid var(--line);
+}
+.pub-entry:first-of-type { border-top: 1px solid var(--line); }
+.pub-title { margin: 0 0 4px; font-weight: 600; color: var(--ink); max-width: 68ch; }
+.pub-meta { margin: 0; font-size: 0.88rem; color: var(--ink-soft); max-width: 68ch; }
+.pub-links { margin: 6px 0 0; font-family: var(--mono); font-size: 0.8rem; }
+
 /* ==========================================================================
    Hero / index sheet (home page)
    ========================================================================== */
