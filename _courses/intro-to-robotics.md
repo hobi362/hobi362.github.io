@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Robotics"
 institution: "Massachusetts Institute of Technology"
-term: "MIT MechE"
+term: "Fall 2015"
 course_code: "2.12"
 order: 19
 tags: ["Machine vision", "OpenCV", "Dynamixel servos", "Trajectory planning", "GPS navigation"]
