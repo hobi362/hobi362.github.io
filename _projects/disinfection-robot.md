@@ -5,8 +5,8 @@ org: "MIT — d'Arbeloff Laboratory"
 period: "Summer 2020"
 location: "Cambridge, MA"
 role: "Mechanical design and fabrication"
-order: 5
-sheet: "PRJ-05"
+order: 2
+sheet: "PRJ-02"
 tags: ["SolidWorks", "80/20 framing", "Mecanum drive", "Arduino", "Fabrication", "RealSense"]
 ---
 In June 2020, Micron Technology announced a design challenge for reliable, low-cost

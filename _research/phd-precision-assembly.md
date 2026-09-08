@@ -5,8 +5,8 @@ org: "MIT — d'Arbeloff Laboratory"
 period: "2019 – 2021"
 location: "Cambridge, MA"
 role: "PhD Candidate (Advisor: H. Harry Asada)"
-order: 4
-sheet: "PRJ-04"
+order: 3
+sheet: "RES-03"
 tags: [Python, MATLAB, "Motor control", "Odrive", "Cable-driven systems"]
 links:
   - label: "Precision Assembly of Heavy Objects... (RA-L 2020) — Download PDF"

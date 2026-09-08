@@ -2,6 +2,7 @@
 title: "Design & Manufacturing Laboratory"
 institution: "University of Florida"
 term: "Summer 2012"
+sort_date: "2012-08"
 course_code: "EML2322L"
 order: 13
 tags: ["80/20 extrusion", "PVC fabrication", "Differential drive", "Decision matrices"]

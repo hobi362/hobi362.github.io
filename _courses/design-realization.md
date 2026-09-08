@@ -2,6 +2,7 @@
 title: "Design Realization / Senior Design"
 institution: "University of Florida"
 term: "Fall 2014 – Spring 2015"
+sort_date: "2015-05"
 course_code: "EML4501 / EML4502"
 order: 14
 tags: ["Senior capstone", "Machine design", "FEA", "Brushless drive", "Fabrication"]

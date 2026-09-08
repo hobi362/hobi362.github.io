@@ -6,7 +6,7 @@ period: "Fall 2015 – Spring 2018"
 location: "Cambridge, MA"
 role: "Graduate Researcher"
 order: 2
-sheet: "PRJ-02"
+sheet: "RES-02"
 tags: [SolidWorks, "Mechanism design", "Path planning", "3D printing"]
 links:
   - label: "IROS 2017 Paper (Best Application Paper Award)"

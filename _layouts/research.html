@@ -1,15 +1,18 @@
 ---
 layout: default
 ---
-{% include titleblock.html doctype="Coursework" title=page.title subtitle=page.institution sheet=page.course_code period=page.term draft=page.status %}
+{% include titleblock.html doctype="Research" title=page.title subtitle=page.subtitle org=page.org period=page.period location=page.location sheet=page.sheet draft=page.status %}
 
-<div class="sheet-body sheet-body--single">
-  <article class="content">
-    {% if page.topics %}
+<div class="sheet-body">
+  <aside class="specs">
+    {% if page.role %}
+    <div class="specs__row"><span class="tb-label">Role</span><span class="tb-value">{{ page.role }}</span></div>
+    {% endif %}
+    {% if page.tags %}
     <div class="specs__row specs__row--tags">
-      <span class="tb-label">Topics</span>
+      <span class="tb-label">Stack</span>
       <div class="tag-list">
-        {% for t in page.topics %}<span class="tag">{{ t }}</span>{% endfor %}
+        {% for t in page.tags %}<span class="tag">{{ t }}</span>{% endfor %}
       </div>
     </div>
     {% endif %}
@@ -21,22 +24,19 @@ layout: default
       </div>
     </div>
     {% endif %}
+  </aside>
+
+  <article class="content">
     {{ content }}
-    {% if page.key_project %}
-    <div class="callout">
-      <span class="tb-label">Key project</span>
-      <p>{{ page.key_project }}</p>
-    </div>
-    {% endif %}
   </article>
 </div>
 
 <nav class="pager">
-  {% comment %} Match the /coursework/ listing: reverse-chronological, PMD subpages excluded. {% endcomment %}
-  {% assign top = site.courses | where_exp: "c", "c.pmd_subpage != true" %}
-  {% assign all = top | sort: "sort_date" | reverse %}
-  {% for c in all %}
-    {% if c.url == page.url %}{% assign idx = forloop.index0 %}{% endif %}
+  {% assign all = site.research | sort: "order" %}
+  {% for p in all %}
+    {% if p.url == page.url %}
+      {% assign idx = forloop.index0 %}
+    {% endif %}
   {% endfor %}
   {% assign prev_idx = idx | minus: 1 %}
   {% assign next_idx = idx | plus: 1 %}

@@ -2,6 +2,7 @@
 title: "Bio-inspired Robotics"
 institution: "Massachusetts Institute of Technology"
 term: "Fall 2019"
+sort_date: "2019-12"
 course_code: "2.74"
 order: 22
 tags: ["Legged locomotion", "Lagrangian dynamics", "Series elastic actuation", "Trajectory optimization", "Hybrid simulation"]

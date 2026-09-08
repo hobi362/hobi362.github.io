@@ -3,6 +3,7 @@ layout: pmd-course
 title: "Precision Machine Design"
 institution: "Massachusetts Institute of Technology"
 term: "Spring 2018"
+sort_date: "2018-05"
 course_code: "2.70"
 order: 17
 sheet: "2.70"

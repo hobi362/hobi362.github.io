@@ -3,6 +3,7 @@ title: "Functionality Design Intern"
 subtitle: "Internship"
 org: "MMID Full Service Design Team"
 period: "Summer 2017"
+sort_date: "2017-08"
 location: "Delft, The Netherlands"
 order: 3
 sheet: "EXP-03"

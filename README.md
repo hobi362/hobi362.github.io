@@ -24,25 +24,39 @@ Every page is one small Markdown file with a front-matter header (the `---` bloc
 top) and body text below it. You never touch HTML to add a new entry.
 
 ```
-_projects/       one file per project   → shows up at /projects/<slug>/
-_experience/     one file per job       → shows up at /experience/<slug>/
-_courses/        one file per class     → shows up at /coursework/<slug>/
+_research/       one file per research appointment → shows up at /research/<slug>/
+_projects/       one file per project              → shows up at /projects/<slug>/
+_experience/     one file per job                  → shows up at /experience/<slug>/
+_courses/        one file per class                → shows up at /coursework/<slug>/
 ```
 
-The home page, `/projects/`, `/experience/`, and `/coursework/` index pages all
-auto-populate from these folders and auto-sort by the `order:` field — you never have to
-manually re-list anything.
+`_research/` is thesis and lab research; `_projects/` is everything else that isn't
+coursework — sponsored industry work and design challenges.
+
+The index pages auto-populate from these folders, so you never have to manually re-list
+anything. **Two different sort orders are in play:**
+
+| Index | Order | Driven by |
+|---|---|---|
+| `/research/`, `/projects/` | oldest first, so a career reads forward | `order:` |
+| `/experience/`, `/coursework/` | most recent first | `sort_date:` |
+
+`sort_date:` is `"YYYY-MM"` of the **end** of the term or appointment (a Spring term ends
+`-05`, Fall `-12`, Summer `-08`). An ongoing role uses `"9999-12"` so it stays pinned to
+the top. Don't use `order:` for these two — the course `order:` numbers are historical and
+are not chronological.
 
 ### Adding a new project
 
-1. Copy `_projects/masters-project-1.md` to `_projects/my-new-project.md`.
+1. Copy `_projects/rawhide.md` to `_projects/my-new-project.md`.
 2. Edit the front matter (title, org, dates, tags, links) and the body.
-3. Give it the next `order:` number and a `sheet:` label (e.g. `PRJ-05`).
+3. Give it the next `order:` number and a `sheet:` label (e.g. `PRJ-03`).
 4. Delete the `status: draft` line once it has real content — this removes the
    "PRELIMINARY" stamp on that page automatically.
 
 Adding a new job (`_experience/`) or class (`_courses/`) works the same way — copy an
-existing file in that folder, edit, remove `status: draft` when ready.
+existing file in that folder, edit, remove `status: draft` when ready. For those two, set
+`sort_date:` rather than worrying about `order:`.
 
 ### The "PRELIMINARY" stamp
 

@@ -6,7 +6,7 @@ period: "Fall 2013 – Spring 2015"
 location: "Gainesville, FL"
 role: "Undergraduate Research Assistant"
 order: 1
-sheet: "PRJ-01"
+sheet: "RES-01"
 tags: [MATLAB, "Image processing", "Optimal control"]
 links:
   - label: "GPOPS-II"

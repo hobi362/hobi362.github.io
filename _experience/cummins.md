@@ -3,6 +3,7 @@ title: "Product Validation Intern"
 subtitle: "Internship"
 org: "Cummins Inc. — Fuel Systems Group"
 period: "Summer 2013"
+sort_date: "2013-08"
 location: "Columbus, IN"
 order: 1
 sheet: "EXP-01"

@@ -2,6 +2,7 @@
 title: "Introduction to Robotics"
 institution: "Massachusetts Institute of Technology"
 term: "Fall 2015"
+sort_date: "2015-12"
 course_code: "2.12"
 order: 19
 tags: ["Machine vision", "OpenCV", "Dynamixel servos", "Trajectory planning", "GPS navigation"]

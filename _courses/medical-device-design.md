@@ -2,6 +2,7 @@
 title: "Medical Device Design"
 institution: "Massachusetts Institute of Technology"
 term: "Fall 2016 (student), 2017–2019 (team mentor)"
+sort_date: "2019-12"
 course_code: "2.75"
 order: 20
 piano_demo_youtube_id: ""

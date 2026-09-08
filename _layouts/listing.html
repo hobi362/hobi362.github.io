@@ -9,10 +9,16 @@ layout: default
   </article>
 
   <ul class="sheet-list">
+    {% comment %}
+      Research and Projects read chronologically, oldest first, so a career reads forward.
+      Experience and Coursework are reverse-chronological on sort_date (YYYY-MM of the end
+      of the appointment or term) so the most recent sits at the top.
+    {% endcomment %}
     {% case page.collection_key %}
+      {% when "research" %}{% assign items = site.research | sort: "order" %}
       {% when "projects" %}{% assign items = site.projects | sort: "order" %}
-      {% when "experience" %}{% assign items = site.experience | sort: "order" %}
-      {% when "courses" %}{% assign raw = site.courses | where_exp: "c", "c.pmd_subpage != true" %}{% assign items = raw | sort: "order" %}
+      {% when "experience" %}{% assign items = site.experience | sort: "sort_date" | reverse %}
+      {% when "courses" %}{% assign raw = site.courses | where_exp: "c", "c.pmd_subpage != true" %}{% assign items = raw | sort: "sort_date" | reverse %}
     {% endcase %}
     {% for item in items %}
     <li class="sheet-list__row">

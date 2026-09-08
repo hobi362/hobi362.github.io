@@ -2,6 +2,7 @@
 title: "Identification, Estimation, and Learning"
 institution: "Massachusetts Institute of Technology"
 term: "Spring 2017"
+sort_date: "2017-05"
 course_code: "2.160"
 order: 24
 tags: ["System identification", "Recursive least squares", "Kalman filtering", "Adaptive control", "Sensor data"]

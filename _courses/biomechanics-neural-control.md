@@ -2,6 +2,7 @@
 title: "Biomechanics and Neural Control of Movement"
 institution: "Massachusetts Institute of Technology"
 term: "Spring 2017"
+sort_date: "2017-05"
 course_code: "2.183"
 order: 18
 tags: ["Motor control", "Impedance control", "Equilibrium-point theory", "Neuromechanics"]

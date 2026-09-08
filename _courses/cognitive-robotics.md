@@ -2,6 +2,7 @@
 title: "Cognitive Robotics"
 institution: "Massachusetts Institute of Technology"
 term: "Spring 2019"
+sort_date: "2019-05"
 course_code: "16.412 / 6.834"
 order: 23
 tags: ["Assembly planning", "Computational geometry", "Collision detection", "CAD/STL processing", "Ant Colony Optimization"]

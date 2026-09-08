@@ -2,6 +2,7 @@
 title: "Analysis and Design of Feedback Control Systems"
 institution: "Massachusetts Institute of Technology"
 term: "Spring 2016"
+sort_date: "2016-05"
 course_code: "2.140"
 order: 25
 tags: ["Feedback control", "Loop shaping", "Motor modeling", "LabVIEW", "Hardware in the loop"]

@@ -2,6 +2,7 @@
 title: "Product Design"
 institution: "Massachusetts Institute of Technology"
 term: "Spring 2016"
+sort_date: "2016-05"
 course_code: "2.744"
 order: 15
 tags: ["User-centered design", "Sketch modeling", "Mechanism design", "Stepper drive"]

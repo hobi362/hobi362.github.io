@@ -27,7 +27,8 @@ layout: default
 </div>
 
 <nav class="pager">
-  {% assign all = site.experience | sort: "order" %}
+  {% comment %} Match the /experience/ listing: reverse-chronological. {% endcomment %}
+  {% assign all = site.experience | sort: "sort_date" | reverse %}
   {% for e in all %}
     {% if e.url == page.url %}{% assign idx = forloop.index0 %}{% endif %}
   {% endfor %}

@@ -1,10 +1,12 @@
 ---
 layout: listing
 title: Projects
-subtitle: Undergraduate research through doctoral work
+subtitle: Applied and sponsored engineering work
 collection_key: projects
-sheet: "IDX-1"
+sheet: "IDX-2"
 permalink: /projects/
 ---
-Five projects spanning undergraduate research through doctoral work. Each sheet covers
-the problem, approach, my specific contribution, and results.
+Engineering projects outside of thesis research and coursework — sponsored industry work
+and design challenges. Each sheet covers the problem, approach, my specific contribution,
+and results. Thesis research is under [Research](/research/); course projects are on the
+[Coursework](/coursework/) sheets.

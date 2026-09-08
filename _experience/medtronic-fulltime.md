@@ -3,6 +3,7 @@ title: "Senior Mechanical Design Engineer"
 subtitle: "Previously Senior Controls Software Engineer, Controls Software Engineer II"
 org: "Medtronic"
 period: "February 2022 – present"
+sort_date: "9999-12"
 location: "Boston, MA / Weßling, Germany"
 order: 6
 sheet: "EXP-06"

@@ -2,6 +2,7 @@
 title: "Intelligent Machine Design Laboratory"
 institution: "University of Florida"
 term: "Spring 2015"
+sort_date: "2015-05"
 course_code: "EEL4665/5666"
 order: 16
 tags: ["Microcontroller interfacing", "Sensor integration", "CAD", "Autonomous robots"]

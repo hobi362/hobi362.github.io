@@ -3,6 +3,7 @@ title: "Research and Development Engineering Contingent"
 subtitle: "Contract"
 org: "Medtronic"
 period: "June 2021 – February 2022"
+sort_date: "2022-02"
 location: "Woburn, MA"
 order: 4
 sheet: "EXP-04"

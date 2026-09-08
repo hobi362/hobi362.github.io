@@ -2,6 +2,7 @@
 title: "Mechanics of Materials Laboratory"
 institution: "University of Florida"
 term: "Spring 2013"
+sort_date: "2013-05"
 course_code: "EML3301C"
 order: 12
 tags: ["Strain gages", "Wheatstone bridge", "LabVIEW", "Experimental mechanics", "Measurement uncertainty"]

@@ -2,6 +2,7 @@
 title: "Advanced System Dynamics & Control"
 institution: "Massachusetts Institute of Technology"
 term: "Fall 2016"
+sort_date: "2016-12"
 course_code: "2.151"
 order: 21
 tags: ["State-space methods", "Kalman filtering", "Controllability & observability", "Eigenvalue placement"]

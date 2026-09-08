@@ -21,6 +21,9 @@ plugins:
   - jekyll-seo-tag
 
 collections:
+  research:
+    output: true
+    permalink: /research/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -32,6 +35,11 @@ collections:
     permalink: /coursework/:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "research"
   - scope:
       path: ""
       type: "projects"
