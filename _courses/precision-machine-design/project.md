@@ -13,8 +13,9 @@ The final project in 2.70 is a semester-long build: design and machine your own 
 precision lathe from raw stock, with every axis backed by a real error budget rather than
 "it looks stiff enough." Mine came together as a T-based lathe — two linear motion slides
 (the X and Z axes, [Weeks 5–7](/coursework/precision-machine-design/writeups/week-05/)) and
-a rotary spindle ([Weeks 10–11](/coursework/precision-machine-design/writeups/week-10/)),
-assembled into one machine in [Week 12](/coursework/precision-machine-design/writeups/week-12/).
+a rotary spindle ([Weeks 8–10](/coursework/precision-machine-design/writeups/week-08/)),
+assembled into one machine in [Week 11](/coursework/precision-machine-design/writeups/week-11/)
+and written up in full in [Week 12](/coursework/precision-machine-design/writeups/week-12/).
 In a conventional lathe the tool moves on two axes while the spindle stays fixed; in a
 T-based lathe, the spindle itself rides on one linear axis and the tool on a second axis
 perpendicular to it, forming a "T."

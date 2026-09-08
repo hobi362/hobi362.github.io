@@ -1,30 +1,29 @@
 ---
 pmd_subpage: true
 layout: pmd-writeup
-title: "Week 11: Fabricating and Testing the Spindle"
-subtitle: "0.019mm measured runout against a 0.013mm prediction"
+title: "Week 11: Assembling the T-Based Lathe"
+subtitle: "Bringing two linear slides and a spindle together into one machine"
 week: 11
 week_label: "Week 11"
 order: 11
 sheet: "2.70-WU-11"
-summary: "Machined the spindle housing and shaft, then measured runout within 6 microns of the predicted value."
-topics: ["Precision metrology", "Manufacturing", "Runout testing"]
+summary: "Assembled both linear motion slides and the spindle into the completed lathe, added a tool holder and leadscrew mounts."
+topics: ["System integration", "Final assembly"]
 youtube_id: ""
 video_caption: ""
 ---
-The spindle housing and shaft came together over several days in the machine shop, with
-few real complications — enough that, despite running on plain bushings rather than
-precision ball bearings, I could spin the finished shaft by hand and feel it turn smoothly.
+This was assembly week — bringing together everything from the previous seven weeks (two
+linear motion slides and the rotary spindle) into one working T-based lathe. Two new parts
+were needed to make that actually happen: a tool holder for the facing tool, modeled after
+a standard machine-shop lathe tool holder and clamped with four ¼-20 screws, and mounts for
+the leadscrews driving each carriage, using off-the-shelf pillow blocks.
 
-![Finished spindle next to its SolidWorks model](/assets/images/courses/precision-machine-design/week11-spindle-vs-cad.jpg)
+![The completed T-based lathe, in hardware and CAD](/assets/images/courses/precision-machine-design/week11-completed-lathe.jpg)
 
-Testing was the satisfying part. I measured chuck runout, part radial runout, part axial
-runout, and the torque required to spin the shaft — both unloaded and under a 10kg
-simulated load — and compared every number against the Week 10 stiffness model.
+The assembly itself went smoothly, using 80/20 extrusion as the common structural backbone
+tying both linear axes and the spindle mount together. One open item I flagged for the
+following week: there was no anti-backlash provision on the leadscrews yet, so before final
+testing I planned to check whether that backlash was actually large enough to matter for
+the finished part accuracy, or whether it could stay as-is.
 
-![Testing spindle runout and drive torque on the bench](/assets/images/courses/precision-machine-design/week11-runout-test.jpg)
-
-Axial runout measured 0.019mm against a predicted 0.013mm — a 6 micron gap, which for a
-plain-bearing spindle built on a student budget and timeline is a genuinely good result. It
-told me the stiffness model from Week 10 was capturing the real behavior of the system, not
-just producing a number that happened to be in the right ballpark.
+![Final lathe assembly on the bench](/assets/images/courses/precision-machine-design/week11-part-cut.jpg)

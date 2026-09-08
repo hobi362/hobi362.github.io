@@ -1,30 +1,30 @@
 ---
 pmd_subpage: true
 layout: pmd-writeup
-title: "Week 10: Designing the Rotary Motion Module"
-subtitle: "The spindle for the lathe's cutting axis"
+title: "Week 10: Fabricating and Testing the Spindle"
+subtitle: "0.019mm measured runout against a 0.013mm prediction"
 week: 10
 week_label: "Week 10"
 order: 10
 sheet: "2.70-WU-10"
-summary: "Designed and modeled a simple, IGUS-bearing spindle for the lathe, sized against radial and axial stiffness."
-topics: ["Spindle design", "Bearing selection", "Stiffness modeling"]
+summary: "Machined the spindle housing and shaft, then measured runout within 6 microns of the predicted value."
+topics: ["Precision metrology", "Manufacturing", "Runout testing"]
 youtube_id: ""
 video_caption: ""
 ---
-With both linear axes done, this week turned to the lathe's rotary motion module (RMM) —
-the spindle that actually spins the workpiece. Knowing time was tight, I kept the spindle
-design deliberately simple: J3 Iglide flanged plain bearings from our IGUS sample kits
-(chosen for their resistance to unclean environments), with thrust washers on either end to
-handle axial loading and a dual-nut arrangement providing preload against a spring washer.
+The spindle housing and shaft came together over several days in the machine shop, with
+few real complications — enough that, despite running on plain bushings rather than
+precision ball bearings, I could spin the finished shaft by hand and feel it turn smoothly.
 
-![CAD assembly of the rotary motion module mounted on the linear slide, plus the raw shaft and chuck stock](/assets/images/courses/precision-machine-design/week10-rmm-cad.jpg)
+![Finished spindle next to its SolidWorks model](/assets/images/courses/precision-machine-design/week10-spindle-vs-cad.jpg)
 
-Locating features do double duty here: the bearing flanges reference the housing axially,
-a flange on the spindle shaft itself locates against a thrust bearing, and a small step
-inside the chuck tells you exactly how far the spindle is threaded in. I modeled radial and
-axial stiffness by putting the shaft, bearing, and housing stiffnesses in series, which is
-what actually determines how much the spindle deflects under cutting load at the tool tip
-— not just how stiff any one component is on its own.
+Testing was the satisfying part. I measured chuck runout, part radial runout, part axial
+runout, and the torque required to spin the shaft — both unloaded and under a 10kg
+simulated load — and compared every number against the Week 9 stiffness model.
 
-![Raw spindle shaft stock and chuck before machining](/assets/images/courses/precision-machine-design/week10-spindle-stock.jpg)
+![Testing spindle runout and drive torque on the bench](/assets/images/courses/precision-machine-design/week10-runout-test.jpg)
+
+Axial runout measured 0.019mm against a predicted 0.013mm — a 6 micron gap, which for a
+plain-bearing spindle built on a student budget and timeline is a genuinely good result. It
+told me the stiffness model from Week 9 was capturing the real behavior of the system, not
+just producing a number that happened to be in the right ballpark.

@@ -1,18 +1,19 @@
 ---
 pmd_subpage: true
 layout: pmd-seekgeek
-title: "Seek & Geek 8: [Topic]"
-subtitle: "One-line description"
+title: "Seek & Geek 8: The C-Clamp"
+subtitle: "How much clamping force does a square-threaded screw actually provide?"
 week: 8
 week_label: "Week 8"
 order: 8
 sheet: "2.70-SG-08"
-status: draft
-summary: "Short one-line summary shown in the overview list."
+summary: "Worked out the mechanical advantage of a C-clamp's square-threaded screw, and where the handle yields."
 youtube_id: ""
 video_caption: ""
 ---
-**Placeholder for Seek & Geek 8 -- replace with real content.**
-
-Short writeup of what you found "in the wild" (a real product or mechanism) that
-demonstrates this week's precision-design topic, and why it works the way it does.
+After using C-clamps constantly all semester to hold test parts in place, I finally sat
+down to work out the mechanics behind them: the mechanical advantage a square-threaded
+screw provides, the maximum clamping force a person can realistically apply by hand, and
+the force at which the handle itself yields — a real failure mode on smaller clamps that
+I'd seen happen and wanted to actually understand quantitatively rather than just avoid by
+feel.

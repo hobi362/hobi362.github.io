@@ -13,7 +13,7 @@ links:
     url: "https://github.com/hobi362/2-70-precision-machine-design"
 project_title: "T-Based Precision Lathe"
 project_summary: "A self-built mini lathe — two linear motion axes and a spindle, each backed by a real error budget. Measured part accuracy (112–188 µm) came in inside the predicted worst-case error band, closing the design loop."
-project_image: "/assets/images/courses/precision-machine-design/week12-completed-lathe.jpg"
+project_image: "/assets/images/courses/precision-machine-design/week11-completed-lathe.jpg"
 project_youtube_id: ""
 project_url: "/coursework/precision-machine-design/project/"
 permalink: /coursework/precision-machine-design/

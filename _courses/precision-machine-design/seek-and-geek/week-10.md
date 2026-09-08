@@ -1,18 +1,18 @@
 ---
 pmd_subpage: true
 layout: pmd-seekgeek
-title: "Seek & Geek 10: Planetary Gearboxes"
-subtitle: "Deriving transmission ratios for a gearbox found in the lab"
+title: "Seek & Geek 10: The Traffic Light"
+subtitle: "Free body diagram of a structure most people never look at twice"
 week: 10
 week_label: "Week 10"
 order: 10
 sheet: "2.70-SG-10"
-summary: "Found a planetary gearbox in a lab parts bin and worked through deriving its transmission ratio by hand."
+summary: "Started a free-body-diagram analysis of the static loads on a traffic light structure, seen at a trade show."
 youtube_id: ""
 video_caption: ""
 ---
-I found a planetary gearbox sitting in a bin in my lab and used it as an excuse to finally
-work through the transmission-ratio derivation for planetary gear systems by hand, rather
-than just plugging numbers into a known formula. Planetary sets show up everywhere
-precision motion needs high reduction in a small package — including, as it happens, some
-of the drivetrain choices in my own robotics work.
+A walk to the MedTech expo at the Boston convention center turned into a study of the
+traffic light structure outside it — specifically, working through the static loads and
+moments the mounting arm and pole see from the signal head's weight and wind loading. This
+one carried into the following week (see Week 11's Seek & Geek) once I'd worked through the
+full static analysis.
