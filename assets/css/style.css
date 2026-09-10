@@ -376,6 +376,14 @@ h1, h2, h3, h4 { font-family: var(--sans-cond); font-weight: 700; margin: 0; col
 .sheet-list__title { color: var(--ink); font-weight: 600; flex: 1 1 240px; min-width: 160px; }
 .sheet-list__title:hover { color: var(--accent); }
 .sheet-list__meta { font-family: var(--mono); font-size: 0.78rem; color: var(--ink-faint); flex: 0 0 auto; white-space: nowrap; }
+.sheet-list__meta--degree {
+  color: var(--accent);
+  border: 1px solid var(--accent-soft);
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+  padding: 1px 6px;
+  font-size: 0.72rem;
+}
 .sheet-list__desc {
   flex: 1 1 100%;
   font-family: var(--sans);

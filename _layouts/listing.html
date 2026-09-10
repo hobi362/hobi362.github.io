@@ -25,6 +25,8 @@ layout: default
       <span class="sheet-list__code">{{ item.sheet | default: item.course_code | default: "—" }}</span>
       <a href="{{ item.url | relative_url }}" class="sheet-list__title">{{ item.title }}</a>
       <span class="sheet-list__meta">{{ item.org | default: item.institution }}</span>
+      {% comment %} Research entries carry the degree the work was done for. {% endcomment %}
+      {% if item.degree %}<span class="sheet-list__meta sheet-list__meta--degree">{{ item.degree }}</span>{% endif %}
       <span class="sheet-list__meta sheet-list__meta--period">{{ item.period | default: item.term }}</span>
       {% if item.status == "draft" %}<span class="tag tag--pending">PRELIM</span>{% endif %}
     </li>
