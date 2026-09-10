@@ -9,6 +9,14 @@ order: 12
 sheet: "2.70-WU-12"
 summary: "Final report: the complete T-based lathe, its error budget, and facing cuts taken with and without the three-jaw chuck."
 topics: ["Error budget", "Homogeneous transformation matrices", "Metrology", "System integration"]
+attachments:
+  - label: "2.70 final report — the full 23-page report (PDF)"
+    url: "/assets/files/coursework/precision-machine-design/2-70-final-report.pdf"
+  - label: "Error_Budget_Spreadsheet_RMH_Rev3.xlsx"
+    url: "/assets/files/coursework/precision-machine-design/Error_Budget_Spreadsheet_RMH_Rev3.xlsx"
+attachments_offsite:
+  - label: "LatheDesign_RMH.xlsx — the full lathe design spreadsheet"
+    size: "300.8 MB"
 youtube_id: ""
 video_caption: ""
 ---
@@ -20,6 +28,8 @@ predicting up front how they would behave.
 
 The full project write-up, including the measured results, is on the
 [T-Based Precision Lathe project page](/coursework/precision-machine-design/project/).
+
+![The completed T-based lathe on the bench: the spindle housing and three-jaw chuck riding one linear axis, the tool holder on the perpendicular axis, all mounted on the 80/20 extrusion base with leadscrews and handles fitted](/assets/images/courses/precision-machine-design/final-lathe-hero.jpg)
 
 ### The machine, subsystem by subsystem
 
