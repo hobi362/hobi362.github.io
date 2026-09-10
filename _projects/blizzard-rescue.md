@@ -1,19 +1,20 @@
 ---
-title: "Introduction to Robotics"
-institution: "Massachusetts Institute of Technology"
-term: "Fall 2015"
-sort_date: "2015-12"
-course_code: "2.120"
-order: 19
+title: "Blizzard Rescue"
+subtitle: "A mobile robot with a camera-guided arm and a front plow, tasked with finding and clearing a target buried in snow"
+org: "Massachusetts Institute of Technology"
+period: "Fall 2015"
+location: "Cambridge, MA"
+role: "Team of six"
+course: "2.120 — Introduction to Robotics"
+order: 4
+sheet: "PRJ-04"
+thumb: "/assets/images/courses/intro-to-robotics/team-photo.jpg"
 tags: ["Machine vision", "OpenCV", "Dynamixel servos", "Trajectory planning", "GPS navigation"]
 links:
   - label: "My code (navigation, plow control, vision experiments)"
     url: "https://github.com/hobi362/2-12-intro-to-robotics-2017"
-key_project: "Blizzard Rescue — a mobile robot with a camera-guided arm and a front plow, tasked with finding and clearing a target buried in snow. Team of 6 (Ali Abdalla, Cyndia Cao, Christopher Harmon, Ryan Penny, Nihala Thanikkal, and me)."
 ---
-2.120 is MIT's project-based intro robotics class — a semester building up to one big final
-robot project, done in teams. Ours was "Blizzard Rescue," which was exactly as literal as
-it sounds: a mobile robot that has to find a target buried in a snowy test environment and
+Exactly as literal as it sounds: a mobile robot that has to find a target buried in a snowy test environment and
 clear a path to it, combining a plow-equipped chassis with a camera-guided arm.
 
 ![Team photo with the finished robot](/assets/images/courses/intro-to-robotics/team-photo.jpg)
@@ -34,14 +35,14 @@ than out on the links themselves — the same reasoning behind keeping mass prox
 serial arm, just executed with bike chain and 3D-printed sprockets instead of anything
 exotic.
 
-![Arm design, CAD and built hardware](/assets/images/courses/intro-to-robotics/arm-design.jpg)
+![Teammates crouched on the floor around the built arm, working on its chain drive and linkage between runs](/assets/images/courses/intro-to-robotics/arm-design.jpg)
 
 ### Plow design
 
 A curved plow blade mounted on a linear rail so it can be raised and lowered independent
 of drive, clearing snow ahead of the robot without needing to lift the whole chassis.
 
-![Plow design, CAD and built hardware](/assets/images/courses/intro-to-robotics/plow-design.jpg)
+![The robot at the competition, a teammate crouched over it making a final adjustment while judges and the other team look on](/assets/images/courses/intro-to-robotics/plow-design.jpg)
 
 ### Finding the target
 

@@ -1,0 +1,96 @@
+# Drives both /publications/ and the Publications block on the home page.
+# Newest first within each group; `group` controls the heading on the publications page.
+
+- group: "Journal Publications"
+  year: "2021"
+  title: "Control Strategy for Jam and Wedge-Free 3D Precision Insertion of Heavy Objects Suspended with a Multi-Cable Crane"
+  meta: "R. Hoffman and H. H. Asada — IEEE Robotics and Automation Letters (RA-L), vol. 6, no. 4, pp. 7453–7460, Oct. 2021. Also presented at IROS 2021 (Prague, Czech Republic)."
+  venue: "IEEE RA-L / IROS 2021"
+  links:
+    - label: "Webpage / DOI ↗"
+      url: "https://doi.org/10.1109/LRA.2021.3093860"
+      external: true
+
+- group: "Journal Publications"
+  year: "2020"
+  title: "Device Prototype for Vaginal Delivery of Extremely Preterm Fetuses in The Breech Presentation"
+  meta: "M. Whalen, E. Chang-Davidson, T. Moran, R. Hoffman, G. Frydman, A. Slocum, and A. Dangel — ASME Journal of Medical Devices, Nov. 2020."
+  venue: "ASME J. Medical Devices"
+  links:
+    - label: "Download PDF ↓"
+      url: "/assets/files/papers/breech-delivery-device.pdf"
+      external: true
+    - label: "Webpage / DOI ↗"
+      url: "https://doi.org/10.1115/1.4049086"
+      external: true
+
+- group: "Journal Publications"
+  year: "2020"
+  title: "Precision Assembly of Heavy Objects Suspended with Multiple Cables From a Crane"
+  meta: "R. Hoffman and H. H. Asada — IEEE Robotics and Automation Letters (RA-L), vol. 5, no. 4, pp. 6876–6883, Oct. 2020. Also presented at IROS 2020 (Las Vegas, NV)."
+  venue: "IEEE RA-L / IROS 2020"
+  links:
+    - label: "Download PDF ↓"
+      url: "https://819cf279-319a-43b0-964c-d14c7d146900.filesusr.com/ugd/a7bf6b_6deda6dd124f4c5fb905a04572b2b51c.pdf"
+      external: true
+    - label: "Webpage / DOI ↗"
+      url: "https://doi.org/10.1109/LRA.2020.3013845"
+      external: true
+
+- group: "Journal Publications"
+  year: "2020"
+  title: "Leveraging the Human Operator in the Design and Control of Supernumerary Robotic Limbs"
+  meta: "J. Guggenheim, R. Hoffman, H. Song, and H. H. Asada — IEEE Robotics and Automation Letters (RA-L), vol. 5, no. 2, pp. 2177–2184, April 2020. Also presented at ICRA 2020 (Paris, France)."
+  venue: "IEEE RA-L / ICRA 2020"
+
+- group: "Conference Publications"
+  year: "2017"
+  title: "A Multi-Track Elevator System for E-Commerce Fulfillment Centers"
+  meta: "R. Hoffman and H. H. Asada — IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2017), Vancouver, Canada, Oct. 2017."
+  venue: "IROS 2017"
+  award: "Winner, Best Application Paper Award"
+  links:
+    - label: "Related research page →"
+      url: "/research/masters-elevator/"
+
+- group: "Conference Publications"
+  year: "2017"
+  title: "Music and the Brain – Design of an MEG Compatible Piano"
+  meta: "J. Chacon-Castano, D. Rathone, R. Hoffman, H. Yang, D. Pantazis, J. Yang, and N. Hanumara — IEEE Engineering in Medicine and Biology Society (EMBC 2017), Seogwipo, South Korea, July 2017."
+  venue: "EMBC 2017"
+  links:
+    - label: "Download PDF ↓"
+      url: "/assets/files/papers/meg-piano-paper.pdf"
+      external: true
+    - label: "Related project page →"
+      url: "/projects/meg-compatible-keyboard/"
+
+- group: "Theses"
+  year: "2021"
+  title: "Precision Assembly of Underconstrained Heavy Shafts Suspended By Multiple Cables From A Robotic Crane"
+  meta: "PhD Thesis — d'Arbeloff Laboratory, MIT (advisor: H. Harry Asada), 2021"
+  venue: "PhD thesis, MIT"
+  links:
+    - label: "Related research page →"
+      url: "/research/phd-precision-assembly/"
+
+- group: "Theses"
+  year: "2017"
+  title: "A Multi-Track Elevator System for E-Commerce Fulfillment Centers"
+  meta: "Master's Thesis — d'Arbeloff Laboratory, MIT (advisor: H. Harry Asada), 2017"
+  venue: "SM thesis, MIT"
+  links:
+    - label: "Download PDF ↓"
+      url: "https://819cf279-319a-43b0-964c-d14c7d146900.filesusr.com/ugd/a7bf6b_d662a813b1464b32b6ba13d90de8b768.pdf"
+      external: true
+    - label: "Related research page →"
+      url: "/research/masters-elevator/"
+
+- group: "Theses"
+  year: "2015"
+  title: "A Method for Obtaining Formula One Race Track Curvature for Use in Solving Minimum Lap Time Optimal Control Problems"
+  meta: "Undergraduate Thesis — Vehicle Dynamics and Optimization Laboratory, University of Florida (advisor: Anil V. Rao), 2015"
+  venue: "BSME thesis, UF"
+  links:
+    - label: "Related research page →"
+      url: "/research/undergrad-research/"

@@ -1,13 +1,20 @@
 ---
-pmd_subpage: true
-layout: pmd-project
 title: "T-Based Precision Lathe"
-subtitle: "A self-built mini lathe: two linear axes, one spindle, designed and machined from scratch"
-sheet: "2.77-PRJ"
-tags: [SolidWorks, "Error budgeting", "Precision metrology", "CNC machining"]
-youtube_id: ""
-video_caption: "The finished lathe facing a test part."
-permalink: /coursework/precision-machine-design/project/
+subtitle: "A mini lathe built from raw stock, with every axis backed by a real error budget rather than \"it looks stiff enough\""
+org: "Massachusetts Institute of Technology"
+period: "Spring 2018"
+location: "Cambridge, MA"
+role: "Sole designer and machinist"
+course: "2.77 — Precision Machine Design"
+order: 9
+sheet: "PRJ-09"
+thumb: "/assets/images/courses/precision-machine-design/week11-completed-lathe.jpg"
+tags: [SolidWorks, "Error budgeting", "Precision metrology", "CNC machining", "HTMs"]
+links:
+  - label: "Weekly write-ups and Seek & Geeks — the full 2.77 coursework"
+    url: "/coursework/precision-machine-design/"
+  - label: "Analysis code — error budget, HTMs, spindle and slide deflection"
+    url: "https://github.com/hobi362/2-70-precision-machine-design"
 ---
 The final project in 2.77 is a semester-long build: design and machine your own small
 precision lathe from raw stock, with every axis backed by a real error budget rather than

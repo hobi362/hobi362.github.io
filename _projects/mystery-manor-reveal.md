@@ -1,19 +1,19 @@
 ---
-title: "Product Design"
-institution: "Massachusetts Institute of Technology"
-term: "Spring 2016"
-sort_date: "2016-05"
-course_code: "2.744"
-order: 15
+title: "Mystery Manor Reveal Effect"
+subtitle: "An 1800s writing desk whose top rotates to swap one set of props for another mid-scene, built to a live client brief"
+org: "Massachusetts Institute of Technology, with 5 Wits"
+period: "Spring 2016"
+location: "Cambridge, MA"
+role: "Team Poirot"
+course: "2.744 — Product Design"
+order: 5
+sheet: "PRJ-05"
+thumb: "/assets/images/courses/product-design/concept-sketch.jpg"
 tags: ["User-centered design", "Sketch modeling", "Mechanism design", "Stepper drive"]
-key_project: "A motorized reveal effect for 5 Wits' Mystery Manor adventure — an 1800s writing desk whose top rotates to swap one set of props for another mid-scene. Team Poirot, working to a real client brief."
 ---
-2.744 is David Wallace's graduate product design course, and it is deliberately not a
-machine design class. The emphasis is on designing for the person who will actually use
-the thing — user experience, product form, human factors, and the commercial constraints
-around them — while working in a small team. That was a real shift for me. Every design
-course I'd taken to that point started from requirements and analysis; this one started
-from watching people.
+An 1800s writing desk that changes on cue. At the right moment in a live-action adventure,
+its top rotates and swaps one set of props for another — revealing the clue that tells the
+team how to escape the room.
 
 ### The brief
 

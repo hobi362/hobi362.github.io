@@ -1,12 +1,12 @@
 ---
 layout: listing
 title: Projects
-subtitle: Applied and sponsored engineering work
+subtitle: The things I have designed and built
 collection_key: projects
 sheet: "IDX-2"
 permalink: /projects/
 ---
-Engineering projects outside of thesis research and coursework — sponsored industry work
-and design challenges. Each sheet covers the problem, approach, my specific contribution,
-and results. Thesis research is under [Research](/research/); course projects are on the
-[Coursework](/coursework/) sheets.
+Twelve projects, oldest first. Most began as a course's final project — the class each one
+was done for is noted on its page as a supporting detail, but the project is the point.
+Thesis research is under [Research](/research/); the weekly coursework behind the lathe is
+on the [2.77 sheets](/coursework/precision-machine-design/).

@@ -1,18 +1,24 @@
 ---
-title: "Design & Manufacturing Laboratory"
-institution: "University of Florida"
-term: "Summer 2012"
-sort_date: "2012-08"
-course_code: "EML2322L"
-order: 13
+title: "Slalom Course Robot"
+subtitle: "A team robot that ran a slalom, stripped a rack and cleared seven tennis balls without knocking anything over"
+org: "University of Florida"
+period: "Summer 2012"
+location: "Gainesville, FL"
+role: "Team member"
+course: "EML2322L — Design & Manufacturing Laboratory"
+order: 1
+sheet: "PRJ-01"
+thumb: "/assets/images/courses/eml2322l-design-manufacturing/mechanism-detail.jpg"
 tags: ["80/20 extrusion", "PVC fabrication", "Differential drive", "Decision matrices"]
-key_project: "Team robot that navigated a slalom course, pulled a bucket off a rack, picked seven tennis balls off a three-tiered stand, and dropped them all in the bucket without knocking anything over."
 ---
-Sophomore-level design-and-manufacturing class — the one where they hand you a stockroom
-of 80/20 extrusion, PVC pipe, and small gearmotors and expect a working robot by the end
-of the semester. This is where I first went through a full, formal design process: run a
-weighted decision matrix before committing to a concept, build a prototype, watch it fail
-in a way you didn't expect, and fix it without starting over from scratch.
+A team robot that had to run a slalom course, pull a bucket off a rack, lift seven tennis
+balls off a three-tiered stand, and drop them all in the bucket — without knocking anything
+over.
+
+Built from a stockroom of 80/20 extrusion, PVC pipe and small gearmotors, this was where I
+first went through a full, formal design process: run a weighted decision matrix before
+committing to a concept, build a prototype, watch it fail in a way you didn't expect, and
+fix it without starting over from scratch.
 
 Working in a five-person team (Team 1A), I mostly owned budget tracking and helped run the
 concept-selection process, on top of the general hands-on build work everyone did.

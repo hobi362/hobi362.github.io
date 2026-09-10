@@ -1,17 +1,19 @@
 ---
-title: "Design Realization / Senior Design"
-institution: "University of Florida"
-term: "Fall 2014 – Spring 2015"
-sort_date: "2015-05"
-course_code: "EML4501 / EML4502"
-order: 14
+title: "Scoot Case"
+subtitle: "A collapsible electric scooter that folds into its own carry case in under 45 seconds"
+org: "University of Florida"
+period: "Fall 2014 – Spring 2015"
+location: "Gainesville, FL"
+role: "Senior capstone team member"
+course: "EML4501 / EML4502 — Design Realization / Senior Design"
+order: 2
+sheet: "PRJ-02"
+thumb: "/assets/images/courses/design-realization/scoot-case-poster.jpg"
 tags: ["Senior capstone", "Machine design", "FEA", "Brushless drive", "Fabrication"]
-key_project: "Scoot Case — a collapsible electric scooter that folds into its own carry case in under 45 seconds. 15 mph top speed, 45 min runtime, 23.6 lb. Designed in EML4501, fabricated in EML4502."
 ---
-The two-semester capstone sequence at UF, taught by Peter Ifju. EML4501 is the design half:
-work in a small team, take a system from an open-ended brief through detailed analysis,
-and defend it in an engineering report and a technical presentation. EML4502 is where you
-find out what your drawings were actually worth, because you have to build the thing.
+A two-semester capstone under Peter Ifju: EML4501 took the design from an open-ended brief
+through detailed analysis and a defended engineering report, and EML4502 was where you found
+out what your drawings were actually worth, because you had to build the thing.
 
 ### Scoot Case
 

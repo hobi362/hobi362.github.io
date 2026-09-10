@@ -27,7 +27,7 @@ error with homogeneous transformation matrices, and designing mechanical compone
 predicting up front how they would behave.
 
 The full project write-up, including the measured results, is on the
-[T-Based Precision Lathe project page](/coursework/precision-machine-design/project/).
+[T-Based Precision Lathe project page](/projects/t-based-lathe/).
 
 ![The completed T-based lathe on the bench: the spindle housing and three-jaw chuck riding one linear axis, the tool holder on the perpendicular axis, all mounted on the 80/20 extrusion base with leadscrews and handles fitted](/assets/images/courses/precision-machine-design/final-lathe-hero.jpg)
 

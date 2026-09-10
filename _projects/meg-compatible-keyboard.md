@@ -1,14 +1,20 @@
 ---
-title: "Medical Device Design"
-institution: "Massachusetts Institute of Technology"
-term: "Fall 2016 (student), 2017–2019 (team mentor)"
-sort_date: "2019-12"
-course_code: "2.75"
-order: 20
-piano_demo_youtube_id: ""
+title: "MEG-Compatible Keyboard"
+subtitle: "A 25-key polymer keyboard with no metal in it, so neuroscientists can study the brain playing music inside a magnetoencephalography scanner"
+org: "Massachusetts Institute of Technology"
+period: "Fall 2016"
+location: "Cambridge, MA"
+role: "Student team, later team mentor (2017–2019)"
+course: "2.75 — Medical Device Design"
+order: 6
+sheet: "PRJ-06"
+thumb: "/assets/images/courses/medical-device-design/meg-piano-hero.jpg"
 tags: ["Medical devices", "Rapid prototyping", "FDA-style design process"]
-key_project: "MEG-compatible 25-key polymer keyboard, built to let neuroscientists study brain-music interaction during magnetoencephalography scans. Published at EMBC 2017."
 ---
+A magnetoencephalography scanner measures magnetic fields from the brain a billion times
+weaker than the Earth's. Put anything metal near it and the measurement is gone — which is
+a problem if you want to study what the brain does while someone plays the piano.
+
 Taught by Nevan Hanumara and Alex Slocum, 2.75 runs on a deterministic, peer-reviewed rapid
 device development process — identify a real clinical need, work through functional
 requirements and design parameters formally, then build and test a working prototype in

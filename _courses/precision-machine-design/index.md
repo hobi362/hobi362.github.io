@@ -15,7 +15,7 @@ project_title: "T-Based Precision Lathe"
 project_summary: "A self-built mini lathe — two linear motion axes and a spindle, each backed by a real error budget. Measured part accuracy (112–188 µm) came in inside the predicted worst-case error band, closing the design loop."
 project_image: "/assets/images/courses/precision-machine-design/week11-completed-lathe.jpg"
 project_youtube_id: ""
-project_url: "/coursework/precision-machine-design/project/"
+project_url: "/projects/t-based-lathe/"
 permalink: /coursework/precision-machine-design/
 ---
 Taught by Prof. Alex Slocum — 2.77 is about designing machines and systems for accuracy,

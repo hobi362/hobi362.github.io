@@ -378,6 +378,20 @@ h1, h2, h3, h4 { font-family: var(--sans-cond); font-weight: 700; margin: 0; col
   padding: calc(var(--unit) * 1.25) 4px;
   border-bottom: 1px solid var(--line);
 }
+.sheet-list__thumb {
+  flex: 0 0 auto;
+  width: 72px;
+  height: 48px;
+  object-fit: cover;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--paper);
+  align-self: center;
+}
+.sheet-list__thumb--empty { border-style: dashed; border-color: var(--line); }
+@media (max-width: 640px) {
+  .sheet-list__thumb { width: 52px; height: 36px; }
+}
 .sheet-list__code { font-family: var(--mono); font-size: 0.72rem; color: var(--accent); flex: 0 0 auto; }
 .sheet-list__title { color: var(--ink); font-weight: 600; flex: 1 1 240px; min-width: 160px; }
 .sheet-list__title:hover { color: var(--accent); }

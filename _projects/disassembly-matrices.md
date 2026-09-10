@@ -1,19 +1,20 @@
 ---
-title: "Cognitive Robotics"
-institution: "Massachusetts Institute of Technology"
-term: "Spring 2019"
-sort_date: "2019-05"
-course_code: "16.412 / 6.834"
-order: 23
+title: "Disassembly Matrices from CAD Meshes"
+subtitle: "Deriving the part-interference matrix an assembly planner needs straight from STL geometry, instead of having a human enumerate it"
+org: "Massachusetts Institute of Technology"
+period: "Spring 2019"
+location: "Cambridge, MA"
+role: "Team project — my contribution was the matrix generation"
+course: "16.412 / 6.834 — Cognitive Robotics"
+order: 10
+sheet: "PRJ-10"
 tags: ["Assembly planning", "Computational geometry", "Collision detection", "CAD/STL processing", "Ant Colony Optimization"]
 links:
   - label: "Project code — disassembly matrix generation from STL meshes"
     url: "https://github.com/hobi362/cogrob-assembly-planning"
-key_project: "Using CAD Meshes to Extract Disassembly Matrix Information for the Assembly Planning Problem — a MATLAB pipeline that reads STL geometry and derives the part-interference matrix automatically, instead of having a human enumerate it by hand."
 ---
-16.412 covers the reasoning layer of autonomy — planning, scheduling, diagnosis, and
-execution under uncertainty — with a heavy final project and a student-taught advanced
-lecture. I also gave one of the advanced lectures that term.
+An assembly planner needs to know which parts block which. Working that out by hand is
+tedious and easy to get wrong — so this derives it straight from the CAD geometry instead.
 
 ### The problem: nobody wants to fill in the matrix by hand
 

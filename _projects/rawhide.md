@@ -5,8 +5,9 @@ org: "MIT, with QinetiQ North America, Raytheon, and the Advanced Robotics Manuf
 period: "Spring 2018 – Fall 2019"
 location: "Cambridge, MA"
 role: "Graduate Researcher"
-order: 1
-sheet: "PRJ-01"
+order: 8
+sheet: "PRJ-08"
+thumb: "/assets/images/projects/rawhide/twin-arms-cabinet.jpg"
 tags: [ROS, "Robot Raconteur", Python, "Impedance control", "Admittance control", "Teaching by demonstration"]
 links:
   - label: "Code + tutorial (GitHub)"

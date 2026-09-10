@@ -1,20 +1,21 @@
 ---
-title: "Bio-inspired Robotics"
-institution: "Massachusetts Institute of Technology"
-term: "Fall 2019"
-sort_date: "2019-12"
-course_code: "2.74"
-order: 22
+title: "GRAC — Compliant Robotic Leg"
+subtitle: "A single-leg robot on a vertical guide rail, built to test how much ankle compliance actually helps absorb a landing"
+org: "Massachusetts Institute of Technology"
+period: "Fall 2019"
+location: "Cambridge, MA"
+role: "Team project"
+course: "2.74 — Bio-inspired Robotics"
+order: 11
+sheet: "PRJ-11"
 tags: ["Legged locomotion", "Lagrangian dynamics", "Series elastic actuation", "Trajectory optimization", "Hybrid simulation"]
 links:
   - label: "Project code — dynamics, hybrid simulation, and optimization"
     url: "https://github.com/hobi362/2-74-bioinspired-robot-leg"
-key_project: "GRAC — a single-leg robot built to test how much ankle compliance helps absorb landing impact, comparing a simulated series-elastic ankle against hardware drops on a guide rail."
 ---
-2.74 approaches robotics by way of biology: study how animals actually achieve efficient,
-robust locomotion, then build machines that borrow the underlying principle rather than
-the shape. The semester runs on a spine of Lagrangian dynamics, contact modeling, and
-trajectory optimization, ending in a team project that has to be both simulated and built.
+A single-leg robot on a vertical guide rail, built to answer a question about ankles: how
+much does compliance there actually help absorb a landing, and where is the point past which
+it just wastes energy?
 
 ### The question: what is the ankle for?
 

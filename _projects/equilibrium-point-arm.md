@@ -1,25 +1,22 @@
 ---
-title: "Biomechanics and Neural Control of Movement"
-institution: "Massachusetts Institute of Technology"
-term: "Spring 2017"
-sort_date: "2017-05"
-course_code: "2.183"
-order: 18
+title: "Equilibrium-Point Robot Arm"
+subtitle: "A 2-DOF direct-drive arm built to test the Equilibrium-Point model of human motor control against Flash's minimum-jerk experiment"
+org: "Massachusetts Institute of Technology"
+period: "Spring 2017"
+location: "Cambridge, MA"
+role: "Course project"
+course: "2.183 — Biomechanics and Neural Control of Movement"
+order: 7
+sheet: "PRJ-07"
+thumb: "/assets/images/courses/biomechanics-neural-control/arm-hero.jpg"
 tags: ["Motor control", "Impedance control", "Equilibrium-point theory", "Neuromechanics"]
-youtube_id: ""
-video_caption: "Robot arm responding to an impulse perturbation."
 links:
   - label: "Project code — Hill muscle model, stability analysis, trajectory plots"
     url: "https://github.com/hobi362/2-183-arm-movement-model"
-key_project: "Built a 2-DOF direct-drive robot arm implementing the Equilibrium-Point model of human motor control, and used it to recreate Tamar Flash's classic 1987 minimum-jerk reaching experiment."
 ---
-Taught by Neville Hogan, 2.183 is a quantitative, model-based look at how biomechanical and
-neural factors interact in human sensory-motor behavior. Coursework covered neural,
-muscular, and skeletal physiology, neural feedback and equilibrium-point theories,
-co-contraction strategies, impedance control, kinematic redundancy, optimization,
-intermittency, and contact/tool-use tasks.
+A physical test of a theory about how people move their arms.
 
-### Final project: recreating human reaching with a robot arm
+### Recreating human reaching with a robot arm
 
 The goal was to build a real, physical test of a specific theory of human motor control —
 the 1993 McIntyre-Bizzi Modified Equilibrium-Point model — by implementing it on a 2-DOF

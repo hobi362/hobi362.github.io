@@ -1,26 +1,22 @@
 ---
-title: "Intelligent Machine Design Laboratory"
-institution: "University of Florida"
-term: "Spring 2015"
-sort_date: "2015-05"
-course_code: "EEL4665/5666"
-order: 16
+title: "DrumBot"
+subtitle: "A robot that plays a real drum kit by watching you air-drum in front of a Kinect"
+org: "University of Florida"
+period: "Spring 2015"
+location: "Gainesville, FL"
+role: "Sole designer and builder"
+course: "EEL4665 / 5666 — Intelligent Machine Design Laboratory"
+order: 3
+sheet: "PRJ-03"
+thumb: "/assets/images/courses/imdl/drumkit-top.jpg"
 tags: ["Microcontroller interfacing", "Sensor integration", "Kinect", "BeagleBone", "Solenoids", "Autonomous robots"]
 links:
   - label: "My code — Kinect strike detection, BeagleBone solenoid control"
     url: "https://github.com/hobi362/imdl-kinect-air-drums"
-key_project: "DrumBot — a robot that mimics a person air-drumming, tracked by an Xbox Kinect and translated into real drum hits."
 ---
-IMDL is a capstone-style laboratory — cross-listed undergraduate and beginning graduate —
-taught by Antonio Arroyo and Eric M. Schwartz. It gives students a realistic engineering
-experience in the design, simulation, fabrication, assembly, integration, testing and
-operation of a relatively complex intelligent autonomous machine.
-
-The project is built around a small, microcomputer-controlled, electronically sensualised
-autonomous mobile robot that exhibits tasking behaviours, and it deliberately forces the
-integration of sub-disciplines that are usually taught separately: microcomputer interfacing
-and programming, analog and digital electronics, computer-aided engineering, control,
-mechanical design, CAD and communications.
+A robot that plays a real drum kit by watching you play an imaginary one. An Xbox Kinect
+tracks your hands, a laptop turns that motion into strike commands, and solenoids on a
+handmade kit hit the drums you were miming.
 
 ### The problem I picked
 
