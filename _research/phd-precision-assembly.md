@@ -25,6 +25,8 @@ Cables From A Robotic Crane,"* is about getting precision assembly out of a cran
 positioning by being clever about how the load is suspended, rather than trying to make the
 crane itself more precise.
 
+![The proof-of-concept test rig, annotated: a velocity controlled base frame carrying two cables that suspend an orange shaft above a chamfered hole, with OptiTrack motion capture markers on the shaft and the fixture, an indicator LED that signals contact, and a ground reference plane of markers below](/assets/images/research/phd-precision-assembly/test-rig.png)
+
 ### The core idea
 
 A heavy shaft suspended from multiple cables, attached at specific positions and
