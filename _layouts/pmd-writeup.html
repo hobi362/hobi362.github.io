@@ -17,6 +17,29 @@ layout: default
     {% if page.youtube_id %}
       {% include youtube.html id=page.youtube_id title=page.title caption=page.video_caption %}
     {% endif %}
+    {% if page.attachments or page.attachments_offsite %}
+    <div class="callout">
+      <span class="tb-label">Supplemental material</span>
+      {% if page.attachments %}
+      <ul class="attach-list">
+        {% for a in page.attachments %}
+        <li><a href="{{ a.url | relative_url }}">{{ a.label }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% comment %}
+        Files too large to host on GitHub Pages (100MB hard limit). Named so the record is
+        complete, with the size, rather than silently dropped.
+      {% endcomment %}
+      {% if page.attachments_offsite %}
+      <ul class="attach-list attach-list--offsite">
+        {% for a in page.attachments_offsite %}
+        <li>{{ a.label }} <span class="attach-note">&mdash; {{ a.size }}, too large to host here</span></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% endif %}
   </article>
 </div>
 
