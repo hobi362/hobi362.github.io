@@ -1,6 +1,6 @@
 ---
-title: "Senior Mechanical Design Engineer"
-subtitle: "Previously Senior Controls Software Engineer, Controls Software Engineer II"
+title: "Senior Mechanical Design Engineer/Senior Controls Software Engineer"
+subtitle: "Previously Controls Software Engineer II"
 org: "Medtronic"
 period: "February 2022 – present"
 sort_date: "9999-12"
@@ -15,9 +15,9 @@ highlights:
   - "Developed a custom software controller for a robotic surgical instrument jaw via system identification"
 ---
 I joined Medtronic full-time right after my contract R&D role, starting as a Controls
-Software Engineer II and moving up through Senior Controls Software Engineer to my current
-role as Senior Mechanical Design Engineer — a path that's let me work both sides of the
-hardware/software line on the same robotic surgical systems.
+Software Engineer II and moving up to Senior Mechanical Design Engineer and Senior Controls
+Software Engineer — a dual role that has me working both sides of the hardware/software line
+on the same robotic surgical systems.
 
 Most of my time has centered on the Robotic Arm and Setup Arm (RASA), where I've become the
 go-to person for both the mechanical hardware and the software that drives it. That's meant
