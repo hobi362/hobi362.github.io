@@ -3,6 +3,7 @@ title: "Precision Assembly of Heavy Objects Suspended from a Crane"
 subtitle: "Using cable slack, not rigid positioning, to insert a heavy peg into a tight-clearance hole"
 org: "MIT — d'Arbeloff Laboratory"
 period: "2019 – 2021"
+sort_date: "2021-12"
 location: "Cambridge, MA"
 role: "PhD Candidate (Advisor: H. Harry Asada)"
 order: 3

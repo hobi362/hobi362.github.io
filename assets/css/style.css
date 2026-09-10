@@ -190,7 +190,6 @@ h1, h2, h3, h4 { font-family: var(--sans-cond); font-weight: 700; margin: 0; col
   border-top: 1px solid var(--line);
 }
 .tb-cell:first-child { border-top: none; }
-.tb-cell--sheet { background: var(--paper); }
 .tb-label {
   display: block;
   font-family: var(--mono);

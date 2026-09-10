@@ -38,13 +38,13 @@ anything. **Two different sort orders are in play:**
 
 | Index | Order | Driven by |
 |---|---|---|
-| `/research/`, `/projects/` | oldest first, so a career reads forward | `order:` |
-| `/experience/`, `/coursework/` | most recent first | `sort_date:` |
+| `/research/`, `/experience/`, `/coursework/` | most recent first | `sort_date:` |
+| `/projects/` | oldest first | `order:` |
 
 `sort_date:` is `"YYYY-MM"` of the **end** of the term or appointment (a Spring term ends
 `-05`, Fall `-12`, Summer `-08`). An ongoing role uses `"9999-12"` so it stays pinned to
-the top. Don't use `order:` for these two — the course `order:` numbers are historical and
-are not chronological.
+the top. Don't use `order:` for those three — the course `order:` numbers are historical
+and are not chronological.
 
 ### Adding a new project
 

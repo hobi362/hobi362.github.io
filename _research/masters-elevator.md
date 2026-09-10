@@ -3,6 +3,7 @@ title: "Multi-Track Elevator System for E-Commerce Fulfillment Centers"
 subtitle: "A grid of rails and self-powered carriages, built to move packages vertically and horizontally without a conventional elevator shaft"
 org: "MIT — d'Arbeloff Laboratory"
 period: "Fall 2015 – Spring 2018"
+sort_date: "2018-05"
 location: "Cambridge, MA"
 role: "Graduate Researcher"
 order: 2

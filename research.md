@@ -6,6 +6,6 @@ collection_key: research
 sheet: "IDX-1"
 permalink: /research/
 ---
-Three research appointments, running from an undergraduate thesis at the University of
-Florida through a master's and doctorate in MIT's d'Arbeloff Laboratory. Each sheet covers
-the problem, approach, my specific contribution, and results.
+Three research appointments — a doctorate and a master's in MIT's d'Arbeloff Laboratory,
+and an undergraduate thesis at the University of Florida. Most recent first. Each sheet
+covers the problem, approach, my specific contribution, and results.
