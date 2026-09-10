@@ -6,7 +6,7 @@ subtitle: "Roller spacing that beats jamming, and why the resistance scales with
 week: 2
 week_label: "Week 2"
 order: 2
-sheet: "2.70-SG-02"
+sheet: "2.77-SG-02"
 summary: "Looked at the sliding seat's roller geometry and worked the fan flywheel's power dissipation, which goes as the cube of angular velocity."
 topics: ["St. Venant", "Linear guides", "Flywheel dynamics", "Drag torque"]
 youtube_id: ""

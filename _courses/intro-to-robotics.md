@@ -3,7 +3,7 @@ title: "Introduction to Robotics"
 institution: "Massachusetts Institute of Technology"
 term: "Fall 2015"
 sort_date: "2015-12"
-course_code: "2.12"
+course_code: "2.120"
 order: 19
 tags: ["Machine vision", "OpenCV", "Dynamixel servos", "Trajectory planning", "GPS navigation"]
 links:
@@ -11,7 +11,7 @@ links:
     url: "https://github.com/hobi362/2-12-intro-to-robotics-2017"
 key_project: "Blizzard Rescue — a mobile robot with a camera-guided arm and a front plow, tasked with finding and clearing a target buried in snow. Team of 6 (Ali Abdalla, Cyndia Cao, Christopher Harmon, Ryan Penny, Nihala Thanikkal, and me)."
 ---
-2.12 is MIT's project-based intro robotics class — a semester building up to one big final
+2.120 is MIT's project-based intro robotics class — a semester building up to one big final
 robot project, done in teams. Ours was "Blizzard Rescue," which was exactly as literal as
 it sounds: a mobile robot that has to find a target buried in a snowy test environment and
 clear a path to it, combining a plow-equipped chassis with a camera-guided arm.

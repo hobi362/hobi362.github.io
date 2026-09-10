@@ -6,7 +6,7 @@ subtitle: "The week the model was wrong, the re-analysis fixed it, and the carri
 week: 7
 week_label: "Week 7"
 order: 7
-sheet: "2.70-WU-07"
+sheet: "2.77-WU-07"
 summary: "Finished the first linear motion slide, measured its stiffness and accuracy, and rebuilt the yaw and pitch model after measurements came in 10x and 20x below prediction."
 topics: ["CNC milling", "Stiffness testing", "Model correction", "Metrology", "Design for test"]
 attachments:

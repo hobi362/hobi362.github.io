@@ -6,7 +6,7 @@ subtitle: "Designing a Maxwell coupling to hold a rail turntable in nine repeata
 week: 1
 week_label: "Week 1"
 order: 1
-sheet: "2.70-WU-01"
+sheet: "2.77-WU-01"
 summary: "Designed, built and tested a wooden Maxwell kinematic coupling to precisely position the turntable in my master's rail system."
 topics: ["Kinematic couplings", "Exact constraint", "Abbe error", "Repeatability", "CNC routing"]
 youtube_id: ""

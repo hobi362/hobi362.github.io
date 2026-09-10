@@ -6,7 +6,7 @@ subtitle: "Hydraulic pressure and total drive power for a kids' ride, from photo
 week: 7
 week_label: "Week 7"
 order: 7
-sheet: "2.70-SG-07"
+sheet: "2.77-SG-07"
 summary: "Estimated the hydraulic piston force, cylinder pressure and total drive power for a spinning Legoland ride from photographs and ride timings."
 topics: ["Hydraulics", "Free-body diagrams", "Rotational inertia", "Power estimation"]
 youtube_id: ""

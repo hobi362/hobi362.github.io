@@ -3,13 +3,13 @@ pmd_subpage: true
 layout: pmd-project
 title: "T-Based Precision Lathe"
 subtitle: "A self-built mini lathe: two linear axes, one spindle, designed and machined from scratch"
-sheet: "2.70-PRJ"
+sheet: "2.77-PRJ"
 tags: [SolidWorks, "Error budgeting", "Precision metrology", "CNC machining"]
 youtube_id: ""
 video_caption: "The finished lathe facing a test part."
 permalink: /coursework/precision-machine-design/project/
 ---
-The final project in 2.70 is a semester-long build: design and machine your own small
+The final project in 2.77 is a semester-long build: design and machine your own small
 precision lathe from raw stock, with every axis backed by a real error budget rather than
 "it looks stiff enough." Mine came together as a T-based lathe — two linear motion slides
 (the X and Z axes, [Weeks 5–7](/coursework/precision-machine-design/writeups/week-05/)) and

@@ -6,7 +6,7 @@ subtitle: "The spindle came out well — and then the chuck turned out to be eat
 week: 10
 week_label: "Week 10"
 order: 10
-sheet: "2.70-WU-10"
+sheet: "2.77-WU-10"
 summary: "Machined and tested the spindle, measuring runout at three locations, and found the chuck contributes an order of magnitude more error than the shaft."
 topics: ["Spindle", "Runout", "Plain bearings", "Stiffness modelling", "Error budget"]
 attachments:

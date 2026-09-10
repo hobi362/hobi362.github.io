@@ -6,7 +6,7 @@ subtitle: "A Rayleigh-Ritz buckling load for a tapered blade — and why it has 
 week: 6
 week_label: "Week 6"
 order: 6
-sheet: "2.70-SG-06"
+sheet: "2.77-SG-06"
 summary: "Analysed the buckling of a fencing foil with Rayleigh-Ritz, and looked at how the semi-circular cross section and eccentric loading force it to bend the safe way."
 topics: ["Buckling", "Rayleigh-Ritz", "Tapered beams", "Eccentric loading", "Design for safety"]
 youtube_id: ""

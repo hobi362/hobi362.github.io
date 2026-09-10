@@ -6,7 +6,7 @@ subtitle: "Why the sparks are hot, why the case survives being sat on, and how t
 week: 1
 week_label: "Week 1"
 order: 1
-sheet: "2.70-SG-01"
+sheet: "2.77-SG-01"
 summary: "Took a Zippo apart and worked through the oxidation physics behind the spark, a plate-yield estimate on the case, and the bi-stable cam that holds the lid."
 topics: ["Reverse engineering", "Bi-stable mechanism", "Plate bending", "FRDPARRC"]
 youtube_id: ""

@@ -6,7 +6,7 @@ subtitle: "Sketch-modelling a spindle and a leadscrew mount, and predicting 152.
 week: 8
 week_label: "Week 8"
 order: 8
-sheet: "2.70-WU-08"
+sheet: "2.77-WU-08"
 summary: "Built sketch models of both rotary motion modules -- the spindle and the leadscrew carriage mount -- and found geometric error dominates the spindle by two orders of magnitude."
 topics: ["Spindle design", "Bearing selection", "Leadscrew", "Buckling", "Error budget"]
 attachments:

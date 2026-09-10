@@ -6,7 +6,7 @@ subtitle: "A 4:1 lever hiding in plain sight, and a 3.5 m stopping distance from
 week: 5
 week_label: "Week 5"
 order: 5
-sheet: "2.70-SG-05"
+sheet: "2.77-SG-05"
 summary: "Worked the V-brake's lever ratio from a moment balance, then used an energy balance to predict the stopping distance from 15 mph."
 topics: ["Lever mechanisms", "Mechanical advantage", "Friction", "Energy methods"]
 youtube_id: ""

@@ -6,7 +6,7 @@ subtitle: "What the hanging mass is for, and whether the capstan equation says t
 week: 3
 week_label: "Week 3"
 order: 3
-sheet: "2.70-SG-03"
+sheet: "2.77-SG-03"
 summary: "First-order analysis of a bunny-slope tow rope -- resistance force, the hanging tensioner mass, tension propagation through the pulley network, and a capstan slip check."
 topics: ["Belt drives", "Capstan equation", "Pre-tension", "Free-body diagrams"]
 youtube_id: ""

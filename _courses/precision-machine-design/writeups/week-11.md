@@ -6,14 +6,14 @@ subtitle: "Two linear modules and a spindle become a machine — and the error b
 week: 11
 week_label: "Week 11"
 order: 11
-sheet: "2.70-WU-11"
+sheet: "2.77-WU-11"
 summary: "Assembled the complete lathe on an 80/20 base, made a tool holder and leadscrew mounts, and traced a 0.66 mm error budget largely to the three-jaw chuck."
 topics: ["System integration", "Tool holder", "Leadscrew", "Error budget", "80/20"]
 attachments:
   - label: "Error_Budget_Spreadsheet_RMH_Rev3.xlsx"
     url: "/assets/files/coursework/precision-machine-design/Error_Budget_Spreadsheet_RMH_Rev3.xlsx"
-  - label: "2.70 final report (PDF)"
-    url: "/assets/files/coursework/precision-machine-design/2-70-final-report.pdf"
+  - label: "Final report (PDF)"
+    url: "/assets/files/coursework/precision-machine-design/final-report.pdf"
 attachments_offsite:
   - label: "LatheDesign_RMH.xlsx — the full lathe design spreadsheet"
     size: "300.8 MB"

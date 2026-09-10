@@ -6,7 +6,7 @@ subtitle: "A reflection week — answering reviewer comments and finding the cau
 week: 4
 week_label: "Week 4"
 order: 4
-sheet: "2.70-WU-04"
+sheet: "2.77-WU-04"
 summary: "Reworked the coupling accuracy test, traced the kinematic coupling's stiffness discrepancy to the ball flats, and moved the EAC model from MATLAB into a spreadsheet."
 topics: ["Elastic averaging", "Error budgeting", "Metrology", "Design review"]
 attachments:

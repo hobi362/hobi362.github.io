@@ -6,7 +6,7 @@ subtitle: "Four bolts, one 12 kN·m moment, and why they only need a tenth of th
 week: 11
 week_label: "Week 11"
 order: 11
-sheet: "2.70-SG-11"
+sheet: "2.77-SG-11"
 summary: "Added the beam's own weight to last week's traffic light analysis, then sized the four-bolt mast connection for combined shear, moment-induced tension and clamping preload."
 topics: ["Bolted joints", "Preload", "Combined loading", "Mohr's circle", "Centroids"]
 youtube_id: ""

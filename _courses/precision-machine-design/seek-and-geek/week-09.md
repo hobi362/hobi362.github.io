@@ -6,7 +6,7 @@ subtitle: "Deriving the transmission ratios from scratch, then finding which com
 week: 9
 week_label: "Week 9"
 order: 9
-sheet: "2.70-SG-09"
+sheet: "2.77-SG-09"
 summary: "Derived three planetary gear ratios from first principles for a gearbox found in the lab, then traced the torque limit to the sun gear teeth."
 topics: ["Planetary gears", "Transmission ratios", "Lewis bending", "Keys and shafts"]
 youtube_id: ""

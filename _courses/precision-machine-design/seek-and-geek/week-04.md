@@ -6,7 +6,7 @@ subtitle: "HTMs for Dummies — building the transform chain for a 7-DOF arm, th
 week: 4
 week_label: "Week 4"
 order: 4
-sheet: "2.70-SG-04"
+sheet: "2.77-SG-04"
 summary: "Used a labmate's ABB YuMi to work through homogeneous transformation matrices from first principles, then extended them to predict error at the end effector."
 topics: ["HTMs", "Kinematics", "Error propagation", "Small-angle approximation"]
 youtube_id: ""

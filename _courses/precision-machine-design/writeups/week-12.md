@@ -6,12 +6,12 @@ subtitle: "The whole semester as one document — error model, build, and the tw
 week: 12
 week_label: "Week 12"
 order: 12
-sheet: "2.70-WU-12"
+sheet: "2.77-WU-12"
 summary: "Final report: the complete T-based lathe, its error budget, and facing cuts taken with and without the three-jaw chuck."
 topics: ["Error budget", "Homogeneous transformation matrices", "Metrology", "System integration"]
 attachments:
-  - label: "2.70 final report — the full 23-page report (PDF)"
-    url: "/assets/files/coursework/precision-machine-design/2-70-final-report.pdf"
+  - label: "Final report — the full 23-page report (PDF)"
+    url: "/assets/files/coursework/precision-machine-design/final-report.pdf"
   - label: "Error_Budget_Spreadsheet_RMH_Rev3.xlsx"
     url: "/assets/files/coursework/precision-machine-design/Error_Budget_Spreadsheet_RMH_Rev3.xlsx"
 attachments_offsite:

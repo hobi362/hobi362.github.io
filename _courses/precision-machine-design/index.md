@@ -4,9 +4,9 @@ title: "Precision Machine Design"
 institution: "Massachusetts Institute of Technology"
 term: "Spring 2018"
 sort_date: "2018-05"
-course_code: "2.70"
+course_code: "2.77"
 order: 17
-sheet: "2.70"
+sheet: "2.77"
 tags: ["Kinematic couplings", "Error budgeting", "Bearings", "Actuators", "Metrology"]
 links:
   - label: "Analysis code — error budget, HTMs, spindle and slide deflection"
@@ -18,7 +18,7 @@ project_youtube_id: ""
 project_url: "/coursework/precision-machine-design/project/"
 permalink: /coursework/precision-machine-design/
 ---
-Taught by Prof. Alex Slocum — 2.70 is about designing machines and systems for accuracy,
+Taught by Prof. Alex Slocum — 2.77 is about designing machines and systems for accuracy,
 repeatability, and resolution: linkages, power transmission, screws and gears, actuators,
 structures, material selection, joints, bearings, error apportionment, and error budgeting,
 each considered from both a physics-of-operation angle and a mechanics (strength,

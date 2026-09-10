@@ -6,7 +6,7 @@ subtitle: "Cutting forces to error budget to carriage geometry — and the findi
 week: 6
 week_label: "Week 6"
 order: 6
-sheet: "2.70-WU-06"
+sheet: "2.77-WU-06"
 summary: "Finalised the boxway carriage design, derived its stiffness from geometry, tested candidate bearing pad materials, and propagated geometric error to the tool tip with HTMs."
 topics: ["Cutting forces", "Error budget", "HTMs", "Bearing pads", "Boxway design"]
 attachments:

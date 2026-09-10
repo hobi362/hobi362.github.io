@@ -6,7 +6,7 @@ subtitle: "Three sketch models, three first-order models, and one prediction tha
 week: 5
 week_label: "Week 5"
 order: 5
-sheet: "2.70-WU-05"
+sheet: "2.77-WU-05"
 summary: "Built and analysed three linear motion slide concepts -- u-groove bearings, a double-shaft slider and a T-rail -- against cutting-force and stiffness requirements for the lathe axes."
 topics: ["Linear motion", "Concept selection", "Error budget", "Hertz contact", "Sketch modelling"]
 attachments_offsite:

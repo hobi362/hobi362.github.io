@@ -6,7 +6,7 @@ subtitle: "A plain-bearing spindle, and the thermal calculation that says it jam
 week: 9
 week_label: "Week 9"
 order: 9
-sheet: "2.70-WU-09"
+sheet: "2.77-WU-09"
 summary: "Designed the spindle around IGUS plain bearings, modelled its radial and axial stiffness, and calculated the frictional heating that would expand the bearings into a jam."
 topics: ["Spindle design", "Plain bearings", "Thermal expansion", "PV limits", "Error budget"]
 attachments:

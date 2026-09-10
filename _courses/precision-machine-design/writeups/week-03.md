@@ -6,7 +6,7 @@ subtitle: "Trading exact constraint for many compliant contacts, and getting wit
 week: 3
 week_label: "Week 3"
 order: 3
-sheet: "2.70-WU-03"
+sheet: "2.77-WU-03"
 summary: "Designed an MDF and aluminium-pin elastically averaged coupling from a MATLAB flexure model, then measured stiffness and repeatability within 5% of prediction."
 topics: ["Elastic averaging", "Flexures", "MATLAB modelling", "MDF", "Metrology"]
 attachments:

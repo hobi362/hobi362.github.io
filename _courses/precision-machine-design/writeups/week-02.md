@@ -6,7 +6,7 @@ subtitle: "An acrylic coupling built as a teaching tool for how manufacturing to
 week: 2
 week_label: "Week 2"
 order: 2
-sheet: "2.70-WU-02"
+sheet: "2.77-WU-02"
 summary: "Designed, laser-cut and characterised a clear acrylic kinematic coupling with adjustable ball and vee positions, then measured accuracy, stiffness and repeatability against prediction."
 topics: ["Kinematic couplings", "FRDPARRC", "Laser cutting", "Metrology", "Abbe error"]
 attachments:
