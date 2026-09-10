@@ -9,6 +9,8 @@ assembly tasks by working directly alongside people, an alternative object retri
 system to let e-commerce companies put fulfillment centers in dense urban areas, and
 a doctoral thesis on precision insertion of extremely heavy cable-suspended pegs.
 
+![Standing beside the Multi-Track Elevator prototype in the d'Arbeloff Laboratory — a wall-mounted triangular grid of white rails with rack teeth, carriages and control electronics mounted across it](/assets/images/home/mte-prototype-portrait.jpg)
+
 Mechanical design and controls are the through-line in my work, and mentorship at MIT
 turned that into a lasting focus on medical device design and innovation — particularly
 women's health and surgical robotics. Outside of engineering I play trombone, ukulele,
