@@ -1,7 +1,8 @@
 <div class="title-block">
   {% if include.draft %}<div class="stamp">PRELIMINARY</div>{% endif %}
   <div class="title-block__main">
-    <span class="tb-doctype">{{ include.doctype }}</span>
+    {% comment %} Omitted on index pages, where the label added nothing. {% endcomment %}
+    {% if include.doctype %}<span class="tb-doctype">{{ include.doctype }}</span>{% endif %}
     <h1 class="tb-title">{{ include.title }}</h1>
     {% if include.subtitle %}<p class="tb-subtitle">{{ include.subtitle }}</p>{% endif %}
   </div>
