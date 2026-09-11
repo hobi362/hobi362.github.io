@@ -8,6 +8,9 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.collection_key == "projects" %}
+  {% include project-table.html %}
+  {% else %}
   <ul class="sheet-list">
     {% comment %}
       Research, Experience and Coursework are reverse-chronological on sort_date (YYYY-MM
@@ -38,4 +41,5 @@ layout: default
     </li>
     {% endfor %}
   </ul>
+  {% endif %}
 </div>

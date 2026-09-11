@@ -32,7 +32,13 @@ collections:
     permalink: /experience/:path/
   courses:
     output: true
-    permalink: /coursework/:path/
+    permalink: /miscellaneous/:path/
+  writeups:
+    output: true
+    permalink: /projects/t-based-lathe/writeups/:name/
+  seekgeeks:
+    output: true
+    permalink: /miscellaneous/seek-and-geek/:name/
 
 defaults:
   - scope:

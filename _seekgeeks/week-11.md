@@ -12,7 +12,7 @@ topics: ["Bolted joints", "Preload", "Combined loading", "Mohr's circle", "Centr
 youtube_id: ""
 video_caption: ""
 ---
-Picking up [last week's traffic light](/coursework/precision-machine-design/seek-and-geek/week-10/)
+Picking up [last week's traffic light](/miscellaneous/seek-and-geek/week-10/)
 with the two things I left out: the weight of the beam itself, and the bolted connection that
 started the whole thing.
 

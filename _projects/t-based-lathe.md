@@ -11,18 +11,16 @@ sheet: "PRJ-09"
 thumb: "/assets/images/courses/precision-machine-design/week11-completed-lathe.jpg"
 tags: [SolidWorks, "Error budgeting", "Precision metrology", "CNC machining", "HTMs"]
 links:
-  - label: "Weekly write-ups and Seek & Geeks — the full 2.77 coursework"
-    url: "/coursework/precision-machine-design/"
   - label: "Analysis code — error budget, HTMs, spindle and slide deflection"
     url: "https://github.com/hobi362/2-70-precision-machine-design"
 ---
 The final project in 2.77 is a semester-long build: design and machine your own small
 precision lathe from raw stock, with every axis backed by a real error budget rather than
 "it looks stiff enough." Mine came together as a T-based lathe — two linear motion slides
-(the X and Z axes, [Weeks 5–7](/coursework/precision-machine-design/writeups/week-05/)) and
-a rotary spindle ([Weeks 8–10](/coursework/precision-machine-design/writeups/week-08/)),
-assembled into one machine in [Week 11](/coursework/precision-machine-design/writeups/week-11/)
-and written up in full in [Week 12](/coursework/precision-machine-design/writeups/week-12/).
+(the X and Z axes, [Weeks 5–7](/projects/t-based-lathe/writeups/week-05/)) and
+a rotary spindle ([Weeks 8–10](/projects/t-based-lathe/writeups/week-08/)),
+assembled into one machine in [Week 11](/projects/t-based-lathe/writeups/week-11/)
+and written up in full in [Week 12](/projects/t-based-lathe/writeups/week-12/).
 In a conventional lathe the tool moves on two axes while the spindle stays fixed; in a
 T-based lathe, the spindle itself rides on one linear axis and the tool on a second axis
 perpendicular to it, forming a "T."
@@ -85,3 +83,31 @@ uncovered, and revisit the yaw/pitch stiffness model for the carriage now that t
 the simply-supported-beam assumption understates real compliance by an order of magnitude.
 Both are exactly the kind of gap this class is designed to surface — a first-order model
 gets you most of the way, and building the real thing is what tells you where it doesn't.
+
+### Weekly write-ups
+
+The lathe was the final project of **2.77 Precision Machine Design**, taught by Prof. Alex
+Slocum — a class about designing machines for accuracy, repeatability and resolution:
+linkages, screws and gears, actuators, structures, bearings, joints, error apportionment and
+error budgeting, each approached from both the physics of operation and the mechanics of
+strength, deformation and thermal effects.
+
+It ran as a weekly cycle, with a written analysis assignment every week building toward the
+final project in the second half of the semester. Mine traced a direct arc: two weeks each
+on kinematic couplings and elastically averaged couplings (exact versus compliant
+constraint), then the rest of the semester building this lathe axis by axis. The twelve
+write-ups below are that semester, week by week. The shorter weekly "Seek & Geek"
+mechanism analyses from the same class are under [Miscellaneous](/miscellaneous/).
+
+<ul class="sheet-list">
+{%- assign weekly = site.writeups | sort: "order" -%}
+{%- for w in weekly %}
+  <li class="sheet-list__row">
+    <span class="sheet-list__code">{{ w.sheet | remove: "2.77-" }}</span>
+    <a href="{{ w.url | relative_url }}" class="sheet-list__title">{{ w.title }}</a>
+    {%- if w.summary %}
+    <p class="sheet-list__desc">{{ w.summary }}</p>
+    {%- endif %}
+  </li>
+{%- endfor %}
+</ul>

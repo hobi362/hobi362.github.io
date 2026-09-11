@@ -18,7 +18,7 @@ prediction and why. This was the first course where I had to defend an uncertain
 estimate rather than just report a value.
 
 It is the earliest thing on this site that clearly points forward. Error budgeting in
-[2.77](/coursework/precision-machine-design/) — predicting how far off a machine will be
+[2.77](/projects/t-based-lathe/) — predicting how far off a machine will be
 before you build it — is the same instinct, learned first on a strain gage and a beam.
 
 *Course materials for EML3301C belong to the instructor, so nothing from that folder is

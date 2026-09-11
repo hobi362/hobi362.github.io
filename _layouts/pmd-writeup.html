@@ -44,7 +44,7 @@ layout: default
 </div>
 
 <nav class="pager">
-  {% assign all = site.courses | where_exp: "c", "c.url contains '/writeups/'" | sort: "order" %}
+  {% assign all = site.writeups | sort: "order" %}
   {% for w in all %}
     {% if w.url == page.url %}{% assign idx = forloop.index0 %}{% endif %}
   {% endfor %}
@@ -54,7 +54,7 @@ layout: default
     {% assign prev = all[prev_idx] %}
     <a class="pager__link pager__link--prev" href="{{ prev.url | relative_url }}">&larr; {{ prev.title }}</a>
   {% else %}
-    <a class="pager__link pager__link--prev" href="{{ '/coursework/precision-machine-design/' | relative_url }}">&larr; 2.77 overview</a>
+    <a class="pager__link pager__link--prev" href="{{ '/projects/t-based-lathe/' | relative_url }}">&larr; T-Based Precision Lathe</a>
   {% endif %}
   {% if next_idx < all.size %}
     {% assign next = all[next_idx] %}

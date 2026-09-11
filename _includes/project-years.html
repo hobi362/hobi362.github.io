@@ -1,0 +1,8 @@
+{%- comment -%}
+  The year span of a project, from its period: "Summer 2020" -> 2020,
+  "Fall 2014 – Spring 2015" -> 2014–2015. Usage: {% include project-years.html period=p.period %}
+{%- endcomment -%}
+{%- assign _parts = include.period | split: " – " -%}
+{%- assign _y1 = _parts.first | strip | slice: -4, 4 -%}
+{%- assign _y2 = _parts.last | strip | slice: -4, 4 -%}
+{%- if _y1 == _y2 -%}{{ _y1 }}{%- else -%}{{ _y1 }}–{{ _y2 }}{%- endif -%}

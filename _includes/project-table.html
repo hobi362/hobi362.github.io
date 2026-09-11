@@ -1,0 +1,36 @@
+{%- comment -%}
+  The /projects/ index: four columns -- number, thumbnail, project, and where it happened
+  (course, school, year). Newest first, matching the home page.
+{%- endcomment -%}
+{%- assign rows = site.projects | sort: "order" | reverse -%}
+<table class="project-table">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col"><span class="visually-hidden">Image</span></th>
+      <th scope="col">Project</th>
+      <th scope="col">Course · School · Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- for p in rows %}
+    <tr>
+      <td class="project-table__num">{{ p.sheet }}</td>
+      <td class="project-table__thumb">
+        <a href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">
+          {%- if p.thumb -%}
+          <img src="{{ p.thumb | relative_url }}" alt="" loading="lazy" width="96" height="64">
+          {%- else -%}
+          <span class="project-table__thumb-empty"></span>
+          {%- endif -%}
+        </a>
+      </td>
+      <td class="project-table__name"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></td>
+      <td class="project-table__meta">
+        {%- if p.course %}<span class="project-table__course">{{ p.course | replace: " — ", " " }}</span>{% endif %}
+        <span class="project-table__where">{{ p.org }} · {% include project-years.html period=p.period %}</span>
+      </td>
+    </tr>
+    {%- endfor %}
+  </tbody>
+</table>

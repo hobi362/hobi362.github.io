@@ -49,17 +49,16 @@ layout: default
 
 <section class="index-block">
   <h2 class="section-heading">Projects <span class="count">[{{ site.projects.size }}]</span></h2>
-  <ul class="sheet-list">
-    {% comment %} Newest first; `order` is chronological, so reverse it. {% endcomment %}
-    {% assign sorted_projects = site.projects | sort: "order" | reverse %}
+  {% comment %} Tiles, newest first; `order` is chronological, so reverse it. {% endcomment %}
+  {% assign sorted_projects = site.projects | sort: "order" | reverse %}
+  <ul class="project-tiles">
     {% for p in sorted_projects %}
-    <li class="sheet-list__row">
-      <span class="sheet-list__code">{{ p.doc_type | default: "PRJ" }}-{{ p.order }}</span>
-      {% comment %} Class projects read "Project, Course# Course name". {% endcomment %}
-      <a href="{{ p.url | relative_url }}" class="sheet-list__title">{{ p.title }}{% if p.course %}, {{ p.course | replace: " — ", " " }}{% endif %}</a>
-      <span class="sheet-list__meta">{{ p.org }}</span>
-      <span class="sheet-list__meta sheet-list__meta--period">{{ p.period }}</span>
-      {% if p.status == "draft" %}<span class="tag tag--pending">PRELIM</span>{% endif %}
+    <li class="project-tile">
+      <a href="{{ p.url | relative_url }}">
+        {% if p.thumb %}<img class="project-tile__img" src="{{ p.thumb | relative_url }}" alt="" loading="lazy">{% else %}<span class="project-tile__img project-tile__img--empty" aria-hidden="true"></span>{% endif %}
+        <span class="project-tile__title">{{ p.title }}</span>
+        <span class="project-tile__year">{% include project-years.html period=p.period %}</span>
+      </a>
     </li>
     {% endfor %}
   </ul>

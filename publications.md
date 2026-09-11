@@ -16,7 +16,7 @@ the home page cannot drift apart.
 {% for p in items %}
 <div class="pub-entry">
   <p class="pub-title">{{ p.title }}</p>
-  <p class="pub-meta">{{ p.meta }}{% if p.award %} <strong>{{ p.award }}.</strong>{% endif %}</p>
+  <p class="pub-meta">{{ p.meta | replace: "R. Hoffman", "<strong>R. Hoffman</strong>" }}{% if p.award %} <strong>{{ p.award }}.</strong>{% endif %}</p>
   {% if p.links %}
   <p class="pub-links">
     {% for l in p.links %}{% unless forloop.first %} · {% endunless %}<a href="{{ l.url }}"{% if l.external %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>{% endfor %}

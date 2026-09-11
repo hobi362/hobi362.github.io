@@ -17,6 +17,6 @@ had to survive contact with sensor noise, quantization, and actuator saturation.
 shaping is a much more interesting exercise when the phase margin you calculated has to
 hold up on a motor that has backlash.
 
-Together with [2.151](/coursework/advanced-system-dynamics-control/) and
-[2.160](/coursework/identification-estimation-learning/), this is the controls sequence
+Together with [2.151](/miscellaneous/advanced-system-dynamics-control/) and
+[2.160](/miscellaneous/identification-estimation-learning/), this is the controls sequence
 behind the robotics and precision-motion work elsewhere in this portfolio.

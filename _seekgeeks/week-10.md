@@ -87,5 +87,5 @@ There's also a real chance my values for diameter, wall thickness and material a
 did my best to find comparable specifications online, but those assumptions matter — the
 wall thickness is essentially squared when computing the beam's second moment of area.
 
-*Continued in [Seek & Geek 11](/coursework/precision-machine-design/seek-and-geek/week-11/),
+*Continued in [Seek & Geek 11](/miscellaneous/seek-and-geek/week-11/),
 which takes on the bolted connection and the weight of the beam.*
