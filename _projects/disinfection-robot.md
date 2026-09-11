@@ -5,8 +5,8 @@ org: "MIT — d'Arbeloff Laboratory"
 period: "Summer 2020"
 location: "Cambridge, MA"
 role: "Mechanical design and fabrication"
-order: 12
-sheet: "PRJ-12"
+order: 14
+sheet: "PRJ-14"
 thumb: "/assets/images/projects/disinfection-robot/mock-uv-lights-lit.jpg"
 tags: ["SolidWorks", "80/20 framing", "Mecanum drive", "Arduino", "Fabrication", "RealSense"]
 ---
