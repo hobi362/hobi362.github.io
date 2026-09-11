@@ -1,7 +1,7 @@
 ---
 title: "Mystery Manor Reveal Effect"
 subtitle: "An 1800s writing desk whose top rotates to swap one set of props for another mid-scene, built to a live client brief"
-org: "Massachusetts Institute of Technology, with 5 Wits"
+org: "M.I.T., with 5 Wits"
 period: "Spring 2016"
 location: "Cambridge, MA"
 role: "Team Poirot"

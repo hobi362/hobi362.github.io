@@ -1,6 +1,6 @@
 ---
 title: "Identification, Estimation, and Learning"
-institution: "Massachusetts Institute of Technology"
+institution: "M.I.T."
 term: "Spring 2017"
 sort_date: "2017-05"
 course_code: "2.160"

@@ -1,6 +1,6 @@
 ---
 title: "Analysis and Design of Feedback Control Systems"
-institution: "Massachusetts Institute of Technology"
+institution: "M.I.T."
 term: "Spring 2016"
 sort_date: "2016-05"
 course_code: "2.140"

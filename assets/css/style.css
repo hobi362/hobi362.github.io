@@ -380,8 +380,8 @@ h1, h2, h3, h4 { font-family: var(--sans-cond); font-weight: 700; margin: 0; col
 }
 .sheet-list__thumb {
   flex: 0 0 auto;
-  width: 72px;
-  height: 48px;
+  width: 96px;
+  height: 64px;
   object-fit: cover;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);
@@ -390,7 +390,7 @@ h1, h2, h3, h4 { font-family: var(--sans-cond); font-weight: 700; margin: 0; col
 }
 .sheet-list__thumb--empty { border-style: dashed; border-color: var(--line); }
 @media (max-width: 640px) {
-  .sheet-list__thumb { width: 52px; height: 36px; }
+  .sheet-list__thumb { width: 66px; height: 44px; }
 }
 .sheet-list__code { font-family: var(--mono); font-size: 0.72rem; color: var(--accent); flex: 0 0 auto; }
 /* Education rows: the degree reads at the same weight and size as the field beside it. */

@@ -1,6 +1,6 @@
 ---
 title: "Advanced System Dynamics & Control"
-institution: "Massachusetts Institute of Technology"
+institution: "M.I.T."
 term: "Fall 2016"
 sort_date: "2016-12"
 course_code: "2.151"

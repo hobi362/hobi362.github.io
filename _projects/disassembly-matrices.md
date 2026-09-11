@@ -1,7 +1,7 @@
 ---
 title: "Disassembly Matrices from CAD Meshes"
 subtitle: "Deriving the part-interference matrix an assembly planner needs straight from STL geometry, instead of having a human enumerate it"
-org: "Massachusetts Institute of Technology"
+org: "M.I.T."
 period: "Spring 2019"
 location: "Cambridge, MA"
 role: "Team project — my contribution was the matrix generation"

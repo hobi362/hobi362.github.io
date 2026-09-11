@@ -36,7 +36,8 @@ layout: default
 </div>
 
 <nav class="pager">
-  {% assign all = site.projects | sort: "order" %}
+  {% comment %} Match the /projects/ listing: newest first. {% endcomment %}
+  {% assign all = site.projects | sort: "order" | reverse %}
   {% for p in all %}
     {% if p.url == page.url %}
       {% assign idx = forloop.index0 %}

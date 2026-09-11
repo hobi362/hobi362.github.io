@@ -1,7 +1,7 @@
 ---
 title: "RAWHIDE — Robotic Assisted Wire Harness Installation"
 subtitle: "Twin collaborative robot arms that hold a wire harness inside an electrical cabinet while a human secures it"
-org: "MIT, with QinetiQ North America, Raytheon, and the Advanced Robotics Manufacturing Institute"
+org: "M.I.T., with QinetiQ North America, Raytheon, and the Advanced Robotics Manufacturing Institute"
 period: "Spring 2018 – Fall 2019"
 location: "Cambridge, MA"
 role: "Graduate Researcher"

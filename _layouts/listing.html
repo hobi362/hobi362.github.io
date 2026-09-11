@@ -16,7 +16,7 @@ layout: default
     {% endcomment %}
     {% case page.collection_key %}
       {% when "research" %}{% assign items = site.research | sort: "sort_date" | reverse %}
-      {% when "projects" %}{% assign items = site.projects | sort: "order" %}
+      {% when "projects" %}{% assign items = site.projects | sort: "order" | reverse %}
       {% when "experience" %}{% assign items = site.experience | sort: "sort_date" | reverse %}
       {% when "courses" %}{% assign raw = site.courses | where_exp: "c", "c.pmd_subpage != true" %}{% assign items = raw | sort: "sort_date" | reverse %}
     {% endcase %}
@@ -24,7 +24,7 @@ layout: default
     <li class="sheet-list__row">
       {% comment %} Optional hero thumbnail; rows without one keep their alignment. {% endcomment %}
       {% if item.thumb %}
-      <img class="sheet-list__thumb" src="{{ item.thumb | relative_url }}" alt="" loading="lazy" width="72" height="48">
+      <img class="sheet-list__thumb" src="{{ item.thumb | relative_url }}" alt="" loading="lazy" width="96" height="64">
       {% elsif page.collection_key == "projects" %}
       <span class="sheet-list__thumb sheet-list__thumb--empty" aria-hidden="true"></span>
       {% endif %}

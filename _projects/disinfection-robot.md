@@ -1,7 +1,7 @@
 ---
 title: "UV Disinfection Robot"
 subtitle: "A mobile germicidal-UV tower for the Micron design challenge — light enough for one person to push, heavy enough not to tip when they do"
-org: "MIT — d'Arbeloff Laboratory"
+org: "M.I.T. — d'Arbeloff Laboratory"
 period: "Summer 2020"
 location: "Cambridge, MA"
 role: "Mechanical design and fabrication"

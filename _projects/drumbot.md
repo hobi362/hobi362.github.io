@@ -1,7 +1,7 @@
 ---
 title: "DrumBot"
 subtitle: "A robot that plays a real drum kit by watching you air-drum in front of a Kinect"
-org: "University of Florida"
+org: "U.F."
 period: "Spring 2015"
 location: "Gainesville, FL"
 role: "Sole designer and builder"

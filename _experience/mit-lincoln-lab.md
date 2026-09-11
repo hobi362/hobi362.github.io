@@ -1,7 +1,7 @@
 ---
 title: "Mechanical Engineering Intern"
 subtitle: "Internship"
-org: "MIT Lincoln Laboratory — Systems and Analysis Group"
+org: "M.I.T. Lincoln Laboratory — Systems and Analysis Group"
 period: "Summer 2014"
 sort_date: "2014-08"
 location: "Lexington, MA"

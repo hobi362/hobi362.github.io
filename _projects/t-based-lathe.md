@@ -1,7 +1,7 @@
 ---
 title: "T-Based Precision Lathe"
 subtitle: "A mini lathe built from raw stock, with every axis backed by a real error budget rather than \"it looks stiff enough\""
-org: "Massachusetts Institute of Technology"
+org: "M.I.T."
 period: "Spring 2018"
 location: "Cambridge, MA"
 role: "Sole designer and machinist"
