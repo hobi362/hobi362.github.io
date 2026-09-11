@@ -20,10 +20,11 @@ layout: default
   <ul class="sheet-list">
     {% for e in site.data.education %}
     <li class="sheet-list__row">
-      <span class="sheet-list__code">{{ e.degree }}</span>
+      <span class="sheet-list__degree">{{ e.degree }}</span>
       <span class="sheet-list__title">{{ e.field }}</span>
       <span class="sheet-list__meta">{{ e.institution }}</span>
       <span class="sheet-list__meta sheet-list__meta--period">{{ e.year }}</span>
+      {% if e.specialization %}<p class="sheet-list__subtitle">{{ e.specialization }}</p>{% endif %}
       {% if e.note %}<p class="sheet-list__desc">{{ e.note }}</p>{% endif %}
     </li>
     {% endfor %}
@@ -53,8 +54,9 @@ layout: default
     {% for p in sorted_projects %}
     <li class="sheet-list__row">
       <span class="sheet-list__code">{{ p.doc_type | default: "PRJ" }}-{{ p.order }}</span>
-      <a href="{{ p.url | relative_url }}" class="sheet-list__title">{{ p.title }}</a>
-      <span class="sheet-list__meta">{{ p.org }}</span>
+      {% comment %} Class projects read "Project, Course# Course name". {% endcomment %}
+      <a href="{{ p.url | relative_url }}" class="sheet-list__title">{{ p.title }}{% if p.course %}, {{ p.course | replace: " — ", " " }}{% endif %}</a>
+      <span class="sheet-list__meta">{{ p.org | replace: "Massachusetts Institute of Technology", "MIT" }}</span>
       <span class="sheet-list__meta sheet-list__meta--period">{{ p.period }}</span>
       {% if p.status == "draft" %}<span class="tag tag--pending">PRELIM</span>{% endif %}
     </li>
@@ -77,17 +79,3 @@ layout: default
   </ul>
 </section>
 
-<section class="index-block">
-  {% assign top_courses = site.courses | where_exp: "c", "c.pmd_subpage != true" %}
-  <h2 class="section-heading">Coursework <span class="count">[{{ top_courses.size }}]</span></h2>
-  <ul class="sheet-list sheet-list--compact">
-    {% assign sorted_courses = top_courses | sort: "order" %}
-    {% for c in sorted_courses %}
-    <li class="sheet-list__row">
-      <span class="sheet-list__code">{{ c.course_code | default: "CRS" }}</span>
-      <a href="{{ c.url | relative_url }}" class="sheet-list__title">{{ c.title }}</a>
-      <span class="sheet-list__meta">{{ c.term }}</span>
-    </li>
-    {% endfor %}
-  </ul>
-</section>

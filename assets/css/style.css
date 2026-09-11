@@ -393,6 +393,15 @@ h1, h2, h3, h4 { font-family: var(--sans-cond); font-weight: 700; margin: 0; col
   .sheet-list__thumb { width: 52px; height: 36px; }
 }
 .sheet-list__code { font-family: var(--mono); font-size: 0.72rem; color: var(--accent); flex: 0 0 auto; }
+/* Education rows: the degree reads at the same weight and size as the field beside it. */
+.sheet-list__degree { color: var(--ink); font-weight: 600; flex: 0 0 auto; }
+.sheet-list__subtitle {
+  flex: 1 1 100%;
+  margin: 0;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
 .sheet-list__title { color: var(--ink); font-weight: 600; flex: 1 1 240px; min-width: 160px; }
 .sheet-list__title:hover { color: var(--accent); }
 .sheet-list__meta { font-family: var(--mono); font-size: 0.78rem; color: var(--ink-faint); flex: 0 0 auto; white-space: nowrap; }
