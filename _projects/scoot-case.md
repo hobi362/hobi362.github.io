@@ -1,7 +1,7 @@
 ---
 title: "Scoot Case"
 subtitle: "A collapsible electric scooter that folds into its own carry case in under 45 seconds"
-org: "U.F."
+org: "UF"
 period: "Fall 2014 – Spring 2015"
 location: "Gainesville, FL"
 role: "Senior capstone team member"

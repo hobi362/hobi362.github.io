@@ -1,7 +1,7 @@
 ---
 layout: pmd-course
 title: "Precision Machine Design"
-institution: "M.I.T."
+institution: "MIT"
 term: "Spring 2018"
 sort_date: "2018-05"
 course_code: "2.77"

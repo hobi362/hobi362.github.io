@@ -1,6 +1,6 @@
 ---
 title: "Mechanics of Materials Laboratory"
-institution: "U.F."
+institution: "UF"
 term: "Spring 2013"
 sort_date: "2013-05"
 course_code: "EML3301C"

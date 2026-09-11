@@ -1,6 +1,6 @@
 ---
 title: "Identification, Estimation, and Learning"
-institution: "M.I.T."
+institution: "MIT"
 term: "Spring 2017"
 sort_date: "2017-05"
 course_code: "2.160"

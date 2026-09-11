@@ -1,7 +1,7 @@
 ---
 title: "Visiting Engineer"
 subtitle: "Part-time, alongside Medtronic"
-org: "M.I.T. — d'Arbeloff Laboratory"
+org: "MIT — d'Arbeloff Laboratory"
 period: "June 2021 – September 2022"
 sort_date: "2022-09"
 location: "Cambridge, MA"

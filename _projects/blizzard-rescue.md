@@ -1,7 +1,7 @@
 ---
 title: "Blizzard Rescue"
 subtitle: "A mobile robot with a camera-guided arm and a front plow, tasked with finding and clearing a target buried in snow"
-org: "M.I.T."
+org: "MIT"
 period: "Fall 2015"
 location: "Cambridge, MA"
 role: "Team of six"

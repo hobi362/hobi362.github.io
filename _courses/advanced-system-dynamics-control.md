@@ -1,6 +1,6 @@
 ---
 title: "Advanced System Dynamics & Control"
-institution: "M.I.T."
+institution: "MIT"
 term: "Fall 2016"
 sort_date: "2016-12"
 course_code: "2.151"

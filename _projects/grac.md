@@ -1,7 +1,7 @@
 ---
 title: "GRAC — Compliant Robotic Leg"
 subtitle: "A single-leg robot on a vertical guide rail, built to test how much ankle compliance actually helps absorb a landing"
-org: "M.I.T."
+org: "MIT"
 period: "Fall 2019"
 location: "Cambridge, MA"
 role: "Team project"

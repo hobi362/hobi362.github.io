@@ -1,7 +1,7 @@
 ---
 title: "MEG-Compatible Keyboard"
 subtitle: "A 25-key polymer keyboard with no metal in it, so neuroscientists can study the brain playing music inside a magnetoencephalography scanner"
-org: "M.I.T."
+org: "MIT"
 period: "Fall 2016"
 location: "Cambridge, MA"
 role: "Student team, later team mentor (2017–2019)"

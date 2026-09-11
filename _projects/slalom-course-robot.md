@@ -1,7 +1,7 @@
 ---
 title: "Slalom Course Robot"
 subtitle: "A team robot that ran a slalom, stripped a rack and cleared seven tennis balls without knocking anything over"
-org: "U.F."
+org: "UF"
 period: "Summer 2012"
 location: "Gainesville, FL"
 role: "Team member"

@@ -1,7 +1,7 @@
 ---
 title: "Equilibrium-Point Robot Arm"
 subtitle: "A 2-DOF direct-drive arm built to test the Equilibrium-Point model of human motor control against Flash's minimum-jerk experiment"
-org: "M.I.T."
+org: "MIT"
 period: "Spring 2017"
 location: "Cambridge, MA"
 role: "Course project"

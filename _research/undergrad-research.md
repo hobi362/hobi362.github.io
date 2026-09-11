@@ -1,7 +1,7 @@
 ---
 title: "F1 Track Curvature Extraction for Minimum-Lap-Time Optimization"
 subtitle: "Turning a picture of a racetrack into the curvature data an optimal-control solver needs"
-org: "U.F. — Vehicle Dynamics and Optimization Laboratory"
+org: "UF — Vehicle Dynamics and Optimization Laboratory"
 degree: "BSME"
 period: "Fall 2013 – Spring 2015"
 sort_date: "2015-05"
