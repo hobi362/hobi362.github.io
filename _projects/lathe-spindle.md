@@ -11,6 +11,8 @@ sheet: "PRJ-12"
 thumb: "/assets/images/projects/lathe-spindle/spindle-shaft-chuck.jpg"
 tags: ["SolidWorks", "MATLAB", "Error budgeting", "Bearing selection", "Tolerancing", "Manual machining"]
 links:
+  - label: "Spindle design review, team presentation, 6 April 2020 (PDF)"
+    url: "/assets/files/projects/lathe-spindle/design-review-1.pdf"
   - label: "Spindle shaft drawing (PDF, 2 sheets)"
     url: "/assets/files/projects/lathe-spindle/spindle-shaft-drawing.pdf"
 ---
@@ -25,6 +27,11 @@ dimension checked in spec at the machine. Then, in the second week of March, MIT
 students home. The spindle design review went ahead over video on 6 April. The lathe was
 never assembled, and the rest of the semester became the
 [desktop CNC router assessment](/projects/desktop-cnc-router/).
+
+The [design review deck](/assets/files/projects/lathe-spindle/design-review-1.pdf) is a
+**team presentation**: all six of us built and presented it together. My slides in it are
+the free-body diagram, the spindle stiffness model, the spindle geometry and the system
+error budget. The rest is my teammates' work.
 
 ### Requirements and the error budget
 
