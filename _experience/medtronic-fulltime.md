@@ -7,7 +7,7 @@ sort_date: "9999-12"
 location: "Boston, MA / Weßling, Germany"
 order: 6
 sheet: "EXP-06"
-tags: [SolidWorks, Simulink, "GD&T", "IEC 60601", "Systems investigation"]
+tags: ["Hugo RAS", SolidWorks, Simulink, "GD&T", "IEC 60601", "Systems investigation"]
 highlights:
   - "Hardware and software subject matter expert for the Robotic Arm and Setup Arm (RASA) subsystems"
   - "Mechanical technical lead on a robotic arm actuator brake failure investigation — tolerance stack analysis, vendor testing, failure cause mapping"
@@ -17,13 +17,18 @@ highlights:
 I joined Medtronic full-time right after my contract R&D role, starting as a Controls
 Software Engineer II and moving up to Senior Mechanical Design Engineer and Senior Controls
 Software Engineer — a dual role that has me working both sides of the hardware/software line
-on the same robotic surgical systems.
+on Medtronic's
+[Hugo™ robotic-assisted surgery (RAS) system](https://www.medtronic.com/en-us/healthcare-professionals/specialties/surgical-robotics/hugo-robotic-assisted-surgery.html).
 
-Most of my time has centered on the Robotic Arm and Setup Arm (RASA), where I've become the
-go-to person for both the mechanical hardware and the software that drives it. That's meant
-leading a field brake failure investigation from root cause through vendor testing and a
-full engineering report, designing the mechanical layout for the next-generation arm's
-brake and release system to IEC 60601 medical compliance, and — on the software side —
+![The Hugo robotic-assisted surgery system: several white robotic arms on mobile carts arranged around an operating table under surgical lights, with the surgeon's open console in the foreground](/assets/images/experience/medtronic/hugo-ras.jpg)
+
+*The Hugo™ RAS system. Image: [Medtronic](https://www.medtronic.com/en-us/healthcare-professionals/specialties/surgical-robotics/hugo-robotic-assisted-surgery.html).*
+
+Most of my time has centered on Hugo's Robotic Arm and Setup Arm (RASA), where I've become
+the go-to person for both the mechanical hardware and the software that drives it. That's
+meant leading a field brake failure investigation from root cause through vendor testing
+and a full engineering report, designing the mechanical layout for the next-generation
+arm's brake and release system to IEC 60601 medical compliance, and — on the software side —
 championing a redesign of the Instrument Drive Unit's Simulink control architecture that
 went from concept to a working deployable prototype within a single planning increment.
 
