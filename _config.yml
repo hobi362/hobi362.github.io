@@ -30,9 +30,6 @@ collections:
   experience:
     output: true
     permalink: /experience/:path/
-  courses:
-    output: true
-    permalink: /miscellaneous/:path/
   writeups:
     output: true
     permalink: /projects/t-based-lathe/writeups/:name/
@@ -56,11 +53,6 @@ defaults:
       type: "experience"
     values:
       layout: "experience"
-  - scope:
-      path: ""
-      type: "courses"
-    values:
-      layout: "course"
 
 sass:
   style: compressed

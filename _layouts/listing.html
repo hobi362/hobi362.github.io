@@ -21,7 +21,6 @@ layout: default
       {% when "research" %}{% assign items = site.research | sort: "sort_date" | reverse %}
       {% when "projects" %}{% assign items = site.projects | sort: "order" | reverse %}
       {% when "experience" %}{% assign items = site.experience | sort: "sort_date" | reverse %}
-      {% when "courses" %}{% assign raw = site.courses | where_exp: "c", "c.pmd_subpage != true" %}{% assign items = raw | sort: "sort_date" | reverse %}
     {% endcase %}
     {% for item in items %}
     <li class="sheet-list__row">

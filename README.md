@@ -27,7 +27,6 @@ top) and body text below it. You never touch HTML to add a new entry.
 _research/       one file per research appointment → shows up at /research/<slug>/
 _projects/       one file per project              → shows up at /projects/<slug>/
 _experience/     one file per job                  → shows up at /experience/<slug>/
-_courses/        one file per class with no project → listed on /miscellaneous/, page at /miscellaneous/<slug>/
 _writeups/       2.77 weekly write-ups             → /projects/t-based-lathe/writeups/<week>/
 _seekgeeks/      2.77 Seek & Geek analyses         → /miscellaneous/seek-and-geek/<week>/
 ```
@@ -41,14 +40,13 @@ anything. **Two different sort keys are in play, both most recent first:**
 
 | Index | Order | Driven by |
 |---|---|---|
-| `/research/`, `/experience/`, `/miscellaneous/` classes | most recent first | `sort_date:` |
+| `/research/`, `/experience/` | most recent first | `sort_date:` |
 | `/projects/` and the home page tiles | most recent first | `order:` (chronological, reversed) |
 | 2.77 write-ups and Seek & Geeks | week 1 first | `order:` |
 
 `sort_date:` is `"YYYY-MM"` of the **end** of the term or appointment (a Spring term ends
 `-05`, Fall `-12`, Summer `-08`). An ongoing role uses `"9999-12"` so it stays pinned to
-the top. Don't use `order:` for those three — the course `order:` numbers are historical
-and are not chronological.
+the top. Don't use `order:` for those two.
 
 ### Adding a new project
 
@@ -58,9 +56,8 @@ and are not chronological.
 4. Delete the `status: draft` line once it has real content — this removes the
    "PRELIMINARY" stamp on that page automatically.
 
-Adding a new job (`_experience/`) or class (`_courses/`) works the same way — copy an
-existing file in that folder, edit, remove `status: draft` when ready. For those two, set
-`sort_date:` rather than worrying about `order:`.
+Adding a new job (`_experience/`) works the same way — copy an existing file in that
+folder, edit, remove `status: draft` when ready, and set `sort_date:` rather than `order:`.
 
 ### The "PRELIMINARY" stamp
 
