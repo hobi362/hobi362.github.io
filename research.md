@@ -28,6 +28,12 @@ rather than by making it finer.
   optimal-control solver needs, and lands within **0.13%** of the real lap record at Circuit
   of the Americas.
 
+![Me on stage at IROS 2017 in Vancouver, accepting the Best Application Paper Award certificate in front of the conference's banners of past host cities](/assets/images/research/iros-2017-award.jpg)
+
+*Accepting the **Best Application Paper Award** at IROS 2017 in Vancouver for
+"A Multi-Track Elevator System for E-Commerce Fulfillment Centers", the conference paper
+from my [master's research](/research/masters-elevator/).*
+
 Each sheet covers the problem, approach, my specific contribution, and results. Applied and
 sponsored engineering work — including the RAWHIDE twin-arm project run with QinetiQ North
 America, Raytheon and the ARM Institute — is under [Projects](/projects/).

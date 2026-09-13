@@ -51,5 +51,8 @@ legible to whoever is playing it.
 
 DrumBot was demonstrated at the Machine Intelligence Lab's public robot showcase for the
 College of Engineering's Electrical and Computer Engineering Department on 22 April 2015,
-and was picked up in [*The Gainesville Sun*](https://www.gainesville.com/)'s coverage of the
-event.
+and was featured in [*The Gainesville Sun*'s photo coverage of the event](https://www.gainesville.com/picture-gallery/news/local/2015/04/22/uf-students-robot-demos/834622007/).
+
+![Demo day in a University of Florida engineering hallway: DrumBot's colour-coded drum kit in the foreground inside a cardboard arena, with me seated behind it explaining the robot while spectators look on](/assets/images/courses/imdl/gainesville-sun-demo-day.jpg)
+
+*Photo: Erica Brough / [The Gainesville Sun](https://www.gainesville.com/picture-gallery/news/local/2015/04/22/uf-students-robot-demos/834622007/), 22 April 2015.*
