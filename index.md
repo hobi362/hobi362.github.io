@@ -8,7 +8,7 @@ Laboratory, where my research focused on robotics and controls. Specifically, I 
 modeled an alternative object retrieval system so that e-commerce companies can have
 warehouse distribution centers in urban areas. I continued as a member of the D’Arbeloff
 Laboratory, obtaining my PhD in 2021 with a focus on Machine Design and Robotics. My PhD
-research focused on the design of a custom robotic gantry crane and the use the precision
+research focused on the design of a custom robotic gantry crane and the precision
 insertion of extremely heavy cable-suspended pegs.
 
 <div class="hero__photos">
