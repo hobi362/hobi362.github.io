@@ -1,15 +1,15 @@
 ---
 layout: home
 ---
-I was raised in a small town just outside of Pensacola, Florida and received my B.S. in
-Mechanical Engineering from the University of Florida (Go Gators!) in 2015. I completed my
-Master’s Degree in 2017 in Course 2 (Mechanical Engineering) within the D’Arbeloff
-Laboratory, where my research focused on robotics and controls. Specifically, I designed and
-modeled an alternative object retrieval system so that e-commerce companies can have
-warehouse distribution centers in urban areas. I continued as a member of the D’Arbeloff
-Laboratory, obtaining my PhD in 2021 with a focus on Machine Design and Robotics. My PhD
-research focused on the design of a custom robotic gantry crane and the precision
-insertion of extremely heavy cable-suspended pegs.
+I grew up in a small town just outside Pensacola, Florida, earned my B.S. in Mechanical
+Engineering from the University of Florida in 2015, and went on to MIT for a Master’s (2017)
+and PhD in Mechanical Engineering in the d’Arbeloff Laboratory (2021) with a focus on
+Robotics and Machine Design. My graduate research focused largely on topics relating to
+warehouse and factory automation. For my Master’s degree, I designed and modeled an
+alternative object retrieval system to let e-commerce companies put fulfillment centers in
+dense urban areas. My PhD research focused on the design of a custom robotic gantry crane
+and the precision insertion of extremely heavy cable-suspended pegs, a challenging problem
+due to the unidirectional stiffness of cables.
 
 <div class="hero__photos">
   <img src="/assets/images/home/professional-portrait.jpg" alt="Professional portrait: me in a black blazer and turquoise shirt, arms crossed and smiling, against a blue studio backdrop" width="800" height="1200">
