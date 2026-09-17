@@ -54,3 +54,9 @@ monitor tension in each of the three cables and actively guide the peg by length
 shortening them, rather than relying purely on the passive cable-slack behavior from the
 earlier analysis. That follow-on control strategy — jam-and-wedge-free insertion using
 active cable tensioning — was accepted to RA-L and presented at IROS 2021.
+
+### Video
+
+{% include youtube.html id="WIGmsnLNr6k" title="IROS 2020 demonstration video, precision assembly with a cable-suspended peg" %}
+
+*The demonstration video accompanying the IROS 2020 paper.*

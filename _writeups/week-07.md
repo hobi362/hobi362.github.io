@@ -15,8 +15,8 @@ attachments:
 attachments_offsite:
   - label: "LMS_Analysis_RMH.xlsx — including the LMSTesting sheet with all measurement data"
     size: "142.1 MB"
-youtube_id: ""
-video_caption: ""
+youtube_id: "JhpgXR0PyS0"
+video_caption: "Testing the linear motion slide"
 ---
 *Design of a Linear Motion Slide, Part 3*
 

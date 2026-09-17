@@ -95,4 +95,23 @@ higher control bandwidth, better joint-angle sensing, and richer muscle geometry
 agonist/antagonist pairs and multi-joint muscles instead of one lumped stiffness term per
 joint.
 
-{% include youtube.html id=page.youtube_id title=page.title caption=page.video_caption %}
+{% include youtube.html id="Yg-9JpYuT6M" title="Perturbation response, 2.183 final project" %}
+
+*The arm pushed mid-reach: the equilibrium-point controller pulls it back to the commanded posture.*
+
+### Video
+
+Three more runs of the arm, each commanded through the equilibrium-point controller.
+
+{% include youtube.html id="2oyrWtU55Eg" title="Quarter-second reaching movement, 2.183 final project" %}
+
+*A quarter-second reach: the fastest of the commanded movements.*
+
+{% include youtube.html id="QeOgLggpC8w" title="Half-second reaching movement, 2.183 final project" %}
+
+*The same reach commanded over half a second.*
+
+{% include youtube.html id="UkoDUlmKz-I" title="Reaching movement with a delay, 2.183 final project" %}
+
+*A reach with a deliberate delay in the command.*
+

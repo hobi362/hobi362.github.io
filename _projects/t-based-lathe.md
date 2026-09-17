@@ -83,6 +83,20 @@ the simply-supported-beam assumption understates real compliance by an order of 
 Both are exactly the kind of gap this class is designed to surface — a first-order model
 gets you most of the way, and building the real thing is what tells you where it doesn't.
 
+### Cutting tests on video
+
+{% include youtube.html id="pEzjOjV9mDM" title="T-based lathe cutting test 1, 2.77 Precision Machine Design" %}
+
+*First cutting test on the assembled lathe.*
+
+{% include youtube.html id="l_wAtu-sLSE" title="T-based lathe cutting test 2" %}
+
+*A second pass, with the part held in the three-jaw chuck.*
+
+{% include youtube.html id="qaizfkeOMls" title="T-based lathe cutting test 4" %}
+
+*A later test, after adjusting the setup.*
+
 ### Weekly write-ups
 
 The lathe was the final project of **2.77 Precision Machine Design**, taught by Prof. Alex

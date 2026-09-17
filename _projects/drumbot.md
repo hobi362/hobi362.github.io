@@ -55,3 +55,13 @@ and was featured in [*The Gainesville Sun*'s photo coverage of the event](https:
 ![Demo day in a University of Florida engineering hallway: DrumBot's colour-coded drum kit in the foreground inside a cardboard arena, with me seated behind it explaining the robot while spectators look on](/assets/images/courses/imdl/gainesville-sun-demo-day.jpg)
 
 *Photo: Erica Brough / [The Gainesville Sun](https://www.gainesville.com/picture-gallery/news/local/2015/04/22/uf-students-robot-demos/834622007/), 22 April 2015.*
+
+### Video
+
+{% include youtube.html id="VSCz0Ri8pvc" title="DrumBot demo at the Machine Intelligence Lab showcase, 2015" %}
+
+*DrumBot playing along with someone air-drumming in front of the Kinect, demo day 2015.*
+
+{% include youtube.html id="Dmnx8fNNYaQ" title="DrumBot demo, second angle, 2015" %}
+
+*A second run from the same showcase.*

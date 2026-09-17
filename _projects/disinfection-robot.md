@@ -114,3 +114,9 @@ end effectors, with opening doors as the stretch goal.
 
 This stayed a design study — the prototype built that summer is the tower, the base, and
 the interlock.
+
+### Video
+
+{% include youtube.html id="Whyv7oc6pBA" title="UV Disinfection Robot driving and disinfecting, 2020" %}
+
+*The prototype under teleoperation, with the mock UV lamps lit.*

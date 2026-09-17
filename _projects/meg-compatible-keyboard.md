@@ -48,7 +48,9 @@ standard MIDI to an external synthesizer — plus a trigger signal to sync with 
 acquisition system. Measured latency between a key press and audio output was 5ms, reliably
 under the ~25ms threshold for human-perceptible delay.
 
-{% include youtube.html id=page.piano_demo_youtube_id title="MEG-compatible piano demo" %}
+{% include youtube.html id="l4lBJ42bXAM" title="MEG-compatible piano demonstration, 2.75 Medical Device Design" %}
+
+*The keyboard being played, with the fibre-optic key sensing that keeps metal out of the scanner.*
 
 ![The team with the finished keyboard, next to the CAD model](/assets/images/courses/medical-device-design/meg-piano-team.jpg)
 
@@ -112,3 +114,9 @@ mechanical design side. A few highlights:
   <p>A compact, portable lift mechanism aimed at helping physically impaired users move from
   sitting to standing without a caregiver's assistance.</p>
 </div>
+
+### Video
+
+{% include youtube.html id="Eg7M_0zfcFA" title="MEG-compatible piano, second demonstration" %}
+
+*A second demonstration of the same prototype.*

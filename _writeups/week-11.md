@@ -17,8 +17,8 @@ attachments:
 attachments_offsite:
   - label: "LatheDesign_RMH.xlsx — the full lathe design spreadsheet"
     size: "300.8 MB"
-youtube_id: ""
-video_caption: ""
+youtube_id: "9PujzT2Ug-4"
+video_caption: "The assembled T-based lathe, first cutting test"
 ---
 *Design of a T-Based Lathe, Part 1*
 

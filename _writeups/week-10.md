@@ -17,8 +17,8 @@ attachments:
 attachments_offsite:
   - label: "LatheDesign_RMH.xlsx — the full lathe design and stiffness calculation"
     size: "300.8 MB"
-youtube_id: ""
-video_caption: ""
+youtube_id: "AqwGI0VA1Qo"
+video_caption: "Testing the rotary motion module"
 ---
 *Design of a Rotary Motion Module, Part 3*
 
