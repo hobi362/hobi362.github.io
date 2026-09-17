@@ -64,7 +64,7 @@ planning modules for the arm and plow that both build on a shared Dynamixel driv
 
 ![Top-down view of the mobile base navigating the test course](/assets/images/courses/intro-to-robotics/course-navigation.jpg)
 
-<iframe src="https://www.youtube-nocookie.com/embed/FOS4jKVLOBg" title="Blizzard Rescue full course run" style="aspect-ratio: 16/9; width:100%; border:1px solid var(--line-strong); margin: 8px 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="FOS4jKVLOBg" title="Blizzard Rescue full course run, MIT intro to robotics competition" %}
 <p style="font-family: var(--mono); font-size: 0.8rem; color: var(--ink-faint); margin-top: 4px;">Full run on the competition course.</p>
 
 This was the first project where I was responsible for a real-time perception pipeline
