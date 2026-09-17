@@ -7,7 +7,6 @@ sort_date: "2022-02"
 location: "Woburn, MA"
 order: 4
 sheet: "EXP-04"
-tags: [SolidWorks, "Medical devices", "Mechanical testing"]
 highlights:
   - "Designed and selected materials for a peristaltic pump keeping intrauterine pressure within critical limits during minimally invasive hysteroscopic procedures"
   - "Tested and selected pump tubing to maintain desired pressure and flow rate in operation"

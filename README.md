@@ -51,13 +51,52 @@ the top. Don't use `order:` for those two.
 ### Adding a new project
 
 1. Copy `_projects/rawhide.md` to `_projects/my-new-project.md`.
-2. Edit the front matter (title, org, dates, tags, links) and the body.
+2. Edit the front matter (title, org, dates, links) and the body. Pages carry no `tags:` —
+   skills and stack come from `_data/skills.yml` (see below).
 3. Give it the next `order:` number and a `sheet:` label (e.g. `PRJ-03`).
 4. Delete the `status: draft` line once it has real content — this removes the
    "PRELIMINARY" stamp on that page automatically.
 
 Adding a new job (`_experience/`) works the same way — copy an existing file in that
 folder, edit, remove `status: draft` when ready, and set `sort_date:` rather than `order:`.
+
+### Skills (`_data/skills.yml`)
+
+One file lists every skill, and it drives three things at once: the **/skills/ page**, the
+**Skills chips** in the side panel of each project, research and job page, and the **filter
+bar** on `/projects/`. Nothing else needs editing to keep them in step.
+
+Each skill looks like this:
+
+```yaml
+- id: fabrication          # anchor + filter value; don't change once published
+  name: "Fabrication & prototyping"
+  short: "Fabrication"     # chip label
+  group: "Build"           # heading on /skills/ (group order is set in skills.md)
+  summary: "Building real hardware: prototyping, frame construction and assembly."
+  filter: true             # offer as a chip on /projects/
+  pages:                   # page URLs that show it, trailing slash included
+    - "/projects/scoot-case/"
+  also:                    # optional: evidence that isn't its own page
+    - label: "Certification: GD&T Basics"
+      url: "/awards/"
+```
+
+To connect a new project to a skill, add its URL under that skill's `pages:`. A `filter:`
+chip that matches no project is hidden automatically, and a page with no skills simply
+shows no Skills row.
+
+If a page collects so many skills that its side panel gets crowded, cap the chips from that
+page's own front matter:
+
+```yaml
+skills_show:
+  - "surgical-robotics"
+  - "medical-devices"
+```
+
+Those chips show in that order and the rest collapse into a "+N more" link to `/skills/`.
+The Skills page still lists the page under every skill that names it.
 
 ### The "PRELIMINARY" stamp
 

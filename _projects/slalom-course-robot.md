@@ -9,7 +9,6 @@ course: "EML2322L — Design & Manufacturing Laboratory"
 order: 1
 sheet: "PRJ-01"
 thumb: "/assets/images/courses/eml2322l-design-manufacturing/mechanism-detail.jpg"
-tags: ["80/20 extrusion", "PVC fabrication", "Differential drive", "Decision matrices"]
 ---
 A team robot that had to run a slalom course, pull a bucket off a rack, lift seven tennis
 balls off a three-tiered stand, and drop them all in the bucket — without knocking anything

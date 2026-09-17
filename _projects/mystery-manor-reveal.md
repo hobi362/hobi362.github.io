@@ -9,7 +9,6 @@ course: "2.744 — Product Design"
 order: 5
 sheet: "PRJ-05"
 thumb: "/assets/images/courses/product-design/concept-sketch.jpg"
-tags: ["User-centered design", "Sketch modeling", "Mechanism design", "Stepper drive"]
 ---
 An 1800s writing desk that changes on cue. At the right moment in a live-action adventure,
 its top rotates and swaps one set of props for another — revealing the clue that tells the

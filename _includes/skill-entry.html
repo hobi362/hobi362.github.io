@@ -1,0 +1,34 @@
+{%- comment -%}
+  One entry on /skills/ -- a skill or a stack item. Usage:
+
+      {% include skill-entry.html s=s %}
+
+  Evidence links come from the entry's own `pages:` (resolved to real page titles) plus any
+  `also:` entries, which cover things that aren't their own page, such as a certification.
+{%- endcomment -%}
+{%- assign s = include.s -%}
+<div class="skill" id="{{ s.id }}">
+  <p class="skill__name">{{ s.name }}</p>
+  <p class="skill__summary">{{ s.summary }}</p>
+  <ul class="skill__evidence">
+    {%- for u in s.pages %}
+    {%- assign doc = site.documents | where: "url", u | first %}
+    <li>
+      {%- if doc %}
+      <span class="skill__kind{% if s.kind == 'stack' %} skill__kind--stack{% endif %}">{{ doc.collection | replace: "projects", "project" | replace: "experience", "job" }}</span>
+      <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+      {%- else %}
+      <a href="{{ u | relative_url }}">{{ u }}</a>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+    {%- for e in s.also %}
+    <li><span class="skill__kind">also</span><a href="{{ e.url | relative_url }}">{{ e.label }}</a></li>
+    {%- endfor %}
+  </ul>
+  {%- assign n = 0 %}
+  {%- for u in s.pages %}{% if u contains "/projects/" %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+  {%- if s.filter and n > 0 %}
+  <p class="skill__filter-link"><a href="{{ '/projects/' | relative_url }}?skill={{ s.id }}">Filter projects by this {{ s.kind }} &rarr;</a></p>
+  {%- endif %}
+</div>

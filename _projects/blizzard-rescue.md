@@ -9,7 +9,6 @@ course: "2.120 — Introduction to Robotics"
 order: 4
 sheet: "PRJ-04"
 thumb: "/assets/images/courses/intro-to-robotics/team-photo.jpg"
-tags: ["Machine vision", "OpenCV", "Dynamixel servos", "Trajectory planning", "GPS navigation"]
 links:
   - label: "My code (navigation, plow control, vision experiments)"
     url: "https://github.com/hobi362/2-12-intro-to-robotics-2017"

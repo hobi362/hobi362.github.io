@@ -9,7 +9,6 @@ location: "Gainesville, FL"
 role: "Undergraduate Research Assistant (advisor: Anil V. Rao)"
 order: 1
 sheet: "RES-01"
-tags: [MATLAB, "Image processing", "Optimal control", "Spline fitting", "GPOPS-II"]
 links:
   - label: "GPOPS-II"
     url: "http://www.gpops2.com/"

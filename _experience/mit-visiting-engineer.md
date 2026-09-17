@@ -7,7 +7,6 @@ sort_date: "2022-09"
 location: "Cambridge, MA"
 order: 5
 sheet: "EXP-05"
-tags: ["Mechanical design consulting", "Robotics"]
 highlights:
   - "Provided machine design expertise to lab members on robotic prototype development and fabrication"
   - "Designed a gantry crane attachment for a robotic crane system manipulating a UR-5 robot and a 15kg aluminum shaft"

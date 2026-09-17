@@ -7,7 +7,6 @@ sort_date: "2014-08"
 location: "Lexington, MA"
 order: 2
 sheet: "EXP-02"
-tags: [MATLAB, "Radar systems", "Trajectory optimization"]
 highlights:
   - "Evaluated and tested strategies for an optimal terrain-following aircraft trajectory method"
   - "Designed and integrated a terrain-following MATLAB algorithm into radar testing software"

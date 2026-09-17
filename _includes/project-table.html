@@ -1,8 +1,28 @@
 {%- comment -%}
   The /projects/ index: four columns -- number, thumbnail, project, and where it happened
   (course, school, year). Newest first, matching the home page.
+
+  Each row carries data-skills (ids from _data/skills.yml) and the filter bar above lets a
+  visitor show only the projects for one skill. Chips that match no project are skipped, and
+  without JavaScript the bar simply doesn't appear while the full table still renders.
 {%- endcomment -%}
 {%- assign rows = site.projects | sort: "order" | reverse -%}
+
+<div class="skill-filter" data-active="">
+  <span class="skill-filter__label">Filter by skill</span>
+  <button type="button" data-skill="" aria-pressed="true">All</button>
+  {%- for s in site.data.skills %}
+  {%- if s.filter %}
+  {%- assign n = 0 %}
+  {%- for u in s.pages %}{% if u contains "/projects/" %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+  {%- if n > 0 %}
+  <button type="button" data-skill="{{ s.id }}" aria-pressed="false">{{ s.short | default: s.name }} <span class="skill-filter__n">{{ n }}</span></button>
+  {%- endif %}
+  {%- endif %}
+  {%- endfor %}
+  <span class="skill-filter__count">{{ rows | size }} projects</span>
+</div>
+
 <table class="project-table">
   <thead>
     <tr>
@@ -14,7 +34,8 @@
   </thead>
   <tbody>
     {%- for p in rows %}
-    <tr>
+    {%- capture skill_ids %}{% for s in site.data.skills %}{% if s.pages contains p.url %}{{ s.id }} {% endif %}{% endfor %}{% endcapture %}
+    <tr data-skills="{{ skill_ids | strip }}">
       <td class="project-table__num">{{ p.sheet }}</td>
       <td class="project-table__thumb">
         <a href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">

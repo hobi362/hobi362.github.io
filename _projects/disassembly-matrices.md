@@ -8,7 +8,6 @@ role: "Team project — my contribution was the matrix generation"
 course: "16.412 / 6.834 — Cognitive Robotics"
 order: 10
 sheet: "PRJ-10"
-tags: ["Assembly planning", "Computational geometry", "Collision detection", "CAD/STL processing", "Ant Colony Optimization"]
 links:
   - label: "Project code — disassembly matrix generation from STL meshes"
     url: "https://github.com/hobi362/cogrob-assembly-planning"

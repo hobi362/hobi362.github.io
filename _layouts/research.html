@@ -8,6 +8,7 @@ layout: default
     {% if page.role %}
     <div class="specs__row"><span class="tb-label">Role</span><span class="tb-value">{{ page.role }}</span></div>
     {% endif %}
+    {% include skill-chips.html %}
     {% if page.tags %}
     <div class="specs__row specs__row--tags">
       <span class="tb-label">Stack</span>

@@ -1,0 +1,771 @@
+# One index of skills and stack. This file drives three things:
+#   1. the /skills/ page (Skills & Stack)
+#   2. the Skills and Stack chip rows on every project, research and experience page
+#   3. the filter bar on /projects/
+#
+# kind: skill  = a capability (what she can do)
+# kind: stack  = the specific thing used (software, hardware, mechanism, method, standard)
+#
+# Every entry appears exactly once, so a skill and a stack item can never duplicate each
+# other. Pages carry no `tags:` -- membership lives only here.
+#
+# Fields: id (anchor + filter value, do not change once published), name, short (chip
+# label), kind, group, summary, filter (offer as a chip on /projects/), pages.
+
+- id: cad
+  name: "CAD & 3D modelling"
+  short: "CAD"
+  kind: skill
+  group: "Design"
+  summary: "3D modelling, assemblies and production drawings in SolidWorks, from class projects through medical robotics."
+  filter: true
+  pages:
+    - "/projects/disinfection-robot/"
+    - "/projects/t-based-lathe/"
+    - "/projects/lathe-spindle/"
+    - "/projects/scoot-case/"
+    - "/projects/grac/"
+    - "/projects/mystery-manor-reveal/"
+    - "/projects/meg-compatible-keyboard/"
+    - "/projects/disassembly-matrices/"
+    - "/research/masters-elevator/"
+    - "/experience/medtronic-fulltime/"
+    - "/experience/medtronic-contract/"
+    - "/experience/mmid/"
+
+- id: mechanism-design
+  name: "Machine & mechanism design"
+  short: "Mechanism design"
+  kind: skill
+  group: "Design"
+  summary: "Designing the mechanisms that make a machine work: linkages, drives, bearings, couplings and exact-constraint interfaces."
+  filter: true
+  pages:
+    - "/projects/scoot-case/"
+    - "/projects/mystery-manor-reveal/"
+    - "/projects/lathe-spindle/"
+    - "/projects/t-based-lathe/"
+    - "/research/masters-elevator/"
+
+- id: gdt
+  name: "GD&T & tolerancing"
+  short: "GD&T"
+  kind: skill
+  group: "Design"
+  summary: "Turning an error budget into drawings a machinist can hold: fits, tolerance stacks and geometric tolerancing."
+  filter: false
+  pages:
+    - "/projects/lathe-spindle/"
+    - "/projects/desktop-cnc-router/"
+    - "/research/masters-elevator/"
+    - "/experience/medtronic-fulltime/"
+  also:
+    - label: "2.77 weekly write-ups"
+      url: "/projects/t-based-lathe/#weekly-write-ups"
+    - label: "Certification: GD&T Basics"
+      url: "/awards/"
+
+- id: dfm
+  name: "Design for manufacture"
+  short: "DFM"
+  kind: skill
+  group: "Design"
+  summary: "Designing parts around how they will actually be made — including parts I then machined myself."
+  filter: false
+  pages:
+    - "/projects/t-based-lathe/"
+    - "/projects/lathe-spindle/"
+    - "/experience/mmid/"
+    - "/experience/medtronic-fulltime/"
+
+- id: user-centred-design
+  name: "User-centred design & concept development"
+  short: "User-centred design"
+  kind: skill
+  group: "Design"
+  summary: "Shaping concepts around the people who use them: sketch models, concept reviews and user studies."
+  filter: false
+  pages:
+    - "/projects/mystery-manor-reveal/"
+    - "/experience/mmid/"
+    - "/experience/medtronic-fulltime/"
+
+- id: error-budgeting
+  name: "Error budgeting & precision engineering"
+  short: "Error budgeting"
+  kind: skill
+  group: "Analysis"
+  summary: "Apportioning a machine's allowable error across its subsystems, then checking it with homogeneous transformation matrices (HTMs) and measurement."
+  filter: true
+  pages:
+    - "/projects/t-based-lathe/"
+    - "/projects/lathe-spindle/"
+    - "/projects/desktop-cnc-router/"
+  also:
+    - label: "2.77 weekly write-ups"
+      url: "/projects/t-based-lathe/#weekly-write-ups"
+
+- id: structural-analysis
+  name: "Structural analysis & FEA"
+  short: "Structural / FEA"
+  kind: skill
+  group: "Analysis"
+  summary: "Stiffness, deflection, fatigue and finite-element analysis of load-bearing structures under the loads they will really see."
+  filter: false
+  pages:
+    - "/projects/scoot-case/"
+    - "/projects/desktop-cnc-router/"
+    - "/projects/lathe-spindle/"
+    - "/projects/t-based-lathe/"
+    - "/experience/medtronic-fulltime/"
+
+- id: dynamics-optimization
+  name: "Dynamics, simulation & optimization"
+  short: "Dynamics & optimization"
+  kind: skill
+  group: "Analysis"
+  summary: "Dynamic models, simulation and optimization, from legged robots to optimal racing lines."
+  filter: false
+  pages:
+    - "/projects/grac/"
+    - "/projects/disassembly-matrices/"
+    - "/research/undergrad-research/"
+    - "/experience/mit-lincoln-lab/"
+
+- id: fabrication
+  name: "Fabrication & prototyping"
+  short: "Fabrication"
+  kind: skill
+  group: "Build"
+  summary: "Building real hardware: prototyping, frame construction and assembly."
+  filter: true
+  pages:
+    - "/projects/scoot-case/"
+    - "/projects/disinfection-robot/"
+    - "/projects/slalom-course-robot/"
+    - "/projects/meg-compatible-keyboard/"
+    - "/research/masters-elevator/"
+    - "/research/phd-precision-assembly/"
+    - "/experience/medtronic-fulltime/"
+
+- id: machining
+  name: "Machining — manual & CNC"
+  short: "Machining"
+  kind: skill
+  group: "Build"
+  summary: "Manual and CNC machining of my own designs, held to the tolerances I set for them."
+  filter: true
+  pages:
+    - "/projects/t-based-lathe/"
+    - "/projects/lathe-spindle/"
+    - "/projects/scoot-case/"
+    - "/projects/desktop-cnc-router/"
+  also:
+    - label: "2.77 weekly write-ups"
+      url: "/projects/t-based-lathe/#weekly-write-ups"
+
+- id: 3d-printing
+  name: "3D printing & additive manufacturing"
+  short: "3D printing"
+  kind: skill
+  group: "Build"
+  summary: "Additive manufacturing for prototypes and test hardware: Stratasys J35 Pro (PolyJet), Formlabs (SLA) and Bambu Lab (FDM) printers at Medtronic, and Markforged composite printing in my PhD research."
+  filter: true
+  pages:
+    - "/research/masters-elevator/"
+    - "/research/phd-precision-assembly/"
+    - "/experience/medtronic-fulltime/"
+
+- id: electromechanical
+  name: "Electromechanical integration"
+  short: "Electromechanical"
+  kind: skill
+  group: "Build"
+  summary: "Integrating motors, actuators, drives and their controllers into working machines."
+  filter: true
+  pages:
+    - "/projects/drumbot/"
+    - "/projects/disinfection-robot/"
+    - "/projects/mystery-manor-reveal/"
+    - "/projects/scoot-case/"
+    - "/projects/slalom-course-robot/"
+    - "/projects/blizzard-rescue/"
+    - "/research/masters-elevator/"
+    - "/research/phd-precision-assembly/"
+
+- id: electronics
+  name: "Electronics & soldering"
+  short: "Electronics"
+  kind: skill
+  group: "Build"
+  summary: "Hand-soldered electronics and protoboard builds, on nearly all of my school robotics projects."
+  filter: false
+  pages:
+    - "/research/masters-elevator/"
+    - "/research/phd-precision-assembly/"
+
+- id: control-design
+  name: "Control design"
+  short: "Control design"
+  kind: skill
+  group: "Controls & software"
+  summary: "Designing controllers: impedance and admittance control, motor control and system identification."
+  filter: true
+  pages:
+    - "/projects/rawhide/"
+    - "/projects/equilibrium-point-arm/"
+    - "/research/phd-precision-assembly/"
+    - "/experience/medtronic-fulltime/"
+
+- id: embedded
+  name: "Embedded & microcontrollers"
+  short: "Embedded"
+  kind: skill
+  group: "Controls & software"
+  summary: "Microcontroller interfacing and real-time I/O with Arduino and BeagleBone."
+  filter: false
+  pages:
+    - "/projects/drumbot/"
+    - "/projects/disinfection-robot/"
+    - "/projects/meg-compatible-keyboard/"
+    - "/research/phd-precision-assembly/"
+
+- id: robotics
+  name: "Robotics"
+  short: "Robotics"
+  kind: skill
+  group: "Robotics & sensing"
+  summary: "Robots across domains: mobile, legged, cable-driven, collaborative and surgical."
+  filter: true
+  pages:
+    - "/projects/rawhide/"
+    - "/projects/grac/"
+    - "/projects/drumbot/"
+    - "/projects/blizzard-rescue/"
+    - "/projects/disinfection-robot/"
+    - "/projects/equilibrium-point-arm/"
+    - "/research/phd-precision-assembly/"
+    - "/experience/medtronic-fulltime/"
+    - "/experience/mit-visiting-engineer/"
+
+- id: sensing
+  name: "Sensors & machine vision"
+  short: "Sensors & vision"
+  kind: skill
+  group: "Robotics & sensing"
+  summary: "Integrating sensors and machine vision: Kinect, RealSense, OpenCV and image processing."
+  filter: true
+  pages:
+    - "/projects/drumbot/"
+    - "/projects/disinfection-robot/"
+    - "/projects/blizzard-rescue/"
+    - "/research/undergrad-research/"
+
+- id: testing
+  name: "Test, verification & metrology"
+  short: "Test & metrology"
+  kind: skill
+  group: "Test & quality"
+  summary: "Designing the experiments and measurements that show what a design actually does."
+  filter: false
+  pages:
+    - "/projects/desktop-cnc-router/"
+    - "/projects/t-based-lathe/"
+    - "/projects/lathe-spindle/"
+    - "/experience/medtronic-contract/"
+    - "/experience/medtronic-fulltime/"
+
+- id: failure-analysis
+  name: "Failure analysis & root cause"
+  short: "Failure analysis"
+  kind: skill
+  group: "Test & quality"
+  summary: "Tracing field and test failures back to a root cause, with the testing and reporting to back it up."
+  filter: false
+  pages:
+    - "/experience/cummins/"
+    - "/experience/medtronic-fulltime/"
+
+- id: medical-devices
+  name: "Medical device design & IEC 60601"
+  short: "Medical devices"
+  kind: skill
+  group: "Medical devices"
+  summary: "Medical device design under IEC 60601 and FDA-style design controls."
+  filter: false
+  pages:
+    - "/projects/meg-compatible-keyboard/"
+    - "/experience/medtronic-fulltime/"
+    - "/experience/medtronic-contract/"
+  also:
+    - label: "Certification: 60601 Training"
+      url: "/awards/"
+
+- id: surgical-robotics
+  name: "Surgical robotics"
+  short: "Surgical robotics"
+  kind: skill
+  group: "Medical devices"
+  summary: "Mechanical and controls engineering on Medtronic's Hugo™ robotic-assisted surgery system."
+  filter: false
+  pages:
+    - "/experience/medtronic-fulltime/"
+
+- id: requirements
+  name: "Requirements & functional requirements"
+  short: "Requirements"
+  kind: skill
+  group: "Process & communication"
+  summary: "Writing functional requirements from what a machine has to do, and tracing design decisions back to them."
+  filter: false
+  pages:
+    - "/projects/disinfection-robot/"
+    - "/projects/lathe-spindle/"
+    - "/projects/desktop-cnc-router/"
+    - "/projects/scoot-case/"
+    - "/projects/meg-compatible-keyboard/"
+    - "/experience/medtronic-fulltime/"
+
+- id: agile
+  name: "Agile / SAFe product ownership"
+  short: "Agile / SAFe"
+  kind: skill
+  group: "Process & communication"
+  summary: "Scaled Agile (SAFe) product ownership: prioritising and running a team's backlog."
+  filter: false
+  pages:
+    - "/experience/medtronic-fulltime/"
+  also:
+    - label: "Certification: SAFe Agile — Certified Product Owner"
+      url: "/awards/"
+
+- id: technical-writing
+  name: "Technical writing & publications"
+  short: "Technical writing"
+  kind: skill
+  group: "Process & communication"
+  summary: "Peer-reviewed papers, theses and technical write-ups that explain the engineering behind a result."
+  filter: false
+  pages: []
+  also:
+    - label: "Publications — 9 papers and theses"
+      url: "/publications/"
+    - label: "IROS 2017 Best Application Paper"
+      url: "/awards/"
+
+- id: solidworks
+  name: "SolidWorks"
+  short: "SolidWorks"
+  kind: stack
+  group: "Software & languages"
+  summary: "The CAD package behind almost every part I have designed."
+  filter: true
+  pages:
+    - "/projects/disinfection-robot/"
+    - "/projects/lathe-spindle/"
+    - "/projects/t-based-lathe/"
+    - "/research/masters-elevator/"
+    - "/experience/medtronic-fulltime/"
+    - "/experience/medtronic-contract/"
+    - "/experience/mmid/"
+
+- id: matlab
+  name: "MATLAB"
+  short: "MATLAB"
+  kind: stack
+  group: "Software & languages"
+  summary: "Modelling, analysis, simulation and optimization."
+  filter: true
+  pages:
+    - "/projects/lathe-spindle/"
+    - "/projects/grac/"
+    - "/projects/blizzard-rescue/"
+    - "/projects/disassembly-matrices/"
+    - "/research/phd-precision-assembly/"
+    - "/research/undergrad-research/"
+    - "/experience/mit-lincoln-lab/"
+
+- id: simulink
+  name: "Simulink"
+  short: "Simulink"
+  kind: stack
+  group: "Software & languages"
+  summary: "Control architecture and plant models for surgical robotics."
+  filter: false
+  pages:
+    - "/experience/medtronic-fulltime/"
+
+- id: python
+  name: "Python"
+  short: "Python"
+  kind: stack
+  group: "Software & languages"
+  summary: "Robot control, data handling and analysis."
+  filter: false
+  pages:
+    - "/projects/rawhide/"
+    - "/projects/blizzard-rescue/"
+    - "/research/phd-precision-assembly/"
+
+- id: ros
+  name: "ROS"
+  short: "ROS"
+  kind: stack
+  group: "Software & languages"
+  summary: "Robot Operating System, for robot software integration."
+  filter: false
+  pages:
+    - "/projects/rawhide/"
+
+- id: robot-raconteur
+  name: "Robot Raconteur"
+  short: "Robot Raconteur"
+  kind: stack
+  group: "Software & languages"
+  summary: "Middleware connecting the RAWHIDE robot software."
+  filter: false
+  pages:
+    - "/projects/rawhide/"
+
+- id: opencv
+  name: "OpenCV"
+  short: "OpenCV"
+  kind: stack
+  group: "Software & languages"
+  summary: "Computer vision library used for on-robot image processing."
+  filter: false
+  pages:
+    - "/projects/blizzard-rescue/"
+
+- id: gpops-ii
+  name: "GPOPS-II"
+  short: "GPOPS-II"
+  kind: stack
+  group: "Software & languages"
+  summary: "Optimal-control solver used for minimum-lap-time trajectories."
+  filter: false
+  pages:
+    - "/research/undergrad-research/"
+
+- id: grbl
+  name: "GRBL"
+  short: "GRBL"
+  kind: stack
+  group: "Software & languages"
+  summary: "Motion-control firmware on the desktop CNC router."
+  filter: false
+  pages:
+    - "/projects/desktop-cnc-router/"
+
+- id: arduino
+  name: "Arduino"
+  short: "Arduino"
+  kind: stack
+  group: "Hardware & electronics"
+  summary: "Microcontroller boards for sensing and real-time I/O."
+  filter: false
+  pages:
+    - "/projects/disinfection-robot/"
+    - "/research/phd-precision-assembly/"
+
+- id: beaglebone
+  name: "BeagleBone"
+  short: "BeagleBone"
+  kind: stack
+  group: "Hardware & electronics"
+  summary: "Single-board computer driving DrumBot solenoids in real time."
+  filter: false
+  pages:
+    - "/projects/drumbot/"
+
+- id: odrive
+  name: "ODrive"
+  short: "ODrive"
+  kind: stack
+  group: "Hardware & electronics"
+  summary: "Brushless motor controllers for the three-winch prototype."
+  filter: false
+  pages:
+    - "/research/phd-precision-assembly/"
+
+- id: dynamixel
+  name: "Dynamixel"
+  short: "Dynamixel"
+  kind: stack
+  group: "Hardware & electronics"
+  summary: "Smart servo actuators used for arms and carriages."
+  filter: false
+  pages:
+    - "/projects/blizzard-rescue/"
+    - "/research/masters-elevator/"
+
+- id: kinect
+  name: "Kinect"
+  short: "Kinect"
+  kind: stack
+  group: "Hardware & electronics"
+  summary: "Depth camera tracking a person air-drumming."
+  filter: false
+  pages:
+    - "/projects/drumbot/"
+
+- id: realsense
+  name: "RealSense"
+  short: "RealSense"
+  kind: stack
+  group: "Hardware & electronics"
+  summary: "Depth cameras for teleoperation and mapping."
+  filter: false
+  pages:
+    - "/projects/disinfection-robot/"
+
+- id: solenoids
+  name: "Solenoids"
+  short: "Solenoids"
+  kind: stack
+  group: "Hardware & electronics"
+  summary: "Electromagnetic actuators striking a real drum kit."
+  filter: false
+  pages:
+    - "/projects/drumbot/"
+
+- id: extrusion-8020
+  name: "80/20 aluminium extrusion"
+  short: "80/20 extrusion"
+  kind: stack
+  group: "Hardware & electronics"
+  summary: "Modular aluminium framing for quick, stiff structures."
+  filter: false
+  pages:
+    - "/projects/disinfection-robot/"
+    - "/projects/slalom-course-robot/"
+
+- id: mecanum-drive
+  name: "Mecanum drive"
+  short: "Mecanum drive"
+  kind: stack
+  group: "Drives & mechanisms"
+  summary: "Omnidirectional wheels that let a base translate sideways."
+  filter: false
+  pages:
+    - "/projects/disinfection-robot/"
+
+- id: brushless-drive
+  name: "Brushless drive"
+  short: "Brushless drive"
+  kind: stack
+  group: "Drives & mechanisms"
+  summary: "Brushless motor drive for the powered suitcase."
+  filter: false
+  pages:
+    - "/projects/scoot-case/"
+
+- id: differential-drive
+  name: "Differential drive"
+  short: "Differential drive"
+  kind: stack
+  group: "Drives & mechanisms"
+  summary: "Two driven wheels steering by speed difference."
+  filter: false
+  pages:
+    - "/projects/slalom-course-robot/"
+
+- id: stepper-drive
+  name: "Stepper drive"
+  short: "Stepper drive"
+  kind: stack
+  group: "Drives & mechanisms"
+  summary: "Stepper-driven motion for a repeatable stage effect."
+  filter: false
+  pages:
+    - "/projects/mystery-manor-reveal/"
+
+- id: series-elastic-actuation
+  name: "Series elastic actuation"
+  short: "Series elastic"
+  kind: stack
+  group: "Drives & mechanisms"
+  summary: "A spring in series with the actuator, for compliant legged motion."
+  filter: false
+  pages:
+    - "/projects/grac/"
+
+- id: cable-driven-systems
+  name: "Cable-driven systems"
+  short: "Cable-driven"
+  kind: stack
+  group: "Drives & mechanisms"
+  summary: "Manipulating a payload through cables that go slack under compression."
+  filter: false
+  pages:
+    - "/research/phd-precision-assembly/"
+
+- id: rack-and-pinion
+  name: "Rack and pinion"
+  short: "Rack and pinion"
+  kind: stack
+  group: "Drives & mechanisms"
+  summary: "Tooth-driven linear motion across a rail network."
+  filter: false
+  pages:
+    - "/research/masters-elevator/"
+
+- id: kinematic-coupling
+  name: "Kinematic coupling"
+  short: "Kinematic coupling"
+  kind: stack
+  group: "Drives & mechanisms"
+  summary: "Exact-constraint interfaces that repeat to microns."
+  filter: false
+  pages:
+    - "/research/masters-elevator/"
+
+- id: elastic-averaging
+  name: "Elastic averaging"
+  short: "Elastic averaging"
+  kind: stack
+  group: "Drives & mechanisms"
+  summary: "Many compliant contacts averaging out individual errors."
+  filter: false
+  pages:
+    - "/research/masters-elevator/"
+
+- id: ant-colony-optimization
+  name: "Ant Colony Optimization"
+  short: "Ant Colony Opt."
+  kind: stack
+  group: "Methods & domains"
+  summary: "Metaheuristic search for good disassembly sequences."
+  filter: false
+  pages:
+    - "/projects/disassembly-matrices/"
+
+- id: computational-geometry
+  name: "Computational geometry"
+  short: "Computational geometry"
+  kind: stack
+  group: "Methods & domains"
+  summary: "Working directly on CAD meshes to reason about parts."
+  filter: false
+  pages:
+    - "/projects/disassembly-matrices/"
+
+- id: collision-detection
+  name: "Collision detection"
+  short: "Collision detection"
+  kind: stack
+  group: "Methods & domains"
+  summary: "Testing whether a part can be removed without hitting others."
+  filter: false
+  pages:
+    - "/projects/disassembly-matrices/"
+
+- id: assembly-planning
+  name: "Assembly planning"
+  short: "Assembly planning"
+  kind: stack
+  group: "Methods & domains"
+  summary: "Deriving the order in which a product can be taken apart or built."
+  filter: false
+  pages:
+    - "/projects/disassembly-matrices/"
+
+- id: spline-fitting
+  name: "Spline fitting"
+  short: "Spline fitting"
+  kind: stack
+  group: "Methods & domains"
+  summary: "Fitting smooth curves to extract track curvature from an image."
+  filter: false
+  pages:
+    - "/research/undergrad-research/"
+
+- id: teaching-by-demonstration
+  name: "Teaching by demonstration"
+  short: "Teaching by demo"
+  kind: stack
+  group: "Methods & domains"
+  summary: "A robot learning a task from a person performing it."
+  filter: false
+  pages:
+    - "/projects/rawhide/"
+
+- id: equilibrium-point-theory
+  name: "Equilibrium-point theory"
+  short: "Equilibrium-point theory"
+  kind: stack
+  group: "Methods & domains"
+  summary: "A model of how the nervous system may command limb posture."
+  filter: false
+  pages:
+    - "/projects/equilibrium-point-arm/"
+
+- id: neuromechanics
+  name: "Neuromechanics"
+  short: "Neuromechanics"
+  kind: stack
+  group: "Methods & domains"
+  summary: "How neural control and limb mechanics combine to produce movement."
+  filter: false
+  pages:
+    - "/projects/equilibrium-point-arm/"
+
+- id: legged-locomotion
+  name: "Legged locomotion"
+  short: "Legged locomotion"
+  kind: stack
+  group: "Methods & domains"
+  summary: "Gait and ground-contact dynamics for a robotic leg."
+  filter: false
+  pages:
+    - "/projects/grac/"
+
+- id: radar-systems
+  name: "Radar systems"
+  short: "Radar systems"
+  kind: stack
+  group: "Methods & domains"
+  summary: "Radar tracking and trajectory work at Lincoln Laboratory."
+  filter: false
+  pages:
+    - "/experience/mit-lincoln-lab/"
+
+- id: gps-navigation
+  name: "GPS navigation"
+  short: "GPS navigation"
+  kind: stack
+  group: "Methods & domains"
+  summary: "Outdoor waypoint navigation for a rescue robot."
+  filter: false
+  pages:
+    - "/projects/blizzard-rescue/"
+
+- id: decision-matrices
+  name: "Decision matrices"
+  short: "Decision matrices"
+  kind: stack
+  group: "Methods & domains"
+  summary: "Scoring concepts against weighted criteria to choose one."
+  filter: false
+  pages:
+    - "/projects/slalom-course-robot/"
+
+- id: iec-60601
+  name: "IEC 60601"
+  short: "IEC 60601"
+  kind: stack
+  group: "Standards & products"
+  summary: "The safety standard for medical electrical equipment."
+  filter: false
+  pages:
+    - "/experience/medtronic-fulltime/"
+
+- id: hugo-ras
+  name: "Hugo RAS"
+  short: "Hugo RAS"
+  kind: stack
+  group: "Standards & products"
+  summary: "Medtronic's robotic-assisted surgery system."
+  filter: false
+  pages:
+    - "/experience/medtronic-fulltime/"

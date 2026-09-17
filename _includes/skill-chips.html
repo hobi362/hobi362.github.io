@@ -1,0 +1,64 @@
+{%- comment -%}
+  Skills and Stack rows for a project / research / experience page.
+
+  Both rows come from _data/skills.yml, the single index: entries with kind "skill" are
+  capabilities, entries with kind "stack" are the specific things used. Each entry exists
+  once, so the two rows can never show the same thing twice, and every chip links to that
+  entry on /skills/.
+
+  A page with many skills can cap the Skills row from its own front matter:
+
+      skills_show: ["surgical-robotics", "medical-devices"]
+
+  Those chips render in that order and the rest collapse into a "+N more" link. The index
+  still credits the page under every entry that lists it.
+{%- endcomment -%}
+
+{%- assign total = 0 -%}
+{%- for s in site.data.skills -%}
+{%- if s.kind == "skill" and s.pages contains page.url -%}{%- assign total = total | plus: 1 -%}{%- endif -%}
+{%- endfor -%}
+{%- assign shown = 0 -%}
+{%- capture skill_chips -%}
+{%- if page.skills_show -%}
+{%- for id in page.skills_show -%}
+{%- for s in site.data.skills -%}
+{%- if s.id == id and s.kind == "skill" and s.pages contains page.url -%}
+{%- assign shown = shown | plus: 1 -%}
+<a class="tag tag--skill" href="{{ '/skills/' | relative_url }}#{{ s.id }}">{{ s.short | default: s.name }}</a>
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+{%- else -%}
+{%- for s in site.data.skills -%}
+{%- if s.kind == "skill" and s.pages contains page.url -%}
+{%- assign shown = shown | plus: 1 -%}
+<a class="tag tag--skill" href="{{ '/skills/' | relative_url }}#{{ s.id }}">{{ s.short | default: s.name }}</a>
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endcapture -%}
+
+{%- capture stack_chips -%}
+{%- for s in site.data.skills -%}
+{%- if s.kind == "stack" and s.pages contains page.url -%}
+<a class="tag tag--stack" href="{{ '/skills/' | relative_url }}#{{ s.id }}">{{ s.short | default: s.name }}</a>
+{%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+
+{%- if skill_chips != "" %}
+<div class="specs__row specs__row--tags">
+  <span class="tb-label">Skills</span>
+  <div class="tag-list">{{ skill_chips }}
+    {%- assign rest = total | minus: shown -%}
+    {%- if rest > 0 %}<a class="tag tag--skill-more" href="{{ '/skills/' | relative_url }}">+{{ rest }} more</a>{% endif -%}
+  </div>
+</div>
+{%- endif -%}
+{%- if stack_chips != "" %}
+<div class="specs__row specs__row--tags">
+  <span class="tb-label">Stack</span>
+  <div class="tag-list">{{ stack_chips }}</div>
+</div>
+{%- endif -%}

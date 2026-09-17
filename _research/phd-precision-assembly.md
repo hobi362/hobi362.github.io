@@ -9,7 +9,6 @@ location: "Cambridge, MA"
 role: "PhD Candidate (Advisor: H. Harry Asada)"
 order: 3
 sheet: "RES-03"
-tags: [Python, MATLAB, "Motor control", "Odrive", "Cable-driven systems"]
 links:
   - label: "Precision Assembly of Heavy Objects... (RA-L 2020) — Download PDF"
     url: "https://819cf279-319a-43b0-964c-d14c7d146900.filesusr.com/ugd/a7bf6b_6deda6dd124f4c5fb905a04572b2b51c.pdf"
@@ -49,7 +48,8 @@ IROS 2020.
 From there I designed and fabricated a scaled three-winch prototype with linear actuators
 to manipulate a 15 kg payload — Harmonic Drive brushless motors, Odrive motor controllers,
 absolute rotary encoders, and HX711 load-cell amplifiers for real-time tension feedback,
-all wired up through Arduino and controlled in Python. The goal was closed-loop control:
+all wired up through Arduino on protoboard I soldered myself and controlled in Python. The
+winch drums and their housings were 3D-printed on a Markforged composite printer. The goal was closed-loop control:
 monitor tension in each of the three cables and actively guide the peg by lengthening and
 shortening them, rather than relying purely on the passive cable-slack behavior from the
 earlier analysis. That follow-on control strategy — jam-and-wedge-free insertion using

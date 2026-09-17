@@ -9,7 +9,6 @@ location: "Cambridge, MA"
 role: "Graduate Researcher (advisor: H. Harry Asada)"
 order: 2
 sheet: "RES-02"
-tags: ["SolidWorks", "Path planning", "Kinematic coupling", "Elastic averaging", "Rack and pinion", "Dynamixel"]
 links:
   - label: "A Multi-Track Elevator System for E-Commerce Fulfillment Centers (IROS 2017) — Download PDF"
     url: "https://819cf279-319a-43b0-964c-d14c7d146900.filesusr.com/ugd/a7bf6b_d662a813b1464b32b6ba13d90de8b768.pdf"
@@ -90,6 +89,9 @@ driven gear motors**.
 ![Photograph of the assembled carriage: a black 3D-printed chassis on four wheels with gear pinions, carrying a battery pack, control board and motors, with a bundle of coloured wires rising from it](/assets/images/research/masters-elevator/carriage-photo.jpg)
 
 ![Close-up photograph of the carriage electronics -- an Arduino Micro and motor driver on protoboard, wrapped in a dense bundle of coloured wiring, with IR receiver boards top and bottom](/assets/images/research/masters-elevator/carriage-electronics.jpg)
+
+I built the carriage electronics myself, hand-soldering the Arduino Micro, motor driver and
+IR receivers onto protoboard to fit inside the 3D-printed chassis.
 
 ![Slide headed "Carrying Capacity and Translational Speed of Carriage" listing actuation requirements of 50 mm/s speed, minimum torque above 0.062 N·m and not backdrivable, against the chosen micro metal gear motor with a 298 to 1 transmission ratio, 100 rpm no-load speed and 0.494 N·m stall torque. A speed against torque and power plot marks the desired operating region, and at maximum motor efficiency the motor torque is 0.105 N·m and linear velocity 52 mm/s, both ticked. Required current of 433 mA means a 1500 mAh battery allows three hours of testing](/assets/images/research/masters-elevator/motor-selection.jpg)
 

@@ -9,7 +9,6 @@ course: "EML4501 / EML4502 — Design Realization / Senior Design"
 order: 2
 sheet: "PRJ-02"
 thumb: "/assets/images/courses/design-realization/scoot-case-poster.jpg"
-tags: ["Senior capstone", "Machine design", "FEA", "Brushless drive", "Fabrication"]
 ---
 A two-semester capstone under Peter Ifju: EML4501 took the design from an open-ended brief
 through detailed analysis and a defended engineering report, and EML4502 was where you found

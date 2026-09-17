@@ -7,7 +7,15 @@ sort_date: "9999-12"
 location: "Boston, MA / Weßling, Germany"
 order: 6
 sheet: "EXP-06"
-tags: ["Hugo RAS", SolidWorks, Simulink, "GD&T", "IEC 60601", "Systems investigation"]
+# Sixteen skills list this page; show the eight most representative and collapse the rest.
+skills_show:
+  - "surgical-robotics"
+  - "medical-devices"
+  - "control-design"
+  - "cad"
+  - "structural-analysis"
+  - "gdt"
+  - "failure-analysis"
 highlights:
   - "Hardware and software subject matter expert for the Robotic Arm and Setup Arm (RASA) subsystems"
   - "Mechanical technical lead on a robotic arm actuator brake failure investigation — tolerance stack analysis, vendor testing, failure cause mapping"
@@ -38,6 +46,15 @@ simulator so the control software could be tested without hardware in the loop, 
 system identification to develop a custom jaw controller. For about a year and a half I was
 also the team's SAFe-certified product owner, prioritizing the RASA lower-level joint
 control backlog.
+
+A lot of the mechanical work is physical. I 3D-print a wide range of components to test
+mechanisms and concepts for the next-generation robot — actuator housings, brake mechanisms,
+housing covers, and the fixtures and brackets used to test them — on Stratasys J35 Pro
+(PolyJet), Formlabs (SLA) and Bambu Lab (FDM) printers. On the analysis side I run FEA on
+the robot arm structure for the loading it actually sees, which depends both on the robot's
+configuration and on the loads users apply to it. Designing those parts for manufacture is
+part of the job throughout. We also run user studies, gathering feedback on design concepts
+and learning what users are looking for before a design goes further.
 
 It's the kind of role that keeps me equally fluent in SolidWorks and Simulink — some weeks
 are entirely about tolerance stacks and vendor coordination, others are entirely about

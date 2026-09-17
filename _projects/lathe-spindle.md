@@ -9,7 +9,6 @@ course: "2.72 — Elements of Mechanical Design"
 order: 12
 sheet: "PRJ-12"
 thumb: "/assets/images/projects/lathe-spindle/spindle-shaft-chuck.jpg"
-tags: ["SolidWorks", "MATLAB", "Error budgeting", "Bearing selection", "Tolerancing", "Manual machining"]
 links:
   - label: "Spindle design review, team presentation, 6 April 2020 (PDF)"
     url: "/assets/files/projects/lathe-spindle/design-review-1.pdf"

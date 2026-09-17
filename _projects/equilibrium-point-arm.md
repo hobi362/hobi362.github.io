@@ -9,7 +9,6 @@ course: "2.183 — Biomechanics and Neural Control of Movement"
 order: 7
 sheet: "PRJ-07"
 thumb: "/assets/images/courses/biomechanics-neural-control/arm-hero.jpg"
-tags: ["Motor control", "Impedance control", "Equilibrium-point theory", "Neuromechanics"]
 links:
   - label: "Project code — Hill muscle model, stability analysis, trajectory plots"
     url: "https://github.com/hobi362/2-183-arm-movement-model"

@@ -7,7 +7,6 @@ sort_date: "2013-08"
 location: "Columbus, IN"
 order: 1
 sheet: "EXP-01"
-tags: [Failure analysis, "Root-cause investigation"]
 highlights:
   - "Diagnosed the cause of a fuel filter failure and helped design preventative measures to keep it from recurring"
   - "Investigated high-pressure fuel line failures using resonant frequency and surface finish analysis"

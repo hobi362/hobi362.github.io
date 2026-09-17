@@ -9,7 +9,6 @@ course: "2.72 — Elements of Mechanical Design"
 order: 13
 sheet: "PRJ-13"
 thumb: "/assets/images/projects/desktop-cnc-router/router-on-bench.jpg"
-tags: ["HTM modelling", "Stiffness testing", "Error budgeting", "Uncertainty analysis", "GRBL"]
 links:
   - label: "Structural assessment (PDF)"
     url: "/assets/files/projects/desktop-cnc-router/structural-assessment.pdf"

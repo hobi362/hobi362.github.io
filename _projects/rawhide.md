@@ -8,7 +8,6 @@ role: "Graduate Researcher"
 order: 8
 sheet: "PRJ-08"
 thumb: "/assets/images/projects/rawhide/twin-arms-cabinet.jpg"
-tags: [ROS, "Robot Raconteur", Python, "Impedance control", "Admittance control", "Teaching by demonstration"]
 links:
   - label: "Code + tutorial (GitHub)"
     url: "https://github.com/rachelmh/rawhide"

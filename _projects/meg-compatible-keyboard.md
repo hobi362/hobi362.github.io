@@ -9,7 +9,6 @@ course: "2.75 — Medical Device Design"
 order: 6
 sheet: "PRJ-06"
 thumb: "/assets/images/courses/medical-device-design/meg-piano-hero.jpg"
-tags: ["Medical devices", "Rapid prototyping", "FDA-style design process"]
 ---
 A magnetoencephalography scanner measures magnetic fields from the brain a billion times
 weaker than the Earth's. Put anything metal near it and the measurement is gone — which is

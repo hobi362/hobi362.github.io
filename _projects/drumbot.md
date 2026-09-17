@@ -9,7 +9,6 @@ course: "EEL4665 / 5666 — Intelligent Machine Design Laboratory"
 order: 3
 sheet: "PRJ-03"
 thumb: "/assets/images/courses/imdl/drumkit-top.jpg"
-tags: ["Microcontroller interfacing", "Sensor integration", "Kinect", "BeagleBone", "Solenoids", "Autonomous robots"]
 links:
   - label: "My code — Kinect strike detection, BeagleBone solenoid control"
     url: "https://github.com/hobi362/imdl-kinect-air-drums"

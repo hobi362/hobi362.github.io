@@ -12,6 +12,7 @@ layout: default
     {% if page.course %}
     <div class="specs__row"><span class="tb-label">Course</span><span class="tb-value">{{ page.course }}</span></div>
     {% endif %}
+    {% include skill-chips.html %}
     {% if page.tags %}
     <div class="specs__row specs__row--tags">
       <span class="tb-label">Stack</span>

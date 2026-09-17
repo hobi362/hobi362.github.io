@@ -256,6 +256,124 @@ h1, h2, h3, h4 { font-family: var(--sans-cond); font-weight: 700; margin: 0; col
 .tag--pending { color: var(--rust); border-color: var(--rust); background: var(--rust-soft); }
 .link-list { flex-direction: column; }
 
+/* Skill chips: same shape as .tag, but they are links to /skills/. */
+a.tag--skill {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  text-decoration: none;
+}
+a.tag--skill:hover, a.tag--skill:focus { background: var(--accent); color: var(--paper-raised); }
+
+/* Stack chips: the specifics. Linked like skill chips, but in the neutral ink so a page's
+   two rows read as different kinds of thing. */
+a.tag--stack {
+  color: var(--ink);
+  border-color: var(--line-strong);
+  background: var(--paper);
+  text-decoration: none;
+}
+a.tag--stack:hover, a.tag--stack:focus { border-color: var(--accent); color: var(--accent); }
+
+.skills-index__label {
+  font-family: var(--sans-cond);
+  font-weight: 700;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+.section-heading--major { margin-top: calc(var(--unit) * 5); }
+.skill__kind--stack { color: var(--accent); }
+
+/* "+N more" when a page caps its chips with skills_show. */
+a.tag--skill-more {
+  color: var(--ink-soft);
+  border-style: dashed;
+  text-decoration: none;
+}
+a.tag--skill-more:hover { color: var(--accent); border-color: var(--accent); }
+
+/* Skill filter above the /projects/ table. */
+.skill-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 calc(var(--unit) * 2);
+}
+.skill-filter__label {
+  font-family: var(--sans-cond);
+  font-weight: 700;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  margin-right: 2px;
+}
+.skill-filter button {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  padding: 3px 9px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.skill-filter button:hover { border-color: var(--accent); color: var(--accent); }
+.skill-filter button[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--paper-raised);
+}
+.skill-filter__n { opacity: 0.65; }
+.skill-filter__count {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+}
+.project-table tr.is-hidden { display: none; }
+
+/* /skills/ */
+.skills-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  margin: calc(var(--unit) * 2) 0 calc(var(--unit) * 3);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+}
+.skill-group { margin-bottom: calc(var(--unit) * 4); }
+.content .skill {
+  border-top: 1px solid var(--line);
+  padding: calc(var(--unit) * 1.5) 0;
+  scroll-margin-top: calc(var(--unit) * 12);
+}
+.content .skill:target { border-left: 2px solid var(--accent); padding-left: calc(var(--unit) * 1.5); }
+.content .skill__name { font-weight: 700; margin: 0; max-width: none; }
+.content .skill__summary { color: var(--ink-soft); font-size: 0.92rem; margin: 2px 0 6px; }
+.content .skill__evidence {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+}
+.content .skill__evidence li { margin: 0; font-size: 0.92rem; }
+.skill__kind {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+  margin-right: 5px;
+}
+.content .skill__filter-link { margin: 6px 0 0; font-size: 0.85rem; }
+
 .content h2, .content h3 { margin-top: calc(var(--unit) * 4); margin-bottom: var(--unit); }
 .content h3 { font-size: 1.15rem; }
 .content p { margin: 0 0 calc(var(--unit) * 2); max-width: 72ch; }

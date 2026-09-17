@@ -6,7 +6,6 @@ sort_date: "2017-08"
 location: "Delft, Netherlands"
 order: 3
 sheet: "EXP-03"
-tags: [SolidWorks, "Concept development", "Hand sketching", "Design for manufacture"]
 ---
 A summer at a product design consultancy in Delft, arranged through **MIT MISTI** — a
 different kind of engineering from the research I'd been doing, much more about client

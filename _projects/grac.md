@@ -8,7 +8,6 @@ role: "Team project"
 course: "2.74 — Bio-inspired Robotics"
 order: 11
 sheet: "PRJ-11"
-tags: ["Legged locomotion", "Lagrangian dynamics", "Series elastic actuation", "Trajectory optimization", "Hybrid simulation"]
 links:
   - label: "Project code — dynamics, hybrid simulation, and optimization"
     url: "https://github.com/hobi362/2-74-bioinspired-robot-leg"

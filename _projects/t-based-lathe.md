@@ -9,7 +9,6 @@ course: "2.77 — Precision Machine Design"
 order: 9
 sheet: "PRJ-09"
 thumb: "/assets/images/courses/precision-machine-design/week11-completed-lathe.jpg"
-tags: [SolidWorks, "Error budgeting", "Precision metrology", "CNC machining", "HTMs"]
 links:
   - label: "Analysis code — error budget, HTMs, spindle and slide deflection"
     url: "https://github.com/hobi362/2-70-precision-machine-design"

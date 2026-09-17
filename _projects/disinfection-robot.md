@@ -8,7 +8,6 @@ role: "Mechanical design and fabrication"
 order: 14
 sheet: "PRJ-14"
 thumb: "/assets/images/projects/disinfection-robot/mock-uv-lights-lit.jpg"
-tags: ["SolidWorks", "80/20 framing", "Mecanum drive", "Arduino", "Fabrication", "RealSense"]
 ---
 In June 2020, Micron Technology announced a design challenge for reliable, low-cost
 ultraviolet robotic disinfection — automating the job of sterilizing a room to help slow
