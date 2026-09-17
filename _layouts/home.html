@@ -20,8 +20,13 @@ layout: default
   <ul class="sheet-list">
     {% for e in site.data.education %}
     <li class="sheet-list__row">
+      {% if e.link %}
+      <span class="sheet-list__degree"><a href="{{ e.link | relative_url }}">{{ e.degree }}</a></span>
+      <a href="{{ e.link | relative_url }}" class="sheet-list__title">{{ e.field }}</a>
+      {% else %}
       <span class="sheet-list__degree">{{ e.degree }}</span>
       <span class="sheet-list__title">{{ e.field }}</span>
+      {% endif %}
       <span class="sheet-list__meta">{{ e.institution }}</span>
       <span class="sheet-list__meta sheet-list__meta--period">{{ e.year }}</span>
       {% if e.specialization %}<p class="sheet-list__subtitle">{{ e.specialization }}</p>{% endif %}

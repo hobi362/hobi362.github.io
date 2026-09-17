@@ -2,6 +2,7 @@
 - degree: "PhD"
   field: "Mechanical Engineering"
   institution: "MIT"
+  link: "/research/phd-precision-assembly/"
   year: "2021"
   specialization: "Specialization in Robotics and Machine Design"
   note: >-
@@ -11,6 +12,7 @@
 - degree: "SM"
   field: "Mechanical Engineering"
   institution: "MIT"
+  link: "/research/masters-elevator/"
   year: "2017"
   note: >-
     Thesis: A Multi-Track Elevator System for E-Commerce Fulfillment Centers, which won the
@@ -19,6 +21,7 @@
 - degree: "BSME"
   field: "Mechanical Engineering"
   institution: "UF"
+  link: "/research/undergrad-research/"
   year: "2015"
   note: >-
     Summa cum laude with a minor in Electrical Engineering, GPA 3.97/4.0. Outstanding
