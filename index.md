@@ -18,4 +18,4 @@ insertion of extremely heavy cable-suspended pegs.
 
 Mechanical design and controls are the through-line in my work, and mentorship at MIT turned
 that into a lasting focus on medical device design and innovation — particularly women’s
-health and surgical robotics.
+health, surgical robotics and warehouse and factory automation.
