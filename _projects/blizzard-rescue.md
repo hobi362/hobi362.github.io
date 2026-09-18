@@ -11,7 +11,7 @@ sheet: "PRJ-04"
 thumb: "/assets/images/courses/intro-to-robotics/team-photo.jpg"
 links:
   - label: "My code (navigation, plow control, vision experiments)"
-    url: "https://github.com/hobi362/2-12-intro-to-robotics-2017"
+    url: "https://github.com/hobi362/2-120-intro-to-robotics-2015"
 ---
 Exactly as literal as it sounds: a mobile robot that has to find a target buried in a snowy test environment and
 clear a path to it, combining a plow-equipped chassis with a camera-guided arm.
@@ -64,8 +64,11 @@ planning modules for the arm and plow that both build on a shared Dynamixel driv
 
 ![Top-down view of the mobile base navigating the test course](/assets/images/courses/intro-to-robotics/course-navigation.jpg)
 
-{% include youtube.html id="FOS4jKVLOBg" title="Blizzard Rescue full course run, MIT intro to robotics competition" %}
+{% include youtube.html id="FOS4jKVLOBg" title="Blizzard Rescue full course run, MIT 2.12 Intro to Robotics competition, 2015" %}
 <p style="font-family: var(--mono); font-size: 0.8rem; color: var(--ink-faint); margin-top: 4px;">Full run on the competition course.</p>
+
+{% include youtube.html id="_kWNR2Iva5Q" title="Team 3A final video, MIT 2.12 Intro to Robotics competition, 2015" %}
+<p style="font-family: var(--mono); font-size: 0.8rem; color: var(--ink-faint); margin-top: 4px;">Our team's final video for the competition.</p>
 
 This was the first project where I was responsible for a real-time perception pipeline
 feeding directly into motion planning, rather than perception and control being separate
