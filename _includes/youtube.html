@@ -1,4 +1,14 @@
+{%- comment -%}
+  YouTube embed via the privacy-friendly nocookie domain.
+    include youtube.html with id="VIDEO_ID" and an optional title
+  Pass vertical=true for a Short (9:16). To set several Shorts side by side, wrap them in
+  <div class="shorts-row"> ... </div>.
+{%- endcomment -%}
 {% unless include.id == blank %}
-<iframe src="https://www.youtube-nocookie.com/embed/{{ include.id }}" title="{{ include.title | default: 'Video' }}" style="aspect-ratio: 16/9; width:100%; border:1px solid var(--line-strong); margin: 8px 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% if include.vertical %}
+<iframe class="yt-embed yt-embed--vertical" src="https://www.youtube-nocookie.com/embed/{{ include.id }}" title="{{ include.title | default: 'Video' }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% else %}
+<iframe class="yt-embed" src="https://www.youtube-nocookie.com/embed/{{ include.id }}" title="{{ include.title | default: 'Video' }}" style="aspect-ratio: 16/9; width:100%; border:1px solid var(--line-strong); margin: 8px 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endif %}
 {% if include.caption %}<p style="font-family: var(--mono); font-size: 0.8rem; color: var(--ink-faint); margin-top: 4px;">{{ include.caption }}</p>{% endif %}
 {% endunless %}

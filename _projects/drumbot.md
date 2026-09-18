@@ -65,3 +65,9 @@ and was featured in [*The Gainesville Sun*'s photo coverage of the event](https:
 {% include youtube.html id="Dmnx8fNNYaQ" title="DrumBot demo, second angle, 2015" %}
 
 *A second run from the same showcase.*
+
+<div class="shorts-row">
+  {% include youtube.html id="WoyQ6jT5F4U" title="DrumBot demo 3, 2015" vertical=true %}
+</div>
+
+*A third clip from the showcase.*

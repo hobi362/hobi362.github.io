@@ -706,3 +706,11 @@ a.tag--skill-more:hover { color: var(--accent); border-color: var(--accent); }
 /* Education degrees link to the research page for that degree; keep the sheet look. */
 .sheet-list__degree a { color: inherit; text-decoration: none; }
 .sheet-list__degree a:hover, .sheet-list__degree a:focus { color: var(--accent); }
+
+/* YouTube Shorts (9:16), alone or several side by side in .shorts-row. */
+.yt-embed--vertical { display: block; aspect-ratio: 9 / 16; width: 100%; max-width: 240px; border: 1px solid var(--line-strong); margin: 8px 0; }
+.shorts-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 8px 0 12px; }
+.shorts-row .yt-embed--vertical { flex: 0 1 180px; width: 180px; margin: 0; }
+
+/* Looping MATLAB simulation clips hosted on the site. */
+.sim-video { display: block; width: 100%; border: 1px solid var(--line-strong); background: #fff; margin: 8px 0 4px; }

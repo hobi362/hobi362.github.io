@@ -120,3 +120,10 @@ the interlock.
 {% include youtube.html id="Whyv7oc6pBA" title="UV Disinfection Robot driving and disinfecting, 2020" %}
 
 *The prototype under teleoperation, with the mock UV lamps lit.*
+
+<div class="shorts-row">
+  {% include youtube.html id="dUlXSNuvOFA" title="UV Disinfection Robot, clip 2" vertical=true %}
+  {% include youtube.html id="CrwQosN8GVs" title="UV Disinfection Robot, clip 3" vertical=true %}
+</div>
+
+*Two more clips of the prototype.*
