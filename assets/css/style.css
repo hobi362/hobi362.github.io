@@ -714,3 +714,15 @@ a.tag--skill-more:hover { color: var(--accent); border-color: var(--accent); }
 
 /* Looping MATLAB simulation clips hosted on the site. */
 .sim-video { display: block; width: 100%; border: 1px solid var(--line-strong); background: #fff; margin: 8px 0 4px; }
+
+/* Figures on long write-ups: centred, capped so tall diagrams don't fill the screen. */
+.content img.fig { display: block; margin: 16px auto; max-width: min(100%, 760px); max-height: 520px; width: auto; height: auto; }
+
+/* A data plot with the video it came from, side by side (stacks on phones). */
+.fig-video { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 16px; align-items: center; margin: 16px 0; }
+.fig-video img { display: block; width: 100%; height: auto; margin: 0; }
+.fig-video .yt-embed--vertical { width: 100%; max-width: none; margin: 0; }
+@media (max-width: 640px) {
+  .fig-video { grid-template-columns: 1fr; }
+  .fig-video .yt-embed--vertical { max-width: 260px; margin: 0 auto; }
+}
