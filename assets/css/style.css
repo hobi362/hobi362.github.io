@@ -531,7 +531,7 @@ a.tag--skill-more:hover { color: var(--accent); border-color: var(--accent); }
   display: block;
   width: 100%;
   aspect-ratio: 3 / 2;
-  object-fit: cover;
+  object-fit: contain;
   background: var(--paper);
   border-bottom: 1px solid var(--line);
 }
@@ -567,7 +567,7 @@ a.tag--skill-more:hover { color: var(--accent); border-color: var(--accent); }
   display: block;
   width: 96px;
   height: 64px;
-  object-fit: cover;
+  object-fit: contain;
   background: var(--paper);
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);
@@ -620,7 +620,7 @@ a.tag--skill-more:hover { color: var(--accent); border-color: var(--accent); }
   flex: 0 0 auto;
   width: 96px;
   height: 64px;
-  object-fit: cover;
+  object-fit: contain;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);
   background: var(--paper);
