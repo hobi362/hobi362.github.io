@@ -726,3 +726,8 @@ a.tag--skill-more:hover { color: var(--accent); border-color: var(--accent); }
   .fig-video { grid-template-columns: 1fr; }
   .fig-video .yt-embed--vertical { max-width: 260px; margin: 0 auto; }
 }
+
+/* Two photos side by side (stack on phones). */
+.fig-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+.fig-pair img { display: block; width: 100%; height: auto; margin: 0; }
+@media (max-width: 640px) { .fig-pair { grid-template-columns: 1fr; } }
