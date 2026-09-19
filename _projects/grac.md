@@ -8,7 +8,7 @@ role: "Team project; I led the modelling and simulation"
 course: "2.74 — Bio-inspired Robotics"
 order: 11
 sheet: "PRJ-11"
-thumb: "/assets/images/projects/grac/built-leg.jpg"
+thumb: "/assets/images/projects/grac/built-leg-upright.jpg"
 links:
   - label: "Project code — dynamics, hybrid simulation, parameter sweeps and CAD"
     url: "https://github.com/hobi362/2-74-bioinspired-robot-leg"
@@ -36,7 +36,7 @@ sensors and an IMU, with MATLAB on the other end for commanding runs and logging
 
 ![Exploded CAD of the leg on its guide rail: the rail carriage and adapter at the top, then femur, tibia and foot, with the knee and ankle motors, timing pulleys, bearings and fasteners pulled out along their axes](/assets/images/projects/grac/cad-exploded.jpg)
 
-![The built leg lying on its side on a bench: black 3D-printed femur and tibia links, two gearmotors, and a timing belt running down to the ankle](/assets/images/projects/grac/built-leg.jpg)
+![The built leg standing upright: black 3D-printed femur and tibia links, two gearmotors, and a timing belt running down to the ankle](/assets/images/projects/grac/built-leg-upright.jpg)
 
 The design changed along the way, and the three CAD revisions in the repo record it. An
 earlier version put a music-wire torsion spring at the ankle, a true series elastic joint.
