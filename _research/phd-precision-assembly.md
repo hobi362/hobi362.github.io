@@ -11,6 +11,8 @@ thumb: "/assets/images/research/phd-precision-assembly/winchbot-design.png"
 order: 3
 sheet: "RES-03"
 links:
+  - label: "WinchBot code — fiducial-tag tracking, Arduino firmware, MATLAB models"
+    url: "https://github.com/hobi362/winchbot"
   - label: "Precision Assembly of Heavy Objects... (RA-L 2020) — Download PDF"
     url: "https://819cf279-319a-43b0-964c-d14c7d146900.filesusr.com/ugd/a7bf6b_6deda6dd124f4c5fb905a04572b2b51c.pdf"
   - label: "Precision Assembly of Heavy Objects... (RA-L 2020) — Webpage / DOI"
@@ -309,3 +311,7 @@ reliably, avoids jamming, and recovers from wedging on its own, using only cable
 and a crane. I defended the thesis on 30 April 2021, and I believe the approach could
 move into a factory: it uses the crane that is already there, and it needs no skilled
 worker standing next to a hanging shaft.
+
+The code from this work, including the fiducial-tag tracking, the Arduino firmware and the
+MATLAB models for chamfer crossing, winch placement and jamming, is on GitHub:
+[hobi362/winchbot](https://github.com/hobi362/winchbot).
