@@ -50,7 +50,10 @@ situation can push hard enough to damage both parts.
 
 ### The WinchBot in action
 
-{% include youtube.html id="9QpGT-fQ0Ao" title="WinchBot demonstration video" %}
+<div class="fig-video">
+  {% include youtube.html id="9QpGT-fQ0Ao" title="WinchBot demonstration video" %}
+  {% include youtube.html id="0ag3DlHQlao" title="WinchBot with gantry crane: shaft insertion demonstration" vertical=true %}
+</div>
 
 ### The WinchBot prototype
 
