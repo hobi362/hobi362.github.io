@@ -7,6 +7,7 @@ period: "Fall 2015 – Spring 2018"
 sort_date: "2018-05"
 location: "Cambridge, MA"
 role: "Graduate Researcher (advisor: H. Harry Asada)"
+thumb: "/assets/images/research/masters-elevator/prototype.png"
 order: 2
 sheet: "RES-02"
 links:

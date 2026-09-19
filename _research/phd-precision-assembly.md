@@ -7,7 +7,7 @@ period: "2019 – 2021"
 sort_date: "2021-12"
 location: "Cambridge, MA"
 role: "PhD Candidate (Advisor: H. Harry Asada)"
-thumb: "/assets/images/research/phd-precision-assembly/winchbot-design.png"
+thumb: "/assets/images/research/phd-precision-assembly/hero.png"
 order: 3
 sheet: "RES-03"
 links:

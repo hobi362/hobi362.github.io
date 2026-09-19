@@ -20,6 +20,9 @@ layout: default
   <ul class="sheet-list">
     {% for e in site.data.education %}
     <li class="sheet-list__row">
+      {% comment %} Hero thumbnail from the research page the degree links to. {% endcomment %}
+      {% assign r = site.research | where: "url", e.link | first %}
+      {% if r.thumb %}<a href="{{ e.link | relative_url }}" tabindex="-1" aria-hidden="true"><img class="sheet-list__thumb" src="{{ r.thumb | relative_url }}" alt="" loading="lazy" width="96" height="64"></a>{% endif %}
       {% if e.link %}
       <span class="sheet-list__degree"><a href="{{ e.link | relative_url }}">{{ e.degree }}</a></span>
       <a href="{{ e.link | relative_url }}" class="sheet-list__title">{{ e.field }}</a>

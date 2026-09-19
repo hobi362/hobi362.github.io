@@ -7,6 +7,7 @@ period: "Fall 2013 – Spring 2015"
 sort_date: "2015-05"
 location: "Gainesville, FL"
 role: "Undergraduate Research Assistant (advisor: Anil V. Rao)"
+thumb: "/assets/images/research/undergrad-research/centerline-extraction.png"
 order: 1
 sheet: "RES-01"
 links:
