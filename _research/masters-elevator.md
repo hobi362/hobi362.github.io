@@ -24,6 +24,8 @@ area for **vertical** space.
 That is what this thesis is about, and the IROS 2017 paper it produced won the conference's
 **Best Application Paper Award**.
 
+{% include youtube.html id="uczCHIqK8Mo" title="Multi Track Elevators for E-Commerce Fulfillment Centers" %}
+
 ### What already existed, and why it wasn't enough
 
 Vertical stacking has been automated since the 1950s:
