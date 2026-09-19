@@ -68,14 +68,17 @@ mechanisms grip and center the peg.
 
 ![Cutaway of the instrumented gripper, labeled: a screw-driving motor and socket, load cells for tension measurements, encoders for cable attachment and twist angles, a chuck mechanism, clamping motor, insertion screw and rubber clamp, beside a photo of the built gripper](/assets/images/research/phd-precision-assembly/instrumented-gripper.jpg)
 
-I also used computer vision in the experiments, tracking the parts with a camera using
-OpenCV and ArUco fiducial markers.
+I also used computer vision to watch what the peg was actually doing. Using OpenCV and
+ArUco, I tracked two fiducial tags with a camera: one attached to the peg to track its
+position and orientation, and one attached to the hole as ground truth. Comparing the peg
+tag's motion to what the winches were doing showed whether the peg was being inserted
+properly or had become jammed or wedged.
 
 The test peg is aluminium, 15 kg, 105.42 mm in diameter and 593.7 mm long. The matching
 cast-iron hole is 105.53 mm, which leaves 120 µm of clearance, with a static coefficient
 of friction of 0.67 between them.
 
-![The experimental setup: the WinchBot with its three winches on linear actuators, the instrumented gripper holding the 15 kg aluminium peg, a fiducial tag mounted beside the target, and a close-up of the cast-iron hole and its chamfer](/assets/images/research/phd-precision-assembly/experimental-setup.png)
+![The experimental setup: the WinchBot with its three winches on linear actuators, the instrumented gripper holding the 15 kg aluminium peg, a fiducial tag on the hole fixture, and a close-up of the cast-iron hole and its chamfer](/assets/images/research/phd-precision-assembly/experimental-setup.png)
 
 ### Breaking insertion into stages
 

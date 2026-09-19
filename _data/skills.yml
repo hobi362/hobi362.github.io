@@ -440,11 +440,11 @@
     - "/research/phd-precision-assembly/"
 
 - id: aruco
-  name: "ArUco fiducial markers"
+  name: "ArUco fiducial tags"
   short: "ArUco"
   kind: stack
   group: "Software & languages"
-  summary: "Fiducial markers from OpenCV's ArUco module for camera-based pose tracking."
+  summary: "Fiducial tags tracked with OpenCV's ArUco module for camera-based position and orientation tracking."
   filter: false
   pages:
     - "/research/phd-precision-assembly/"
