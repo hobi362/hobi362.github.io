@@ -444,7 +444,17 @@
   short: "ArUco"
   kind: stack
   group: "Software & languages"
-  summary: "Fiducial tags tracked with OpenCV's ArUco module for camera-based position and orientation tracking."
+  summary: "Fiducial tags tracked with OpenCV's ArUco module for peg position and orientation on the 2D rig."
+  filter: false
+  pages:
+    - "/research/phd-precision-assembly/"
+
+- id: apriltag
+  name: "AprilTag fiducial tags"
+  short: "AprilTag"
+  kind: stack
+  group: "Software & languages"
+  summary: "AprilTag (tag36h11) fiducial tags tracked with a calibrated camera for peg position and orientation on the 3D WinchBot."
   filter: false
   pages:
     - "/research/phd-precision-assembly/"
