@@ -31,6 +31,10 @@ suspended from several cables, attached at the right positions and angles, can b
 into a chamfered hole with 120 µm of clearance even though the crane can't place it that
 accurately.
 
+{% include youtube.html id="9QpGT-fQ0Ao" title="WinchBot demonstration video" %}
+
+![The WinchBot concept at factory scale: a gantry crane with the three-winch platform hanging from it, lowering a shaft toward a hole on a workbench](/assets/images/research/phd-precision-assembly/gantry-concept.png)
+
 ### Why cables instead of a robot
 
 A large industrial robot can do peg-in-hole assembly, but it controls every degree of
@@ -48,37 +52,6 @@ situation can push hard enough to damage both parts.
 
 ![Two side-by-side cases: a robot pressing a peg into a chamfer produces large reaction forces at the contact, while a peg hanging from cables only presses on the chamfer with its own weight because the cables can go slack](/assets/images/research/phd-precision-assembly/robot-vs-cables.png)
 
-![The WinchBot concept at factory scale: a gantry crane with the three-winch platform hanging from it, lowering a shaft toward a hole on a workbench](/assets/images/research/phd-precision-assembly/gantry-concept.png)
-
-### The WinchBot
-
-I designed and built the WinchBot, a scaled three-winch prototype. Each winch sits on its
-own linear actuator with 400 mm of travel, spaced 120° apart, and each drives a single cable
-down to an instrumented gripper holding the peg. The winches use Harmonic Drive brushless
-gearmotors with ODrive controllers, absolute encoders, and load cells read through HX711
-amplifiers for real-time tension, all wired through Arduino on protoboard I soldered myself
-and controlled in Python. The winch drums and housings were 3D-printed on a Markforged
-composite printer.
-
-![The WinchBot: a triangular frame attaches to the crane, with a winch assembly on each of three linear actuators with 400 mm of travel, and three cables running down to an instrumented gripper on the peg. Below, section and 3D views of one winch assembly: grooved winch drum, keyed drive shaft on support bearings, flexible shaft coupling, motor mount and Harmonic Drive brushless gearmotor](/assets/images/research/phd-precision-assembly/winchbot-design.png)
-
-The gripper does the sensing. An IMU measures the peg's tilt, encoders measure the cable
-attachment and twist angles, load cells measure tension, and motorized chuck and clamping
-mechanisms grip and center the peg.
-
-![Cutaway of the instrumented gripper, labeled: a screw-driving motor and socket, load cells for tension measurements, encoders for cable attachment and twist angles, a chuck mechanism, clamping motor, insertion screw and rubber clamp, beside a photo of the built gripper](/assets/images/research/phd-precision-assembly/instrumented-gripper.jpg)
-
-I also used computer vision to watch what the peg was actually doing. Using OpenCV and
-ArUco, I tracked two fiducial tags with a camera: one attached to the peg to track its
-position and orientation, and one attached to the hole as ground truth. Comparing the peg
-tag's motion to what the winches were doing showed whether the peg was being inserted
-properly or had become jammed or wedged.
-
-The test peg is aluminium, 15 kg, 105.42 mm in diameter and 593.7 mm long. The matching
-cast-iron hole is 105.53 mm, which leaves 120 µm of clearance, with a static coefficient
-of friction of 0.67 between them.
-
-![The experimental setup: the WinchBot with its three winches on linear actuators, the instrumented gripper holding the 15 kg aluminium peg, a fiducial tag on the hole fixture, and a close-up of the cast-iron hole and its chamfer](/assets/images/research/phd-precision-assembly/experimental-setup.png)
 
 ### Breaking insertion into stages
 
@@ -111,6 +84,13 @@ because a shallow two-point contact is where wedging happens. I built a 2D exper
 to test the predictions, and the measured tilt and depth tracked the predicted values across
 the cable angles and starting offsets I tried.
 
+{% include youtube.html id="-Dmj4uNF_Ws" title="Precision insertion of underconstrained heavy shafts: sway suppression" %}
+
+
+{% include youtube.html id="_mocRXx_4TQ" title="Precision insertion: shaft trajectory demonstration" vertical=true %}
+*Sway suppression: tuning the cable angles so the peg stops swinging.*
+
+
 ![Predicted against measured results from the 2D experiments: peg tilt at the end of the chamfer crossing and depth of first two-point contact, plotted against initial cable angle for several starting offsets, with the predicted sticking and stationary region shaded](/assets/images/research/phd-precision-assembly/predicted-vs-measured.png)
 
 That gives a design sequence for choosing how to hang any peg:
@@ -123,13 +103,6 @@ how the peg sways while the crane moves it. Large angles let it swing slowly for
 time, small angles damp it quickly, and there is a sweet spot that cancels almost all of
 the sway. This work was published in *IEEE Robotics and Automation Letters* and presented at
 IROS 2020.
-
-The winches can also be repositioned. By solving the inverse kinematics as an optimization,
-with the peg position known and the tilt and cable tensions unknown, over thousands of
-candidate winch placements, I can pick the configuration that places the peg with the least
-tilt before insertion starts.
-
-![Winch placement: the region of winch configuration centroids that keep peg tilt small, drawn over the three linear actuators, with example winch layouts below](/assets/images/research/phd-precision-assembly/winch-placement.png)
 
 ### Part 2: no jamming, and recovering from wedging
 
@@ -167,6 +140,48 @@ back the peg out and try again with less tilt. The WinchBot does that on its own
 The jamming and wedging work was published in *IEEE Robotics and Automation Letters* and
 presented at IROS 2021.
 
+
+### The WinchBot
+
+I designed and built the WinchBot, a scaled three-winch prototype. Each winch sits on its
+own linear actuator with 400 mm of travel, spaced 120° apart, and each drives a single cable
+down to an instrumented gripper holding the peg. The winches use Harmonic Drive brushless
+gearmotors with ODrive controllers, absolute encoders, and load cells read through HX711
+amplifiers for real-time tension, all wired through Arduino on protoboard I soldered myself
+and controlled in Python. The winch drums and housings were 3D-printed on a Markforged
+composite printer.
+
+![The WinchBot: a triangular frame attaches to the crane, with a winch assembly on each of three linear actuators with 400 mm of travel, and three cables running down to an instrumented gripper on the peg. Below, section and 3D views of one winch assembly: grooved winch drum, keyed drive shaft on support bearings, flexible shaft coupling, motor mount and Harmonic Drive brushless gearmotor](/assets/images/research/phd-precision-assembly/winchbot-design.png)
+
+The gripper does the sensing. An IMU measures the peg's tilt, encoders measure the cable
+attachment and twist angles, load cells measure tension, and motorized chuck and clamping
+mechanisms grip and center the peg.
+
+![Cutaway of the instrumented gripper, labeled: a screw-driving motor and socket, load cells for tension measurements, encoders for cable attachment and twist angles, a chuck mechanism, clamping motor, insertion screw and rubber clamp, beside a photo of the built gripper](/assets/images/research/phd-precision-assembly/instrumented-gripper.jpg)
+
+I also used computer vision to watch what the peg was actually doing. Using OpenCV and
+ArUco, I tracked two fiducial tags with a camera: one attached to the peg to track its
+position and orientation, and one attached to the hole as ground truth. Comparing the peg
+tag's motion to what the winches were doing showed whether the peg was being inserted
+properly or had become jammed or wedged.
+
+The test peg is aluminium, 15 kg, 105.42 mm in diameter and 593.7 mm long. The matching
+cast-iron hole is 105.53 mm, which leaves 120 µm of clearance, with a static coefficient
+of friction of 0.67 between them.
+
+![The experimental setup: the WinchBot with its three winches on linear actuators, the instrumented gripper holding the 15 kg aluminium peg, a fiducial tag on the hole fixture, and a close-up of the cast-iron hole and its chamfer](/assets/images/research/phd-precision-assembly/experimental-setup.png)
+
+
+Using the linear actuators, the winches can also be repositioned. By solving the inverse kinematics as an optimization,
+with the peg position known and the tilt and cable tensions unknown, over thousands of
+candidate winch placements, I can pick the configuration that places the peg with the least
+tilt before insertion starts.
+
+![Winch placement: the region of winch configuration centroids that keep peg tilt small, drawn over the three linear actuators, with example winch layouts below](/assets/images/research/phd-precision-assembly/winch-placement.png)
+
+
+
+
 ### Where it landed
 
 The WinchBot inserts a 15 kg peg into a hole with 120 µm of clearance, crosses the chamfer
@@ -182,19 +197,17 @@ shaft and the hole with OptiTrack motion capture:
 
 ### Videos
 
-{% include youtube.html id="9QpGT-fQ0Ao" title="WinchBot demonstration video" %}
+
 
 *The WinchBot demonstration.*
 
-{% include youtube.html id="-Dmj4uNF_Ws" title="Precision insertion of underconstrained heavy shafts: sway suppression" %}
 
-*Sway suppression: tuning the cable angles so the peg stops swinging.*
 
 <div class="shorts-row">
   {% include youtube.html id="87sADHeuvxk" title="Precision insertion: controller demonstration" vertical=true %}
   {% include youtube.html id="P-963Sx2-Qg" title="Precision insertion: jamming when no controller is used" vertical=true %}
   {% include youtube.html id="uUa5Kq86srE" title="Precision insertion: wedge correction demonstration" vertical=true %}
-  {% include youtube.html id="_mocRXx_4TQ" title="Precision insertion: shaft trajectory demonstration" vertical=true %}
+
 </div>
 
 *From left: the insertion controller, jamming when no controller is used, wedge correction,
