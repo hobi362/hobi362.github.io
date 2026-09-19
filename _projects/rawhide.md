@@ -71,6 +71,12 @@ and velocity relative to the base, plus position and velocity for all seven join
 let you tune stiffness and damping so the arm behaves like a mass-spring-damper with a
 desired force output on its environment — something a worker can push around directly.
 
+<div class="shorts-row">
+  {% include youtube.html id="S49cLMQyutU" title="Demonstrating impedance control with a Sawyer robot" vertical=true %}
+</div>
+
+*Impedance control on a Sawyer arm.*
+
 **Admittance control** is the inverse: force in, velocity out. Press harder and the arm
 moves faster in the direction you pushed, the way a toy car responds to how hard and where
 you press its button.

@@ -260,6 +260,7 @@
     - "/projects/disinfection-robot/"
     - "/projects/blizzard-rescue/"
     - "/research/undergrad-research/"
+    - "/research/phd-precision-assembly/"
 
 - id: testing
   name: "Test, verification & metrology"
@@ -436,6 +437,17 @@
   filter: false
   pages:
     - "/projects/blizzard-rescue/"
+    - "/research/phd-precision-assembly/"
+
+- id: aruco
+  name: "ArUco fiducial markers"
+  short: "ArUco"
+  kind: stack
+  group: "Software & languages"
+  summary: "Fiducial markers from OpenCV's ArUco module for camera-based pose tracking."
+  filter: false
+  pages:
+    - "/research/phd-precision-assembly/"
 
 - id: gpops-ii
   name: "GPOPS-II"
