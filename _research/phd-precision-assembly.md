@@ -157,7 +157,12 @@ the peg stuck or stayed stationary on the chamfer (marked ×) fell inside the pr
 not-allowable region, and every trial where it slid down the chamfer (marked ○) fell
 outside it.
 
-![Measured results against the predicted regions: initial cable angle against coefficient of friction, with measured sticking or stationary trials as crosses inside the predicted sticking and stationary regions and measured sliding trials as circles outside them](/assets/images/research/phd-precision-assembly/sticking-verification.png){: .fig}
+<div class="fig-video">
+  <img src="/assets/images/research/phd-precision-assembly/sticking-verification.png" alt="Measured results against the predicted regions: initial cable angle against coefficient of friction, with measured sticking or stationary trials as crosses inside the predicted sticking and stationary regions and measured sliding trials as circles outside them" loading="lazy">
+  {% include youtube.html id="_mocRXx_4TQ" title="Precision insertion: 2D chamfer crossing trajectories at different cable angles" vertical=true %}
+</div>
+
+*The 2D rig at three cable angles. At 41° and 84° the peg slides down the chamfer and reaches two-point contact, lighting the indicator LED. At 67°, inside the not-allowable region, cable B goes slack and the chamfer crossing fails.*
 
 Next, I checked the chamfer-crossing simulation against the experiment. Across different
 peg lengths, clearances and starting offsets, averaging five trials at each cable angle,
@@ -168,11 +173,6 @@ root-mean-square error of 0.5° to 3.6°.
 
 *The demonstration video accompanying the IROS 2020 paper.*
 
-<div class="shorts-row">
-  {% include youtube.html id="_mocRXx_4TQ" title="Precision insertion: shaft trajectory demonstration" vertical=true %}
-</div>
-
-*The shaft's trajectory during insertion.*
 
 ### Passive sway control
 
