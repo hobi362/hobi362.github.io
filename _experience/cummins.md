@@ -33,6 +33,10 @@ several engine families to see where the requirements differed. I also coordinat
 strain-gauge testing of the lines with the supplier and compared their results against our
 own test data, and looked at resonant frequency as a failure factor.
 
+![A high-pressure fuel line fractured into two pieces, laid out beside its rail nut and a smaller fitting](/assets/images/experience/cummins/fractured-fuel-line.jpg){: .fig}
+
+*One of the failed high-pressure fuel lines, with the rail nut that clamps it.*
+
 It was my first exposure to treating "why did this break" as a rigorous investigation
 rather than a guess, and to the fact that an answer only counts once two independent
 measurements agree.
