@@ -739,3 +739,5 @@ a.tag--skill-more:hover { color: var(--accent); border-color: var(--accent); }
 .photo-grid figcaption { margin-top: 6px; font-size: 0.82rem; color: var(--ink-faint); }
 .photo-grid__wide { grid-column: 1 / -1; }
 .photo-grid__wide img { height: auto; object-fit: contain; }
+/* Show each photo whole instead of cropping to a common height. */
+.photo-grid--whole img { height: 240px; object-fit: contain; background: var(--paper); }

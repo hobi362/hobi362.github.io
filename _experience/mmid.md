@@ -47,13 +47,13 @@ colleagues worked fewer than 40 hours a week, some while also teaching at TU Del
 team was no less productive for it. I left a more well-rounded designer, and I still use
 parts of MMID's product innovation process in my own projects.
 
-<div class="photo-grid">
+<div class="photo-grid photo-grid--whole">
   <figure>
     <img src="/assets/images/experience/mmid/mmid-office.jpg" alt="The brick front of MMID's office building in Delft, a former tile warehouse" loading="lazy">
     <figcaption>MMID's office in Delft.</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/experience/mmid/coupling-sketch.jpg" alt="Hand sketch in colored pen of a pipe coupling cross-section, with notes on interference and sealing" loading="lazy">
+    <img src="/assets/images/experience/mmid/coupling-sketch-rotated.jpg" alt="Hand sketch in colored pen of a pipe coupling cross-section, with notes on interference and sealing" loading="lazy">
     <figcaption>One of my concept sketches for the pipe coupling.</figcaption>
   </figure>
   <figure>
