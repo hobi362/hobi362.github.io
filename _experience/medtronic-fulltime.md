@@ -59,3 +59,24 @@ and learning what users are looking for before a design goes further.
 It's the kind of role that keeps me equally fluent in SolidWorks and Simulink — some weeks
 are entirely about tolerance stacks and vendor coordination, others are entirely about
 control architecture, and most weeks are both.
+
+### Outside the day-to-day
+
+<div class="photo-grid">
+  <figure>
+    <img src="/assets/images/experience/medtronic/swe-munich-talk.jpg" alt="Six colleagues in Medtronic scrubs and beanies at a booth in front of Medtronic banners at the Munich SWE event" loading="lazy">
+    <figcaption>A talk on building medical robots at a Society of Women Engineers local event in Munich.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/experience/medtronic/tum-career-fair.jpg" alt="Nine colleagues in Medtronic scrubs under a Medtronic banner at a university atrium booth, one holding a device beside a model head" loading="lazy">
+    <figcaption>Our booth at a career fair at TU Munich.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/experience/medtronic/st-conference-2023.jpg" alt="A large group standing on the pitch of a stadium during a conference evening event" loading="lazy">
+    <figcaption>The 2023 European session of the Medtronic Science &amp; Technology conference.</figcaption>
+  </figure>
+  <figure class="photo-grid__wide">
+    <img src="/assets/images/experience/medtronic/b2run.jpg" alt="Two photos of the company running team in matching shirts at the Munich Olympiapark, before the race and celebrating after it" loading="lazy">
+    <figcaption>The Munich B2Run 5k, which our team runs every year.</figcaption>
+  </figure>
+</div>
