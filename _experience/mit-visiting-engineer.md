@@ -70,3 +70,15 @@ correction on it there.
   <img src="/assets/images/experience/mit-visiting-engineer/ur-and-winch-over-hole.jpg" alt="The UR arm hanging upside down from the new girder beside a winch cable holding the aluminium peg above the hole" loading="lazy">
   <img src="/assets/images/experience/mit-visiting-engineer/insertion-closeup.jpg" alt="Close-up of the peg entering the hole, with the UR arm beside it" loading="lazy">
 </div>
+
+{% include youtube.html id="yDi8_4M8kI4" title="WinchBot: shaft movement and obstacle avoidance" %}
+
+*Carrying the shaft across the workspace and around an obstacle.*
+
+<div class="shorts-row">
+  {% include youtube.html id="NBy7s9DF7MA" title="WinchBot: shaft inspection using the UR10" vertical=true %}
+  {% include youtube.html id="ewvJ0XpGYBs" title="WinchBot with gantry demonstration video" vertical=true %}
+</div>
+
+*Left: the arm inspecting the shaft with its camera, the first step for the student taking
+over. Right: the gantry-mounted WinchBot demonstration.*
