@@ -9,8 +9,6 @@ order: 9
 sheet: "2.77-SG-09"
 summary: "Derived three planetary gear ratios from first principles for a gearbox found in the lab, then traced the torque limit to the sun gear teeth."
 topics: ["Planetary gears", "Transmission ratios", "Lewis bending", "Keys and shafts"]
-youtube_id: ""
-video_caption: ""
 ---
 This week I found a really cool planetary gearbox in a bin in my lab. I've always wanted to
 work through the derivation of the transmission ratios for planetary systems properly, so

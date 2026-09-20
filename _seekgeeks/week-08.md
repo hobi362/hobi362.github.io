@@ -9,8 +9,6 @@ order: 8
 sheet: "2.77-SG-08"
 summary: "Derived the square-threaded screw's mechanical advantage, then found the handle yields at 102 N of hand force -- well before the clamp body does."
 topics: ["Power screws", "Mechanical advantage", "Yield", "Castigliano's method"]
-youtube_id: ""
-video_caption: ""
 ---
 I've used C-clamps constantly through this class to hold parts while running tests, and I
 wanted to understand where the mechanical advantage of a square-threaded screw actually

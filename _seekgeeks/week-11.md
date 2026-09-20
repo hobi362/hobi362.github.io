@@ -9,8 +9,6 @@ order: 11
 sheet: "2.77-SG-11"
 summary: "Added the beam's own weight to last week's traffic light analysis, then sized the four-bolt mast connection for combined shear, moment-induced tension and clamping preload."
 topics: ["Bolted joints", "Preload", "Combined loading", "Mohr's circle", "Centroids"]
-youtube_id: ""
-video_caption: ""
 ---
 Picking up [last week's traffic light](/miscellaneous/seek-and-geek/week-10/)
 with the two things I left out: the weight of the beam itself, and the bolted connection that

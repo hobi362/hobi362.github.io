@@ -9,8 +9,6 @@ order: 1
 sheet: "2.77-SG-01"
 summary: "Took a Zippo apart and worked through the oxidation physics behind the spark, a plate-yield estimate on the case, and the bi-stable cam that holds the lid."
 topics: ["Reverse engineering", "Bi-stable mechanism", "Plate bending", "FRDPARRC"]
-youtube_id: ""
-video_caption: ""
 ---
 Sitting down to work one morning, I lit some incense — and realised that in all the years
 I've carried this Zippo, I had never taken it apart for any reason other than refilling it.
@@ -88,8 +86,7 @@ what an adult can apply with a thumb, which is exactly where you'd want it.
 
 ### References
 
-All authentic Zippos are still made in Bradford, Pennsylvania, and there is a very good
-[*How It's Made* segment](https://www.youtube.com/watch?v=XUAnHNA2IP0) on the process.
+All authentic Zippos are still made in Bradford, Pennsylvania.
 
 - [US2704447 — the original Zippo patent](https://www.google.com/patents/US2704447)
 - [US5044933](https://www.google.com/patents/US5044933) · [US6247920](https://www.google.com/patents/US6247920) · [US20040209211](https://www.google.com/patents/US20040209211)

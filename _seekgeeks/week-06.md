@@ -9,8 +9,6 @@ order: 6
 sheet: "2.77-SG-06"
 summary: "Analysed the buckling of a fencing foil with Rayleigh-Ritz, and looked at how the semi-circular cross section and eccentric loading force it to bend the safe way."
 topics: ["Buckling", "Rayleigh-Ritz", "Tapered beams", "Eccentric loading", "Design for safety"]
-youtube_id: ""
-video_caption: ""
 ---
 This past weekend I went fencing for the first time, and became fascinated by the sword —
 a foil. When one fencer hits another, the foil buckles and deflects upward at the middle.

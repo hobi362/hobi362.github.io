@@ -9,8 +9,6 @@ order: 10
 sheet: "2.77-SG-10"
 summary: "Built the free body diagram for a traffic signal mast arm, handled the taper by splitting it into three constant sections, and found 36 mm of tip deflection at a factor of safety of 13.4."
 topics: ["Free-body diagrams", "Shear and moment", "Castigliano's method", "Tapered beams", "St. Venant"]
-youtube_id: ""
-video_caption: ""
 ---
 This week I walked to the Boston convention centre for the MedTech expo, and decided it
 would be fun to develop the free body diagrams for the unsung hero of the daily commute:

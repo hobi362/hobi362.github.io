@@ -9,8 +9,6 @@ order: 7
 sheet: "2.77-SG-07"
 summary: "Estimated the hydraulic piston force, cylinder pressure and total drive power for a spinning Legoland ride from photographs and ride timings."
 topics: ["Hydraulics", "Free-body diagrams", "Rotational inertia", "Power estimation"]
-youtube_id: ""
-video_caption: ""
 ---
 This week I bought tickets for Legoland adult night here in Boston and got to be a kid again
 for a few hours. While there I rode a children's ride called Merlin's Apprentice.
@@ -71,6 +69,3 @@ out of the rotational calculation. I neglected the inertia of the spinning centr
 itself, and friction and efficiency throughout. Folding those in would be the obvious next
 step to find the missing factor.
 
-### Reference
-
-- [Video of the ride](https://www.youtube.com/watch?v=0zZRFb5YfZ8)

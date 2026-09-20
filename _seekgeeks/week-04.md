@@ -9,8 +9,6 @@ order: 4
 sheet: "2.77-SG-04"
 summary: "Used a labmate's ABB YuMi to work through homogeneous transformation matrices from first principles, then extended them to predict error at the end effector."
 topics: ["HTMs", "Kinematics", "Error propagation", "Small-angle approximation"]
-youtube_id: ""
-video_caption: ""
 ---
 This week I got to look at the YuMi collaborative robot one of my labmates uses for his
 research. YuMi is ABB's dual-arm small-parts assembly robot, designed from the start to be

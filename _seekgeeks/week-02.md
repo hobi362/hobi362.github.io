@@ -9,8 +9,6 @@ order: 2
 sheet: "2.77-SG-02"
 summary: "Looked at the sliding seat's roller geometry and worked the fan flywheel's power dissipation, which goes as the cube of angular velocity."
 topics: ["St. Venant", "Linear guides", "Flywheel dynamics", "Drag torque"]
-youtube_id: ""
-video_caption: ""
 ---
 This week, a very common piece of gym equipment — the indoor rowing machine, designed to
 simulate what rowing a boat on water feels like.
@@ -64,6 +62,5 @@ the fan has to move a larger mass flow, which raises the resistance you feel.
 
 ### References
 
-- [Rowing machine teardown video](https://www.youtube.com/watch?v=z27whepQl_4)
 - [The physics of ergometers — Oxford AOPP](http://eodg.atm.ox.ac.uk/user/dudhia/rowing/physics/ergometer.html)
 - [Fundamentals of manufacturing — Gateway Coalition](http://www.gatewaycoalition.org/files/Fundamentals_of_manufacturing/web/synth/Ch2/2_1f.htm)

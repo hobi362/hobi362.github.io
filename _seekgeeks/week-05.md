@@ -9,16 +9,12 @@ order: 5
 sheet: "2.77-SG-05"
 summary: "Worked the V-brake's lever ratio from a moment balance, then used an energy balance to predict the stopping distance from 15 mph."
 topics: ["Lever mechanisms", "Mechanical advantage", "Friction", "Energy methods"]
-youtube_id: ""
-video_caption: ""
 ---
 ![Three photographs of the V-brake on a bicycle at night, annotated with the brake cable running down to the two lever arms, and a close-up of the spring that returns the brake to its original position](/assets/images/courses/precision-machine-design/seek-and-geek/week-05/brake-hardware.jpg)
 
 I started my first-order analysis with the lever system this brake configuration uses. As
 the rider pulls the handle, the cable contracts and pulls the two lever arms together,
-engaging the brake pads against the wheel rim. There's a good
-[animation of a similar brake system](https://www.youtube.com/watch?v=UnRD6tjVi2s) if you're
-curious how it moves.
+engaging the brake pads against the wheel rim.
 
 ### The lever
 
@@ -54,6 +50,5 @@ from wind and wheel friction.
 
 ### References
 
-- [V-brake animation](https://www.youtube.com/watch?v=UnRD6tjVi2s)
 - [NASA MSIS anthropometry — grip strength data](https://msis.jsc.nasa.gov/sections/section04.htm)
 - [Fixed gear skid sample — MIT](http://web.mit.edu/cwarner/www/FixedGearSkidSample.pdf)
