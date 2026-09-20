@@ -83,7 +83,19 @@ the simply-supported-beam assumption understates real compliance by an order of 
 Both are exactly the kind of gap this class is designed to surface — a first-order model
 gets you most of the way, and building the real thing is what tells you where it doesn't.
 
-### Cutting tests on video
+### Video
+
+{% include youtube.html id="JhpgXR0PyS0" title="Linear motion module test, 2.77 Precision Machine Design" %}
+
+*Testing a finished linear motion slide ([Week 7](/projects/t-based-lathe/writeups/week-07/)).*
+
+{% include youtube.html id="AqwGI0VA1Qo" title="Rotary motion module test" %}
+
+*The spindle running after fabrication ([Week 10](/projects/t-based-lathe/writeups/week-10/)).*
+
+{% include youtube.html id="9PujzT2Ug-4" title="T-based lathe first test after assembly" %}
+
+*The first test of the assembled machine ([Week 11](/projects/t-based-lathe/writeups/week-11/)).*
 
 {% include youtube.html id="pEzjOjV9mDM" title="T-based lathe cutting test 1, 2.77 Precision Machine Design" %}
 
