@@ -76,7 +76,7 @@ correction on it there.
 *Carrying the shaft across the workspace and around an obstacle.*
 
 <div class="shorts-row">
-  {% include youtube.html id="NBy7s9DF7MA" title="WinchBot: shaft inspection using the UR10" vertical=true %}
+  {% include youtube.html id="NBy7s9DF7MA" title="WinchBot: shaft inspection using the UR arm" vertical=true %}
   {% include youtube.html id="ewvJ0XpGYBs" title="WinchBot with gantry demonstration video" vertical=true %}
 </div>
 
