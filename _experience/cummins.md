@@ -37,6 +37,33 @@ own test data, and looked at resonant frequency as a failure factor.
 
 *One of the failed high-pressure fuel lines, with the rail nut that clamps it.*
 
+<div class="photo-grid">
+  <figure>
+    <img src="/assets/images/experience/cummins/fracture-surface.jpg" alt="Macro photograph of the fractured end of a fuel line, showing the bore and the fracture surface around it, with a 2 mm scale bar" loading="lazy">
+    <figcaption>The fracture surface at one end of a failed line.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/experience/cummins/rail-nut-seat.jpg" alt="Close-up looking into the sealing seat of a rail nut" loading="lazy">
+    <figcaption>Looking into the sealing seat of a rail nut.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/experience/cummins/surface-profile-preproduction.png" alt="Surface profile trace of a pre-production rail nut, in micrometres against millimetres of travel" loading="lazy">
+    <figcaption>Surface profile of a pre-production nut.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/experience/cummins/surface-profile-production.jpg" alt="Surface profile trace of a production rail nut, in micrometres against millimetres of travel" loading="lazy">
+    <figcaption>The same measurement on a production nut.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/experience/cummins/fuel-line-on-engine.jpg" alt="A high-pressure fuel line and its nut installed on an engine, photographed after torquing" loading="lazy">
+    <figcaption>A line and nut after torquing on the engine.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/experience/cummins/fuel-lines-rail.jpg" alt="Several high-pressure fuel lines running from the rail to the injectors along the top of an engine" loading="lazy">
+    <figcaption>Lines running from the rail to the injectors.</figcaption>
+  </figure>
+</div>
+
 It was my first exposure to treating "why did this break" as a rigorous investigation
 rather than a guess, and to the fact that an answer only counts once two independent
 measurements agree.
