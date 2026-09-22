@@ -16,6 +16,6 @@ due to the unidirectional stiffness of cables.
   <img src="/assets/images/home/mte-prototype-portrait.jpg" alt="Standing beside the Multi-Track Elevator prototype in the d'Arbeloff Laboratory — a wall-mounted triangular grid of white rails with rack teeth, carriages and control electronics mounted across it" width="1600" height="1067">
 </div>
 
-Mechanical design and controls are the through-line in my work, and mentorship at MIT turned
-that into a lasting focus on medical device design and innovation — particularly women’s
-health, surgical robotics and warehouse and factory automation.
+I have a passion for challenging problems that can be solved through a combination of clever
+mechanical design and innovative control theory. My primary topics of interest are technology
+related to women’s health, surgical robotics and warehouse and factory automation.
