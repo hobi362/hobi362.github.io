@@ -6,4 +6,4 @@ collection_key: experience
 sheet: "IDX-3"
 permalink: /experience/
 ---
-Professional experience, most recent first.
+Where I've worked
