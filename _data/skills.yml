@@ -201,6 +201,7 @@
   summary: "Hand-soldered electronics and protoboard builds, on nearly all of my school robotics projects."
   filter: false
   pages:
+    - "/projects/drumbot/"
     - "/research/masters-elevator/"
     - "/research/phd-precision-assembly/"
 
