@@ -8,6 +8,7 @@ github_username: hobi362
 linkedin_url: "https://www.linkedin.com/in/rachelhoffmanbice/"
 resume_pdf: "/assets/files/resume.pdf"
 cv_pdf: "/assets/files/cv.pdf"
+portfolio_summary_pdf: "/assets/files/portfolio-summary.pdf"
 
 # Where this builds. GitHub auto-builds this repo (username.github.io)
 # with Jekyll on every push to main — no Actions/workflow needed.
